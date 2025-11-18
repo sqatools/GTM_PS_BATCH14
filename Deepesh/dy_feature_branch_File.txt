@@ -1,3 +1,0 @@
-Adding file to git repo
-
-THis file belongs to feature branch
