@@ -1,2 +1,2 @@
 #second program
-print("Dhwani is my Daughter")
+print("life changes every day")
