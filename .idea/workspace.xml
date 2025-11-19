@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afca9df4-8ed0-4d73-9c24-5ce6985fc34b" name="Changes" comment="Adding file from Pycharm" />
+    <list default="true" id="26403e7f-1834-4228-8fe6-7f7853857eed" name="Changes" comment="Adding file from Pycharm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swarna/second_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Swarna/second_program.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,56 +32,36 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="35hiKCpfv133PHmSrRLwXhEVVwc" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="35hhvCapmH6XKw95kqKfHjC6k6j" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/AutomationProject/GTM_PS_BATCH14",
-    "settings.editor.selected.configurable": "preferences.externalTools"
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/AutomationProject/GTM_PS_BATCH14"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.python_file">
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="first_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH14" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pooja" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kiran" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pooja/Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="python_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_BATCH14" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pooja" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pooja/python_file.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kiran/first_program.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,43 +72,46 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.python_file" />
-        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.first_program" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="afca9df4-8ed0-4d73-9c24-5ce6985fc34b" name="Changes" comment="" />
-      <created>1763568637674</created>
+      <changelist id="2024c94c-a8a5-49e5-b167-88be112663d1" name="Changes" comment="" />
+      <created>1763568439823</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1763568637674</updated>
+      <updated>1763568439823</updated>
+      <workItem from="1763568443206" duration="2102000" />
     </task>
-    <task id="LOCAL-00001" summary="Adding file from Pycharm">
-      <created>1763570068225</created>
+    <task id="LOCAL-00001" summary="Adding file from pycharm">
+      <created>1763569998232</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1763570068225</updated>
+      <updated>1763569998232</updated>
     </task>
-    <task id="LOCAL-00002" summary="Adding file from Pycharm">
-      <created>1763570616534</created>
+    <task id="LOCAL-00002" summary="Adding file from pycharm">
+      <created>1763570060989</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1763570616534</updated>
+      <updated>1763570060989</updated>
     </task>
-    <task id="LOCAL-00003" summary="Adding file from Pycharm">
-      <created>1763571429475</created>
+    <task id="LOCAL-00003" summary="Adding file from pycharm">
+      <created>1763570454674</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1763571429475</updated>
+      <updated>1763570454674</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -139,7 +125,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding file from Pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding file from Pycharm" />
+    <MESSAGE value="Adding file from pycharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding file from pycharm" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GTM_PS_BATCH14$first_program.coverage" NAME="first_program Coverage Results" MODIFIED="1763569451703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kiran" />
   </component>
 </project>

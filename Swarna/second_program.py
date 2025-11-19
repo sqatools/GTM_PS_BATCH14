@@ -1,2 +1,2 @@
 #second program
-print("life changes every day")
+print("live life every day")
