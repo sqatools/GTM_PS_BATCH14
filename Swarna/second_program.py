@@ -1,2 +1,2 @@
 #second program
-print("enjoy life every day")
+print("joy life every day")
