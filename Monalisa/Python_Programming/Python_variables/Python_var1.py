@@ -25,6 +25,7 @@ print( "subtraction", q1-r1)
 #power operator
 print ("sq of number ", a1**2)
 print ("cube  of number ", a1**3)
+print ("quad  of number ", a1**4)
 
 #remainder  operator %
 print ("remainer  of number ", r1%p1)
