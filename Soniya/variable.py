@@ -31,7 +31,11 @@ print("*"*50)
 
 #################
 #######math operation
-
+b2 = 600
+b3 = 700
+##print(b2, b3) # 600 700
+#print(b2)
+print(b3)
 
 
 
