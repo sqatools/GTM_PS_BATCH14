@@ -36,11 +36,11 @@ print("Value of m*n", m*n)
 
 print('_'*50)
 # div with decimal
-print("Value of m*n", m*n)
+print("Value of m/n", m/n)
 
 print('_'*50)
 # div without decimal
-print("Value of m*n", m*n)
+print("Value of m//n", m//n)
 
 print('_'*50)
 # power
