@@ -104,8 +104,22 @@ print(name , "|", Name, "|", NAME, "|", NAme)
 # Rahul | Rohit | Raman | Raghav
 
 
+username = "Mohan"
+age = 29
+city = "Mumbai"
+# My name is Mohan and age is 29 and living in mumbai
+print("My name is ", username," and age is ", age, " and living in ", city)
 
-
+print("_"*50)
+#############################################
+# (a+b)^2 = a^2 + b^2 + 2ab
+a = 10
+b = 20
+lhs = (a+b)**2
+rhs = a**2 + b**2 + 2*a*b
+print(lhs)
+print(rhs)
+print(lhs == rhs)  # True
 
 
 
