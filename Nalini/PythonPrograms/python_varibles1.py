@@ -25,4 +25,11 @@ print(a % b)
 # remainder
 print(a ** b)
 # power a power b
+print ("*" *50)
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+# comparison operators
 
