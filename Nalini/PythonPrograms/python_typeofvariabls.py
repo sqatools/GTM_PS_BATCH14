@@ -9,3 +9,4 @@ print("data type of a", type(b))
 print("data type of a", type(c))
 
 print("data type of a", type(name))
+
