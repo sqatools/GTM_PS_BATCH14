@@ -67,5 +67,10 @@ print(b == c)
 
 # Repeat string
 print("_" * 60)
+m = 6
+print(m*3)
 print("Repeat String")
 print(" Python_Programming "*5)
+
+
+
