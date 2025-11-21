@@ -10,3 +10,9 @@ print("data type of a", type(c))
 
 print("data type of a", type(name))
 
+
+print(" first letter ", name[0])
+print(" second letter ", name[0])
+print(" third  letter ", name[0])
+print(name[-4])
+
