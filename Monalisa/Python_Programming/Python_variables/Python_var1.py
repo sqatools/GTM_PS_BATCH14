@@ -31,3 +31,9 @@ print (a1!=b1)
 #repeat printing  - 50 times
 print("-"*50)
 print("Hello zz  "*5)
+
+#python is case sensitive
+name= "Mona"
+Name= "lisa"
+NAME= "puja"
+print(name,"!",Name,"!",NAME,"@@@")
