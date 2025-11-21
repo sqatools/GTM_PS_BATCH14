@@ -78,3 +78,4 @@ student = "Amit"
 Student = "Sumit"
 STUDENT = "Rohan"
 print(student, "|", Student, "|", STUDENT)
+print("_"*50)
