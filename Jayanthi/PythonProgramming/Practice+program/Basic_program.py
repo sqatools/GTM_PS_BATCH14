@@ -123,6 +123,40 @@ r=3
 PI = 3.14
 print((r**2)*PI)
 
+"""17). Python program to calculate the area of a cube.
+Formula = 6*a*a"""
+a=4
+Formula = 6*a*a
+print(Formula)
+
+"""18). Python program to calculate the area of the cylinder.
+Formula = 2*PI*r*h + 2*PI*r*r"""
+r=3
+h=4
+PI = 3.14
+Formula = 2*PI*r*h + 2*PI*r*r
+print(Formula)
+
+"""20). Python program to calculate simple interest.
+Formula = P+(P/r)*t
+P = Principle Amount
+r = Anual interest rate
+t = time"""
+P=4000.50
+r=10
+t=5
+Formula = P+(P/r)*t
+print(Formula)
+
+import datetime
+date = datetime.datetime.now()
+
+print(date.strftime (" %Y %b %d "))
+
+
+
+
+
 
 
 
