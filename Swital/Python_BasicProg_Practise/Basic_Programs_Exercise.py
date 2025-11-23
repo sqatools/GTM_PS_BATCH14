@@ -38,11 +38,11 @@ print("After interchange: ", a, b)
 
 # 9). Python program to solve this Pythagorous theorem.
 # Theorem : (a2 + b2 = c2)
-a2 = 12
-b2 = 12
-c2 = 24
-lhs = a2+b2
-rhs = c2
+a = 12
+b = 12
+c = 24
+lhs = a*2+b*2
+rhs = c*2
 print(lhs == rhs)
 
 # 10). Python program to solve the given math formula.
