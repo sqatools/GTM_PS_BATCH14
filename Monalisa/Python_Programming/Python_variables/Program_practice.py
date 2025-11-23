@@ -71,3 +71,38 @@ print("(a - b)^3",lhs,lhs==rhs)
 
 #Python program to calculate the area of the square.
 print("Area of square",a*a)
+
+#Python program to calculate the area of a circle.
+pi=3.14
+print("Area of circle",pi*a*a)
+
+#Python program to calculate the area of a cube
+print("Area of cube",a*a*a)
+
+#Python program to calculate the area of the cylinder
+PI=3.14
+r=20
+h=30
+print("area of the cylinder.",(2*PI*r*h + 2*PI*r*r))
+
+#Python program to check whether the given number is an Armstrong number or not
+arm=rhs=153
+lhs=((1*1*1)+(5*5*5)+(3*3*3))
+print("armstrong number is ",arm)
+print("if number equals to sum of cubes of digits,then its armstrong number=",arm ,lhs==rhs)
+
+#Python program to find simple interest
+p=106.78
+r=20
+t=5
+print("simple interest: ", (p*r*t/100))
+
+#Python program to calculate the volume of a sphere
+print("volume of sphere=",(4/3*pi*r**2))
+
+#Python program to perform mathematical operations on two numbers
+print("sum=",p+r)
+print("difference =",p-r)
+print("product =",p*r)
+print("div =",p/r)
+print("remainder =",p%r)
