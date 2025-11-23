@@ -42,7 +42,7 @@ a2 = 12
 b2 = 12
 c2 = 24
 lhs = a2+b2
-rhs= c2
+rhs = c2
 print(lhs == rhs)
 
 # 10). Python program to solve the given math formula.
