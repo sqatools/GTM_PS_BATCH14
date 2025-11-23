@@ -31,4 +31,5 @@ print(s2)
 st3 = "Programming"
 print(st3[4])
 print(st3[-5])
-print(str[9])
+print(st3[8])
+print(st3)
