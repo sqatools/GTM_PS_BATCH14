@@ -148,10 +148,28 @@ t=5
 Formula = P+(P/r)*t
 print(Formula)
 
+"""21). Python program to print the current date in the given format
+Output: 2023 Jan 05
+Note: Use the DateTime library"""
 import datetime
 date = datetime.datetime.now()
 
 print(date.strftime (" %Y %b %d "))
+
+
+"""22). Python program to calculate days between 2 dates.
+Input date : (2023, 1, 5) (2023, 1, 22)
+Output: 17 days"""
+from datetime import date
+date_1 = date(2023, 1, 5)
+date_2 = date(2023, 1, 22)
+print(date_1)
+print(date_2)
+result = (date_2 - date_1).days
+print("difference between days ",result)
+
+
+
 
 
 
