@@ -126,12 +126,16 @@ print("*" * 50)
 
 # Python program to reverse a given number.
 a = 123
-x = a // 10
-print(x)
+reverse = (str(a)[::-1])
+print(reverse)
 
+print("*" *50)
 # 13. program on  a string
 
 name = "Tanvi"
 
-print(name[0])
+reverse= (str(name)[::-1])
+print("reverse of a string: ", name ,"is ", reverse)
 
+
+print("*" *50)
