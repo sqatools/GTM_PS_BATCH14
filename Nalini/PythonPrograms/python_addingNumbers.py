@@ -124,3 +124,7 @@ print("Interest amount:", interest)
 
 print("*" * 50)
 
+# 13. program on  a string
+
+name = "Tanvi"
+
