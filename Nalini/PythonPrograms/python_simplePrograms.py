@@ -128,3 +128,4 @@ print("*" * 50)
 
 name = "Tanvi"
 
+print(name[0])
