@@ -90,6 +90,78 @@
 
 # Python program to calculate the area of a circle.
 
-radius=int(input("enetr the radius value"))
-area=3.14*radius*radius
-print ("area of circle",area)
+# radius=int(input("enetr the radius value"))
+# area=3.14*radius*radius
+# print ("area of circle",area)
+
+# Check whether the given number is an Armstrong number.
+# num= a=153
+#
+# rev=0
+# while a>0:
+#     rem =a%10
+#     rev=rev+rem**3
+#     a=a//10
+# if rev == num:
+#     print("It is a armstrong number")
+# else:
+#     print("It is not a armstrong number")
+
+
+# #21). Python program to print the current date in the given format
+# Output: 2023 Jan 05
+# Note: Use the DateTime library
+# import datetime
+# date=datetime.datetime.now()
+# print (date)
+# print (date.strftime( "%y %b %d"))#              need to discuss about this structure
+
+####Python program to calculate days between 2 dates
+
+# from datetime import date
+#
+# date_1 = date(2023, 1, 5)
+# date_2 = date(2023, 1, 22)
+#
+# result = (date_2 - date_1).days
+# print ("Number of Days between the given Dates are: ", result, "days")  ## need to discuss about the .days format\
+
+#23). Python program to get the factorial of the given number.
+
+
+# num = n = int(input("Enter a number: "))
+# fact = 1
+# while n > 0:
+#     fact *= n
+#     n -= 1
+# print(f"Factorial of {num}: {fact}")
+
+
+# import math
+#
+# num = int(input("Enter a number: "))
+# print("Factorial of", num, "is", math.factorial(num))
+
+#Python program to reverse a given number
+# num = int(input("Enter a number: "))
+#
+# reverse = str(num)
+#
+# print("Reverse: ",reverse[::-1])
+
+
+#Program to get the Fibonacci series between 0 to 50
+
+num1 = 0
+num2 = 1
+count = 0
+
+print("Sequence is: ",end=" ")#why we need "end=""
+while count<50:
+    print(num1,end=" ")#why we need "end=""
+    n2 = num1+num2
+    num1 = num2
+    num2 = n2
+    count += 1
+
+
