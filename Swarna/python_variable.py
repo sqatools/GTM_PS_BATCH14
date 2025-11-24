@@ -50,6 +50,35 @@ print("v1 divide by 5 remainder:",v1%5)
 print("v1 divide by 6 remainder:",v1%6)
 print("v1 divide by 7 remainder:",v1%7)
 
+#
+j=10
+k=20
+l=10
+print(j!=k)
+print(j==l)
+print(k>j)
+print(j<k)
+print(j>=l)
+print(k<=j)
+
+#repeat string
+print("Hello"*5)
+
+#
+print("_"*50)
+
+#
+v2=600
+v3=700
+print(v2,v3)
+print(v2,end=" |")
+print(v3,end=" ")
+
+#Rules for variable name
+#1. varble name can not contain space in name
+var1=200
+var_1=200
+
 
 
 
