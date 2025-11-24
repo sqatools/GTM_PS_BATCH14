@@ -54,9 +54,3 @@ b = 50
 c = 30
 print(a == b) # False
 print(a == c) # True
-
-
-
-
-
-
