@@ -32,4 +32,6 @@ print(a > b)
 print(a < b)
 print(a >= b)
 # comparison operators
+print(a, b, end =" ")
+print(a, b )
 
