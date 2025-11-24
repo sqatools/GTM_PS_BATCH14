@@ -19,7 +19,7 @@ print("value of d :", d, id(d)) # value of d : 10 140703904003272
 x = y = z = 50
 print("value of x :", x) # 50
 print("value of y :", y) # 50
-print("value of z :", z) # 50
+print("value of z :", z) # 50,,,
 
 
 #### Assign three different value three variable in one go #####
