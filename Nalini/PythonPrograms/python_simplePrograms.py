@@ -124,8 +124,14 @@ print("Interest amount:", interest)
 
 print("*" * 50)
 
+# Python program to reverse a given number.
+a = 123
+x = a // 10
+print(x)
+
 # 13. program on  a string
 
 name = "Tanvi"
 
 print(name[0])
+
