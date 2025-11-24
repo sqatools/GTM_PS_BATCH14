@@ -164,4 +164,18 @@ while count<50:
     num2 = n2
     count += 1
 
+#26 Python program to check given number is palindrome or not.
+
+n = num = int(input("Enter a number: "))
+rev = 0
+
+while n>0:
+    rem = n%10
+    rev = rev*10+rem
+    n = n//10
+
+if num == rev:
+    print("Given number is a palindrome number")
+else:
+    print("Given number is not a palindrome number")
 
