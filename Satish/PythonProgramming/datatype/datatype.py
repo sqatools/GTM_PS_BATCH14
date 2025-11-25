@@ -4,7 +4,7 @@
     ii) float
     iii)complex
 
-2. Sequential
+2. Sequential  Only sequential data type follow positive and negative sequencing
     i) string
     ii)list
     iii)tuple
@@ -73,3 +73,58 @@ print(str1[0])
 print(str1[-13])
 print(str1[12])
 print(str1[-1])
+
+
+
+#### list data type
+
+lst1= [1,2.34,[1,2,3],(2,3,4),True,'python',{2,3,4},{'key1':35}]
+print(lst1)
+lst2=[1,2,3,4]
+print(lst2)
+lst3=[2.34,3,5]
+print(lst3)
+
+### Tuple data type same as list except list is mutable and tuple is imutable
+tup1=(1,2,3)
+print(tup1)
+tup2=(1.23,4,'python')
+print(tup2)
+tup3=('satish',{1,2,3},{'key2':45},[1,2,3])
+print(tup3)
+
+##dictionary data type###
+# it is a mutable data type
+#Dictionary contains data in keys value pair , e.g  {'key1': 'value1', 'key2': 'value2'}
+#Dictionary allows only immutable data type as key, e.g. int, float, complex, str, tuple, boolean
+#There is no restriction of value of the dict data type
+
+dict1={1:[1,2,3]}
+print(dict1)
+dict2={'satish':{1,2,3}}
+print(dict2)
+dict3={2.34,'python'}
+print(dict3)
+
+##Bolean data type
+#Boolean is immutable data type
+#Boolean is output of any of the condition.
+
+a=True
+print(a)
+b=False
+print(b)
+a=30
+b=40
+c=30
+print(a==c)
+print(a==b)
+
+##set data type
+#Set is mutable data type, we can modify it at any point of time.
+#Set only allows immutable type as member, int, float, complex, string, tuple, boolean.
+#Set only contains unique values, duplicate values are not allowed.
+set1={1,2,3}
+print(set1)
+set2={'python',2+3j,2.34,True,4}
+print(set2)

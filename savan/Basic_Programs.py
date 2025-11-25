@@ -42,10 +42,12 @@ print("_"*50)
 
 a = 10
 b = 20
-a,b=b,a                 #a=b
-                        #b=a
+#a,b=b,a
+a=b
+b=10
+c=b
 print("value of a:",a)
-print("value of b:",b)
+print("value of c:",c)
 
 print("_"*50)
 
