@@ -87,3 +87,26 @@ if round1 == "pass":
         print("failed in 2nd round, try next time")
 else:
     print("failed in 1st round, try next time")
+##########################################################################
+print("_"*50)
+
+round1 =  "win"
+round2 =  "win"
+round3 = "win"
+
+if round1 == "win":
+    print("congrats 1st round is cleared the battle round 1")
+    if round2 == "win":
+        print("congrats 2nd round is cleared")
+        if round3 == "win":
+            print("congrats 3rd round is cleared")
+            if round2==round3==round1=="win":
+                print("the belt goes to mubarak")
+            else:
+                print("better luck next time ")
+        else:
+            print("failed in 3rd round, try next time")
+    else:
+        print("failed in 2nd round, try next time")
+else:
+    print("failed in 1st round, try next time")
