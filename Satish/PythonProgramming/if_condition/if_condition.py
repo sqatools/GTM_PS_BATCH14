@@ -22,22 +22,25 @@ else:
 
 # Nested if else
 
-percentage=61
+round1="pass"
+round2="pass"
+round3="pass"
 
-if percentage>33:
-    print("pass")
-    if (percentage>50 and percentage<60):
-        print("Second division")
-        if percentage>60:
-            print("first division")
+if round1=="pass":
+    print("Eligible for 2 round")
+    if round2=="pass":
+        print("Eligible for 3rd round")
+        if round3=="pass":
+            print("Selected")
         else:
-            print("Second division")
+            print("failed in 3 round")
+
     else:
-        print("Third Division")
+        print("Failed in 2 round")
 
 
 else:
-    print("fail")
+    print("Try next time")
 
 
 
