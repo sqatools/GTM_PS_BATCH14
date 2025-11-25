@@ -58,3 +58,28 @@ print(tup2[6])
 print("Dictionary Practise____"*5)
 dic1 = {"id": 1, "name": "Swital", "scores": [10, 20, 30], "active": True, "meta": {"age": 25}}
 print(dic1["scores"])
+dic2 = {"a":4, "class": "9th standard", "name": "serene"}
+print(dic1["name"],"and", dic2["a"])
+dic3 = {"a1":5, "des":54.65, "grade": "A"}
+print(dic3["grade"])
+dic4 = {
+    200: "World",
+    7.77: [10, 20, 30],
+    12+4j: (1, 2),
+    "xyz": {"p": 11, "q": 22},
+    (4, 5): {100, 200, 100},
+    False: 999
+}
+print(dic4, type(dic4))
+print(dic4[0])
+
+####Set
+print("Set Practise____"*5)
+s1 = {1, 2.5, 3+4j, True, (1, 2, 3), "hello"}
+print(s1, type(s1))
+s2= s2 = {10, 20.55, False, 9+2j, "QA", (5,)}
+print(s2)
+s3 = {100, "test", 4.44, (7, 8), 11+11j, True}
+print(s3)
+s4 = {5, 0.99, (3, 3, 3), "abc", 14+1j, False}
+print(s4)
