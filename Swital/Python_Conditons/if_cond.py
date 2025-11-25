@@ -33,6 +33,7 @@ else:
     print("All are different")
 
 print("#"*10, "Marks which is equal and grade", "#"*10)
+
 marks = 82
 
 if marks >= 90:
