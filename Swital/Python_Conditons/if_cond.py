@@ -43,3 +43,16 @@ elif marks >= 60:
     print("Grade C")
 else:
     print("Grade D")
+
+print("#"*10, "Withdraw nested if condition", "#"*10)
+balance = 5000
+withdraw = 3000
+pin = 1234
+
+if pin == 1234:
+    if withdraw <= balance:
+        print("Withdrawal successful")
+    else:
+        print("Insufficient balance")
+else:
+    print("Incorrect PIN")
