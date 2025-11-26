@@ -53,3 +53,67 @@ print(s6[0])
 print(s6[-6])
 print(s6[(-2)**2])
 
+# List:
+
+list1=[5,1.1,3+5j,(9,1.1,'hello'),{'a':125,'b':'hello'},False]
+print(list1,type(list1))
+
+print(list1[-1])
+print(list1[5])
+print(list1[3][2])
+print(list1[3][2][3])
+# print(list1[4][1]) #: Since it was not sequence
+
+list2=[1,2,3]
+# list2.append([100,200])
+print(list2)
+
+# Tuple
+
+tup2=(6,1.5,3+6j,(9,1.1,'hello'),{'a':125,'b':'hello'},True)
+print(tup2)
+
+print(tup2,type(tup2))
+
+print(tup2[-1])
+print(tup2[5])
+print(tup2[3][2])
+print(tup2[3][2][3])
+"""
+not able mutable
+tup3=(1,2,3)
+tup3.append(100)
+print(tup3)"""
+
+# Dictionary
+
+dict1={'a':125,'1.1':3+6j,'p':[1,2,3]}
+print(dict1,type(dict1))
+
+print(dict1['a'])
+print(dict1['1.1'])
+dict1['a']=500 # to append
+print(dict1)
+
+dict2 = {100: 'Hello',
+         5.5 : [3, 5, 7],
+         45+5j: (6, 9, 0),
+         'abc': {'a': 123, 'b': 678},
+         (1, 2, 3): {5, 8, 9, 12, 5},
+         True: 345,
+          #[4, 6, 7] : 7567  # TypeError: unhashable type: 'list' key value can t be list
+         }
+print(dict2)
+
+# Set : only unique value and random key
+set1={1,1.1,3.45,'python',3+10j,'python'}
+print(set1,type(set1))
+
+#set2 = {12, 13, 5, 'Python', (4, 6, 8), True, 5.7, 7+34j, 5, {3, 5, 7}} set inside set does not work
+#print(set2)
+#boolean
+a=5
+b=6
+c=5
+print(a==b)
+print(a==c)
