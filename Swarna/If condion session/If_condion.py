@@ -66,3 +66,23 @@ if round1=="pass":
         print("sorry you are not selected in 2nd round")
 else:
     print("sorry you are not selected in 1st round")
+
+print("_"*50)
+
+#and operator
+# WAP to check the given number is divisible by both 3 and 5
+num1=input("please enter your value")
+print(num1,type(num1))
+x=int(num1)
+if x%3 == 0 and x%5 == 0:
+    print("this number is divisible by both 3 and 5:",x)
+else:
+    print("this number is not divisible by both 3 and 5:",x)
+    
+print("_"*50)
+#or operator
+y=int(input("please enter y value:"))
+if y%3==0 or y%5==0:
+    print("this number is divisible by either 3 or 5:",y)
+else:
+    print("this number is not divisible by either 3 or 5:",y)
