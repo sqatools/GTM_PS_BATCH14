@@ -136,10 +136,10 @@ True or True : True
 < :  less than
 >= : greater equal
 <= :  less than equal
-is : is operator
-is not: is not operator
-in : in operator
-not in : not in operator
+## : is operator
+##: is not operator
+## : in operator
+## : not in operator
 """
 
 print("_" * 50)
