@@ -92,10 +92,17 @@ else:
     print("Mark should be less than 100")
 
 # write a python program to check given value is available in list of values.
-print("#"*50)
+print("In operator", "#"*50)
 list1 = [2, 4, 6]
 val = 3
 if val in list1:
     print("value is in list")
 else:
     print("value is not in list")
+# Write a program to check given value using not in operator
+print("Not In operator", "#"*50)
+val = 3
+if val not in list1:
+    print("value is in not inside the list")
+else:
+    print("Value is different")
