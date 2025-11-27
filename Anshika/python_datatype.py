@@ -28,3 +28,17 @@ str5 = "HELLO"
 print(str5[-5])
 print(str5[1])
 
+################################################
+
+str1 = SQATools
+n1 = 5
+print("Result is: ",str1*n1)
+
+####################################
+
+a = 10
+b = 20
+c = 30
+
+print("Addition is:", a+b+c)
+
