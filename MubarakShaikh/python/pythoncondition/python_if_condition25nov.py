@@ -115,3 +115,138 @@ else:
     ########27 NOV and logic######
     ##########################################################################
     print("_" * 50)
+
+"""
+AND Logic
+cond1 and cond2
+True and False : False
+False and True : False
+False and False : False
+True and True : True
+
+
+OR Logic
+cond1 or cond2
+True or False : True
+False or True : True
+False or False : False
+True or True : True
+
+> :  greater than
+< :  less than
+>= : greater equal
+<= :  less than equal
+is : is operator
+is not: is not operator
+in : in operator
+not in : not in operator
+"""
+
+print("_" * 50)
+#####################
+"""
+# write a python program to check the given number is divisible by 3 and 5
+num1 = input("Please enter your value:")
+# input accepts the values in string format only
+print(num1, type(num1))
+x = int(num1)
+
+if x % 3 == 0 and x % 5 == 0:
+    print("This number is divisible by 3 and 5 :", x)
+else:
+    print("This number is not divisible by 3 and 5 :", x)
+
+print("_" * 50)
+y = int(input("Please enter y value :"))
+if y % 3 == 0 or y % 5 == 0:
+    print("This number is divisible by 3 or 5 :", y)
+else:
+    print("This number is not divisible by 3 or 5 :", y)
+"""
+
+print("_" * 50)
+##############################################
+# write a program to accept the student marks and provides its result as marks obtained.
+"""
+marks = int(input("Please enter your marks:"))
+
+if marks <= 30:
+    print("Failed in Exam")
+elif 30 < marks <= 40:   # chain action logic
+    print("Pass with 3rd grade")
+elif marks > 40 and marks <= 60:
+    print("Pass with 2nd grade")
+elif marks > 60 and marks <= 80:
+    print("Pass with 1st Grade")
+elif marks > 80 and marks <= 100:
+    print("Pass with A++ Grade")
+else:
+    print("Marks should be less than 100")
+
+"""
+print("_"*50)
+##############################
+# write a python program to check given value is available in list of values.
+val = 51
+list1 = [5, 7, 9, 2, 50, 6]
+
+if val in list1:
+    print("number is available in the list:", val)
+else:
+    print("number is not available in the list", val)
+
+
+print("_"*50)
+# not in operator
+tup1 = (5, 7, 9, 23)
+n1 = 7
+if n1 not in tup1:
+    print("n1 is not available in the given tuple values")
+else:
+    print("n1 is available in the given tuple values")
+
+print("_"*50)
+##################
+dict1 = {'a': 123, 'b': 456, 'c': 678}
+val1 = 'a'
+# Here we are checking for keys of the dict
+if val1 in dict1:
+    print("this val1 key is available in dict")
+    print(dict1[val1], val1)
+else:
+    print("this val1 key is not available in dict")
+    #print(dict1[val1])
+
+print("_"*50)
+##############################
+# is operator
+
+list1 = [5, 7, 8]
+list2 = [5, 7, 8]
+list3 = list1
+
+# compare list1 with list2 using equal operator ==
+if list1 == list2:
+    print("Both are equal")
+else:
+    print("Both are not equal")
+
+
+if list1 is list2:
+    print("Both are equal using is")
+else:
+    print("Both are not equal using is")
+
+
+print(list1 is list3) # True
+print(list2 is list1) # False
+print(list2 == list1) # True
+
+#####################################
+print("_"*50)
+var = True
+
+if var is True:
+    print("variable has True value")
+else:
+    print("variable has False value")
