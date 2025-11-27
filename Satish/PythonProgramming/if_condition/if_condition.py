@@ -43,4 +43,19 @@ else:
     print("Try next time")
 
 
+# using and, or with if to check multiple conditions together
+
+num=int(input("Enter no"))
+if num%3==0 and num%5==0 :
+    print("num is divisible by both 3 and 5")
+else:
+    print("num is not divisible by both 3 and 5")
+
+print("_"*50)
+num=int(input("Enter no"))
+if num%3==0 or num%5==0 :
+    print("num is divisible by  3 or 5")
+else:
+    print("num is not divisible by both 3 and 5")
+
 
