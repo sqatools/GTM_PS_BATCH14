@@ -100,3 +100,9 @@ if val in list1:
 else:
     print("value is not in list")
 # Write a program to check given value using not in operator
+print("Not In operator", "#"*50)
+val = 3
+if val not in list1:
+    print("value is in not inside the list")
+else:
+    print("Value is different")
