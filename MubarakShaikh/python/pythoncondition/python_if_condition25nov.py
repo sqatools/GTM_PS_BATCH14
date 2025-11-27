@@ -20,6 +20,7 @@ else:
 #print("This is even :", num1)
 
 
+
 print("_"*50)
 ########## if-elif-else #######
 
@@ -110,3 +111,7 @@ if round1 == "win":
         print("failed in 2nd round, try next time")
 else:
     print("failed in 1st round, try next time")
+
+    ########27 NOV and logic######
+    ##########################################################################
+    print("_" * 50)
