@@ -60,3 +60,21 @@ if age > 18 or age <25:
 is_raining=False
 if not is_raining:
     print("Print go outside")
+
+# Write a program to check the given number is divisible by 3 and 5
+
+num1 = input("Please enter your value:")
+print(num1,type(num1))
+x=int(num1)
+
+if x%3==0 and x%5==0:
+    print("Divisible by 3 and 5")
+else:
+    print("not Divisible by 3 and 5")
+
+# Write a program to check the given number is divisible by 3 or 5
+
+if x%3==0 or x%5==0:
+    print("Divisible by 3 or 5")
+else:
+    print("not Divisible by 3 or 5")
