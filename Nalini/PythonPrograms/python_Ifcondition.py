@@ -4,6 +4,7 @@ if x <= 30:
     print("Failed")
 else:
     print("passed")
+
 print("*"*50)
 """
 3). If else program to assign grades as per total marks.
@@ -34,5 +35,9 @@ elif marks < 90 or  marks < 100:
     print("Excellent")
 elif marks > 100:
     print ("marks should not be more than 100")
+
+print("*"*50)
+# 4). Python program to check the given number divided by 3 and 5.
+
 
 
