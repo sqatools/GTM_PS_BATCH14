@@ -53,3 +53,14 @@ list2 = [3, 4, 2, 5, 6, 2, 5, 7, 8, 12]
 for val in list2:
     if val%2==0:
         print(val)
+
+############################Nested Loop#####################################
+print("#" * 50)
+for i in range(4):
+    print(" i range value: ", i)
+    for j in range(3):
+        print(" j range value: ", j)
+
+    print("#" * 30)
+
+
