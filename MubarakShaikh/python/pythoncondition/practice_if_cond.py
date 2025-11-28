@@ -24,3 +24,24 @@ else:
         print("Pass with A++ Grade")
     else:
         print("Marks should be less than 100")
+##########################################
+print("_" * 50)
+
+val = int(input("plz input value:"))
+list1 = [5, 7, 9, 2, 50, 6]
+
+if val in list1:
+    print("number is available in the list:", val)
+else:
+    print("number is not available in the list", val)
+##########################################
+print("_" * 50)
+
+dict1 = {'a': 123, 'b': 456, 'c': 678}
+val1 = 'a'
+
+if val1 in dict1:
+    print("this val1 key is available in dict")
+    print(dict1[val1], val1)
+else:
+    print("this val1 key is not available in dict")
