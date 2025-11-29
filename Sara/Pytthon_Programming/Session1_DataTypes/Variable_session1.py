@@ -101,10 +101,10 @@ var_name= "Sara" # valid
 # 5. Variable names are case-sensitive.
 name = "Sara"
 Name = "Aish"
-NAME = "Dev"
+NAME = "Devanshi"
 NAme = "Sim"
 print(name , "|", Name, "|", NAME, "|", NAme)
-#Sara | Aish | Dev | Sim
+#Sara | Aish | Devanshi | Sim
 
 username = "Sim"
 age = 24
