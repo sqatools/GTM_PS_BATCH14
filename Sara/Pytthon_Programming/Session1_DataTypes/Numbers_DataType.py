@@ -43,4 +43,5 @@ print(var10) #SyntaxError: invalid decimal literal
 var11= 1+j20
 print(var11) # this will not print any value or throw error
 '''
-
+var12 = 10 + 1j
+print("value of var 12:", var12, type (var12)) #value of var 12: (10+1j) <class 'complex'>
