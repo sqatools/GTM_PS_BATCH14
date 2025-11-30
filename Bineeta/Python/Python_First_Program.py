@@ -58,7 +58,7 @@ print(val1, val2)
 print(val1, end=" ")
 print(val2, end=" ")
 
-print()
+
 print("_" * 50)
 
 ### Rules For Variable Names###
