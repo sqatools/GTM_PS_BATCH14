@@ -93,8 +93,20 @@ if uname == username and password == pwd:
 else:
     print("invalid user")
 """
+#Find the largest number among three numbers
 
-
+num1 = input("Enter first number:")
+num2 = input("enter second number:")
+num3 = input ("enter third number:")
+x = int(num1)
+y = int(num2)
+z = int(num3)
+if x > y and x > z:
+    print ("first number is great")
+elif y > x and y > z:
+    print ("second number is great")
+elif z > x and z > y:
+    print("third number is great")
 
 
 
