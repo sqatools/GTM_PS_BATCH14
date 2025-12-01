@@ -88,3 +88,25 @@ if Blood_group==Apple:
 else:
     print("Find more help")
 
+################################################
+
+print("*********************** 27-11-2025**************************")
+print("_____________________And & OR condition______________________")
+
+## Allow access only if value is Multiples of 2 & 3
+Val=input("Enter your value:")
+num=int(Val)
+if num %2 == 0 and num %5 == 0:
+    print("Your Allowed")
+else:
+    print("Your Access is Denied")
+
+## Allow access if one of the value is Multiples of 2 & 3
+Val=input("Enter your value:")
+num=int(Val)
+if num %2 == 0 or num %5 == 0:
+    print("Your Allowed")
+else:
+    print("Your Access is Denied")
+
+#####################

@@ -25,6 +25,7 @@ l1 = list(str2)
 print(l1, type(l1))
 # ['P', 'y', 't', 'h', 'o', 'n'] <class 'list'>
 
+## string to tuple
 t1 = tuple(str2)
 print(t1, type(t1))
 # ('P', 'y', 't', 'h', 'o', 'n') <class 'tuple'>

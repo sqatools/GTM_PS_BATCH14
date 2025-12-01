@@ -219,8 +219,3 @@ if var is True:
     print("variable has True value")
 else:
     print("variable has False value")
-
-
-
-
-
