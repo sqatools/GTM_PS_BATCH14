@@ -1,7 +1,7 @@
 
 #### assigning value to variable #####
 
-a = 100
+a = 100 # 140735313064152
 # a : variable
 # = : assignment operator
 # 100 : value
@@ -122,3 +122,18 @@ print(CS)
 print(cs1)
 
 print("*"*50)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
