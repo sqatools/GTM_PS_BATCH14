@@ -63,4 +63,28 @@ print(str(c1)) # HelloWorld
 print("")
 print("-"*15, "List","-"*15)
 
+L1=[4,45.22,50+1j,"Sara", [3,4,6], (3,22,66),True,{'a':456},{4,5,3}]
+print(L1) #[4, 45.22, (50+1j), 'Sara', [3, 4, 6], (3, 22, 66), True, {'a': 456}, {3, 4, 5}]
+print(type(L1)) #<class 'list'>
+print("")
+
+#******************** +ve and -ve indexing *************************
+print("-"*15, "+ve and -ve indexing","-"*15)
+print("")
+print(L1[4]) #[3, 4, 6]
+print(L1[-3]) #True
+print(L1[4][-1]) #6
+print("")
+
+#******************** Finding the value using index no *************************
+print("-"*15, "Finding the value using index no.","-"*15)
+
+L2=[3,45.22,50+1j,"Sara", [3,4,6], (3,22,66),True,{'a':456},{4,5,3}]
+print(L2.index("Sara")) #3
+print(L2.index({'a':456})) #7
+
+#***************** Tuple **********************
+
+
+
 
