@@ -56,6 +56,3 @@ if round1 == "pass":
         print("you are failed in second round", round2)
 else:
     print("you are failed in first round", round1)
-
-
-
