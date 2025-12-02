@@ -79,7 +79,7 @@ if num3 in fib:
 else:
     print(num3, "is not part")
 
-#9). Python program to check authentication with the given username and password.
+# 9). Python program to check authentication with the given username and password.
 print("# 9th Program" * 5)
 username = input("Enter name")
 password = input("Enter password")
@@ -96,3 +96,113 @@ if val in user_id:
     print("value is in user_id")
 else:
     print("not valid user_id")
+
+# 11). Python program to print a square or cube if the given number is divided by 2 or 3 respectively
+print("# 11th Program" * 5)
+n = 15
+if n % 2 == 0:
+    print("square is : ", n ** 2)
+elif n % 3 == 0:
+    print("cube is :", n ** 3)
+else:
+    print("invalid number")
+
+# 12). Python program to describe the interview process.
+print("# 12th Program" * 5)
+exam_result1 = "passed"
+exam_result2 = "failed"
+if exam_result1 == "passed":
+    print("first exam has been cleared")
+    if exam_result2 == "passed":
+        print("second exam has been cleared")
+    else:
+        print("Failed in 2nd exam")
+else:
+    print("Failed in 1st exam")
+
+# 13). Python program to determine whether a given number is available in the list of numbers or not.
+print("# 13th Program" * 5)
+n1 = int(input("Enter the number:"))
+list3 = [1, 23, "hi", 89 + 9j, (1, 6, 8), ('a', 'b'), {"a": 1, "b": 6}]
+if n1 in list3:
+    print(n1, "is in the list")
+else:
+    print(n1, "is not in list")
+
+    # 14). Python program to find the largest number among three numbers.
+    print("# 14th Program" * 5)
+    a1 = int(input("Enter the a1 :"))
+    a2 = int(input("Enter the a2 :"))
+    a3 = int(input("Enter the a3 :"))
+    if a1 > a2:
+        if a1 > a3:
+            print(a1, "is largest")
+        else:
+            print(a3, "is largest")
+    elif a2 > a3:
+        print(a2, "is largest")
+    else:
+        print(a3, "is largest")
+
+# 15). Python program to check any person eligible to vote or not
+# age > 18+ : eligible
+# age < 18: not eligible
+print("# 15th Program" * 5)
+age = int(input("Enter the age :"))
+if age >= 18:
+    print("Person is eligible")
+else:
+    print("Person is not eligible")
+
+# 16). Python program to check whether any given number is a palindrome.
+# Input: 121
+# Output: palindrome
+# 17). Python program to check if any given string is palindrome or not.
+# Input: ‘jaj’
+# output = palindrome
+
+# 18). Python program to check whether a student has passed the exam. If marks are greater than 35 students have passed the exam.
+# Input = Enter marks: 45
+# Output = Pass
+print("# 18th Program" * 5)
+mark = int(input("Enter the mark :"))
+if mark > 35:
+    print("Pass")
+else:
+    print("Failed")
+
+# 19). Python program to check whether the given number is positive or not.
+# Input = 20
+# Output = True
+print("# 19th Program" * 5)
+number = int(input("Enter the number :"))
+if number > 0:
+    print("Positive number")
+else:
+    print("Negative number")
+
+# 20). Python program to check whether the given number is negative or not.
+# Input = -45
+# Output = True
+print("# 20th Program" * 5)
+number1 = int(input("Enter the number1 :"))
+if number1 < 0:
+    print("Negative number")
+else:
+    print("Positive number")
+
+# 21). Python program to check whether the given number is positive or negative and even or odd.
+# Input = 26
+# Output = The given number is positive and even
+print("# 21th Program" * 5)
+number2 = int(input("Enter the number2 :"))
+if number2 > 0:
+    if number2 % 2 == 0:
+        print("Positive and Even number")
+    else:
+        print("Positive and Odd number")
+else:
+    if number2 % 2 == 0:
+        print("Negative and Even number")
+    else:
+        print("Negative and Odd number")
