@@ -1,4 +1,4 @@
-#***************** SEQUENTIAL **************************
+# **************** SEQUENTIAL **************************
 
 """
 1. String
@@ -62,5 +62,46 @@ print(str(c1)) # HelloWorld
 #***************** List **************************
 print("")
 print("-"*15, "List","-"*15)
+
+L1=[4,45.22,50+1j,"Sara", [3,4,6], (3,22,66),True,{'a':456},{4,5,3}]
+print(L1) #[4, 45.22, (50+1j), 'Sara', [3, 4, 6], (3, 22, 66), True, {'a': 456}, {3, 4, 5}]
+print(type(L1)) #<class 'list'>
+print("")
+
+#******************** +ve and -ve indexing *************************
+print("-"*15, "+ve and -ve indexing","-"*15)
+print("")
+print(L1[4]) #[3, 4, 6]
+print(L1[-3]) #True
+print(L1[4][-1]) #6
+print("")
+
+#******************** Finding the value using index no *************************
+print("-"*15, "Finding the value using index no.","-"*15)
+
+L2=[3,45.22,50+1j,"Sara", [3,4,6], (3,22,66),True,{'a':456},{4,5,3}]
+print(L2.index("Sara")) #3
+print(L2.index({'a':456})) #7
+
+L2=[3,45.22,50+1j,"Sara", [3,4,6], (3,22,66),True,{'a':456},{4,5,3},"Mutable Check"]
+print(L2)
+
+#***************** Tuple **********************
+print("")
+print("-"*15,"Tuple","-"*15)
+
+t1= (5,22.3, {4,3,22}, False, 3+40j, "World",[4,3,4,], {'d':555},(4,3))
+print(t1) #(5, 22.3, {3, 4, 22}, False, (3+40j), 'World', [4, 3, 4], {'d': 555}, (4, 3))
+print(type(t1)) #<class 'tuple'>
+
+#******************** +ve and -ve indexing *************************
+
+print(t1[7]) #{'d': 555}
+
+print(t1[-1]) # (4, 3)
+
+print(t1[-3+1]) # {'d': 555}
+
+
 
 
