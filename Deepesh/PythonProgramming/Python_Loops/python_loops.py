@@ -243,7 +243,24 @@ for i in range(1, 6): # i =1, 2, 3, 4, 5
   * * *
 """
 
+print("_"*40)
+# Explanation prime number program
+num = 12 # user input
+prime = True # consider this number prime
+for i in range(2, num): #(2, 17)
+    print("i:",i) # 2
+    # check the number is divisible by i
+    if num%i == 0: # (12%2 == 0)
+        # increase counter if value is divisible by any value
+        prime = False
+        break
 
+
+
+if prime is True:
+    print("This is prime number :", num)
+else:
+    print("This is not a prime number :", num)
 
 
 
