@@ -37,3 +37,31 @@ elif marks>=51 and marks<=100:
     print("Grade B",marks)
 else :
     print("Invalid marks")
+
+#####################
+#Python program to check authentication with the given username and password.
+'''
+Username="Login"
+Password="key123"
+X= input("Enter your username:")
+Y= input("Enter password:")
+if X==Username and Y==Password:
+    print("You have logged in successfully")
+else:
+    print("Username or Password is invalid")
+'''
+###############
+print('#'*30)
+
+
+# 10). Python program to validate user_id in the list of user_ids.
+
+list=['logon', 'username','Access']
+
+user_id= input('Enter the user_id')
+if user_id in list:
+    print("You are allowed")
+else:
+    print("Try again")
+
+
