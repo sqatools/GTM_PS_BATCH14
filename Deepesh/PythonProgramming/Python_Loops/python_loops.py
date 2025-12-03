@@ -114,8 +114,7 @@ print("_"*40)
 
 # While loop condition.
 """
-while cond:
-   code
+while cond:code
 """
 
 # print values from 1 to 10 using while loop
