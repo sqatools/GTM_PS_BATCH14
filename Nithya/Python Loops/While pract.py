@@ -70,6 +70,25 @@ for i in range (1,7):
 
     print()
 
+print("X"*30)
+#printing 0
+"""
+  345   # i=1
+1234567 # i=2
+1234567 # i=3
+1234567 # i=4
+  345   # i=5
+"""
+for i in range(1,6):
+    for j in range(1,8):
+        if i in [1,5]:
+            if j in [3,4,5]:
+                print(j, end=" ")
+        elif i in [2,3,4]:
+            if j==1 or j==7:
+               print(j, end=" ")
+
+    print()
 
 
 
