@@ -37,9 +37,38 @@ else:
     print("No match found",Count)
 
 print("X"*30)
+#print Angular pattern upside Triangle
+print("Printing Angular Pattern")
+for i in range(6, 1, -1): # 6
+    for j in range (i, 1, -1): #(6, 1, -1)
+        print("*", end=" ")
+
+    print()
+
+print("X"*30)
+#print Angular pattern T
+
+print("Printing T Pattern")
+'''
+1 2 3 4 5 6 
+1 2 3 4 5 6 
+    3 4 
+    3 4 
+    3 4 
+    3 4 
+'''
+for i in range (1,7):
+    for j in range(1,7):
+        if i in [1, 2]:
+            print("*", end=" ")
+        elif i in [3,4,5,6]:
+            if j in [1,2, 5, 6]:
+                print(" ", end=" ")
+            else:
+                print("*", end=" ")
 
 
-
+    print()
 
 
 
