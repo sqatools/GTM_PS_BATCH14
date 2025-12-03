@@ -1,6 +1,8 @@
 # Start with simple for loop syntax
 # for i in range(start_value, end_value, step[increase and decrease])
 # print 1 to 15
+import math
+
 print("#" * 50)
 for i in range(1, 15, 1):
     print(i)
@@ -51,7 +53,7 @@ for val in tup1:
 print("#" * 50)
 list2 = [3, 4, 2, 5, 6, 2, 5, 7, 8, 12]
 for val in list2:
-    if val%2==0:
+    if val % 2 == 0:
         print(val)
 
 ############################Nested Loop#####################################
@@ -63,4 +65,145 @@ for i in range(4):
 
     print("#" * 30)
 
+############################ While Loop ####################################
+print("#" * 50)
+n = 1
+while n <= 5:
+    print(n)
+    n += 1
+
+############################ Continue Statement ####################################
+print("#" * 50)
+n = 1
+while n <= 10:
+    if n == 2:
+        n += 1
+        continue
+    print(n)
+    n += 1
+
+############################ Break Statement ####################################
+print("#" * 50)
+n1 = 1
+while n1 <= 10:
+    if n1 == 3:
+        break
+    print(n1)
+    n1 += 1
+
+############################ Infinite loop ####################################
+print("#" * 50)
+n1 = 1
+while n1 >= 1:
+    print(n1)
+    n1 += 1
+    if n1 == 1000:
+        break
+
+print("#" * 50)
+while True:
+    print(n1)
+    n1 += 1
+    if n1 == 2000:
+        break
+
+################## Prime number check ########################################
+print("#" * 50)
+pnum = int(input("Enter the number: "))
+count = 0
+for i in range(2, pnum):
+    if pnum % i == 0:
+        count += 1
+        break
+    else:
+        continue
+if count > 0:
+    print(pnum, "is a not prime number")
+else:
+    print(pnum, "is a prime number")
+
+#######################################Other way###############################################
+print("#" * 50)
+pnum = int(input("Enter the number: "))
+
+if pnum <= 1:
+    print(pnum, "is not a prime number")
+else:
+    is_prime = True
+    for i in range(2, pnum):
+        if pnum % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(pnum, "is a prime number")
+    else:
+        print(pnum, "is not a prime number")
+
+#######################################Other way###############################################
+print("#" * 50)
+pnum = int(input("Enter the number: "))
+
+if pnum <= 1:
+    print(pnum, "is not a prime number")
+else:
+    is_prime = True
+    for i in range(2, int(math.sqrt(pnum)) + 1):
+        if pnum % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(pnum, "is a prime number")
+    else:
+        print(pnum, "is not a prime number")
+
+#######################################Pattern ########################################
+print("#" * 50)
+for i in range(1, 6):
+    for j in range(1, i + 1):
+        print("*", end=" ")
+
+    print()
+#######################################Pattern ########################################
+"""
+* * * * * 
+* * * *
+* * *
+* * 
+*
+"""
+print("#" * 50)
+for i in range(1, 6):
+    for j in range(1, 7-i):
+        print("*", end=" ")
+
+    print()
+
+print("#" * 50)
+for i in range(5, 0, -1):
+    print("* " * i)
+print("#" * 50)
+for i in range(1, 6):
+    print("* " * (6 - i))
+print("#" * 50)
+for i in range(5):
+    print("* " * (5 - i))
+
+#######################################Pattern ########################################
+"""
+  * * *
+*       *
+*       *
+*       *
+*       *
+*       *
+  * * *
+"""
+print("#" * 50)
+for i in range(1, 8):
+    for j in range(1, 6):
+        print(" * ", end=" ")
+
+    print()
 
