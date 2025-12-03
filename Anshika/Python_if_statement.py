@@ -47,6 +47,33 @@ else:
     print("Value of p:", p)
     ####################Nested condition###########################
 
+### write a python program to check weather the given number is divisible by 2 and 4 ################
+num1 = input ("Please enter the value:")
+print(num1, type(num1))
+x = int(num1)
+
+if x%2 == 0 and x%4 == 0:
+    print("This number is divisible by 2 and 4:", x)
+else:
+    print("This number is divisible by 2 and 4:", x)
+
+    ####### write a program to accept students marks to provide their marks and results###########
+marks = int(input("Please enter your marks:"))
+
+if marks <= 30:
+    print("Failed in Exam")
+elif marks > 30 and marks <= 60:
+print(" 3rd Division")
+elif marks > 60 and marks <= 80:
+print(" 2nd Division")
+elif marks > 80 and marks <= 100:
+print(" 1st Division")
+else:
+print("Marks should not be greater than 100")
+
+
+
+
 
 
 
