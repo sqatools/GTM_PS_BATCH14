@@ -109,7 +109,7 @@ for i in range(1, 6, 1): # i = 1, 2, 3, 4, 5
 
 print("_"*40)
 #########################################################
-# While loop condition.
+
 """
 while cond:
    code
@@ -137,7 +137,7 @@ print("_"*40)
 # continue statement: when the continue condition is satisfied then it will move loop to next interation
 # without executing the remaining code.
 
-# print values from 1 to 10 with continue statement
+    # print values from 1 to 10 with continue statement
 v1 = 1
 while v1 <= 10: # v1 = 1, 2, 3, 4
     if v1 == 3 or v1 == 7 or v1 == 5:
