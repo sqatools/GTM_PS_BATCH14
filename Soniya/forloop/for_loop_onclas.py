@@ -1,3 +1,4 @@
+# range(start, end value, step)
 """
 ->  range output will include the start value and exclude end value in the output
 ->
@@ -27,7 +28,7 @@ for i in range(5, 0, -1):
 1
 """
 
-print("_"*40)
+`print("_"*40)
 # print value in reverse order till -5
 for i in range(2, -6, -1):
     print(i)
