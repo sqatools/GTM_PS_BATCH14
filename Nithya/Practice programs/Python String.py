@@ -11,7 +11,7 @@ c= "Best"
 d= "Batsman"
 e= "of"
 f= "India"
-
+g=0
 print(a[::-1],b[::-1],c[::-1],d[::-1],e[::-1],f[::-1])
 
 print("X"*30)
