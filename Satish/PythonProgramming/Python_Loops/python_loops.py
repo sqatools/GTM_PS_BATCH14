@@ -95,6 +95,7 @@ for row in range(6,0,-1):
 print("_"*50)
 for row in range(1,8):
     for col in range(1,2):
+
         if row==1 or row==7:
             print(" ",end="")
             print("*"*3,end="")

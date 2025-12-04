@@ -67,7 +67,7 @@ print("Result1 :", result1)
 result2 = "My name is {} and age is {}, I live in {}".format(name, age, city)
 print("Result2 :", result2)
 
-# 2. f string formatting:
+# 3. f string formatting:
 result3 = f"My name is {name} and age is {age}, I live in {city}"
 print("Result3 :", result3)
 

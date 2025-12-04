@@ -2,7 +2,7 @@
 #range(start, end value, step)
 
 #print values from 1 to 10
-for i in range(1,10,1):
+for i in range(1,9,1):
     print(i)
 
 print("_"*40)
@@ -15,8 +15,8 @@ print("_" * 40)
 
 #print in reverse order
 
-for a in range(10,4,-2):
-    print(a)
+for a in range(10,3,-2):
+    print("a is :", a)
 
 print("_" * 40)
 
@@ -45,6 +45,11 @@ for f in e:
 print("_" * 40)
 
 #apply nested loop
+
+list2 = [1,2,3,4,5,6]
+for z1 in list2:
+    if z1%2 == 0:
+        print(z1, end=" ")
 
 
 
