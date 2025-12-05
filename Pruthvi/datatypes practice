@@ -1,0 +1,33 @@
+"""
+Python data type.
+1). Number
+   i)  integer
+   ii) float
+   iii) complex
+
+2). Sequential : This family data type will follow positive and negative indexing.
+   i). String
+   ii). List
+   iii). Tuple
+
+3). Dictionary
+4). set
+5). Boolean
+"""
+
+#### integer ####
+"""
+properties:
+1.integer is immutable data type.once it is defined can not update.
+2.integer only contain whole number like 1,5,654,0394848.
+3.there is no specific range for integer data type.
+"""
+n1 = 0
+n2 = 1
+n3 = 7878798798
+n4 = 878970870889798798078787
+# n5 = 98.456 this is not int
+print("n1 :",n1, type(n1))
+print("n2 :",n2, type(n2))
+print("n3 :",n3, type(n3))
+print("n4 :",n4, type(n4))
