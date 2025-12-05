@@ -227,7 +227,7 @@ for i in range(1, 7):
 ####################Print T pattern #####################
 print("#" * 50)
 for i in range(1, 7):
-    for j in range(1, 7):
+    for j in range(1, 7): 
         if i in [1, 2]:
             print("*", end=" ")
         elif i in [3, 4, 5, 6]:
