@@ -83,12 +83,18 @@ for i in range(1,6):
     for j in range(1,8):
         if i in [1,5]:
             if j in [3,4,5]:
-                print(j, end=" ")
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
         elif i in [2,3,4]:
             if j==1 or j==7:
-               print(j, end=" ")
+               print("*", end=" ")
+            else :
+                print (" ",end=" ")
 
     print()
+
+    print("*"*10)
 
 
 
