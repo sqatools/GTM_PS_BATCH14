@@ -29,7 +29,6 @@ print("_"*50)
 print(str4, type(str4))
 print("_"*50)
 
-
 #################### string follows positive and negative indexing #######
 
 str_a = "Python"
@@ -147,6 +146,8 @@ str3 = "Virat is Best Batsman of India"
 # output1 = "VViratt iiss BBestt BBatsmann ooff IIndiaa"
 # output2 = "airat is Best Batsman of IndiV"
 # output3 = "tiraV si tesB natsmaB fo andiI"
+
+
 
 
 print("_"*50)
