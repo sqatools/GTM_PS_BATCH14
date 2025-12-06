@@ -13,17 +13,29 @@ while num <=10:
 
 print()
 
+print("_"*50)
+# break statement: once the code is satisfied with break condition then loop will terminate immediately.
+m=1
+while m < 6:
+    if m==2:
+        break
+    print(m)
+    m += 1
+
+print("_"*50)
 # write a python program to check given number is prime or not
 num2 = int(input("Enter your value : "))
 count = 0
 for i in range(2, num2): # 2
     print(i)
-    if num2%i ==0:
+    if num2 % i ==0:
+        #increase the count if value is divisible by i
         count += 1
         break
     else:
         continue
 
+# Outside the loop check the counter value still same or changed.
 if count > 0:
     print("It is not a prime number", num2)
 else:
