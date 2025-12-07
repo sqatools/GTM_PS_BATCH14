@@ -29,7 +29,6 @@ print("_"*50)
 print(str4, type(str4))
 print("_"*50)
 
-
 #################### string follows positive and negative indexing #######
 
 str_a = "Python"
@@ -149,6 +148,8 @@ str3 = "Virat is Best Batsman of India"
 # output3 = "tiraV si tesB natsmaB fo andiI"
 
 
+
+
 print("_"*50)
 ################ Apply loop on string ###############
 str10 = "Learning Python"
@@ -165,14 +166,3 @@ for i in range(0, len(str10), 1):
 print("_"*50)
 for i, char in enumerate(str10):
     print(i, char)
-
-print("_"*50)
-str2 = "Programming"
-len_str = len(str2)
-print(len_str) # 11
-for i in range(0, len_str, 1):
-    print(i, str2[i])
-
-
-print(list(enumerate(str2)))
-# [(0, 'P'), (1, 'r'), (2, 'o'), (3, 'g'), (4, 'r'), (5, 'a'), (6, 'm'), (7, 'm'), (8, 'i'), (9, 'n'), (10, 'g')]

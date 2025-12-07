@@ -26,7 +26,7 @@ print("_"*40)
 v1 = 1
 while v1 <= 10:
     if v1 in [1, 9]:
-        v1 += 2
+        v1 += 1
         continue
 
     print(v1)
@@ -43,6 +43,8 @@ while m1 <= 10:
         continue
     print(m1)
     m1 += 1
+
+
 
 
 
