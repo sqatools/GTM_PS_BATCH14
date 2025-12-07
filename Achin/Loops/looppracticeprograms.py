@@ -144,7 +144,7 @@ for i in range(0,5):
 '''
 
 #8
-'''
+
 for i in range(0,5):
     for j in range(0,5):
         if(j==0 and j>=i or j==4 and i not in [1,2,3]):
@@ -155,5 +155,5 @@ for i in range(0,5):
             print(" ",end=" ")
 
     print()
-'''
+
 
