@@ -174,17 +174,41 @@ for i in range(5, 0, -1):
 #*       *
 #*       *
 #*       *
-#*       *
 #  * * *
 
-for i in range(1, 6):
-    for j in range(1, 8):
-            print(" ", end=" ")
-    print()
-for i in range(1, 7):
-    for j in range(1, 8):
-        if j == 1 or j == 7:
-            print("*", end=" ")
+
+
+
+
+
+
+
+for i in range(1,7):
+    for j in range(1,7):
+        if i in[1,2]:
+            print("*",end=" ")
+        elif i in[3,4,5,6]:
+            if j in [3,4]:
+                print("*",end=" ")
+            else:
+                print(" ",end=" ")
         else:
-            print(" ", end=" ")
+
+            print(" ",end=" ")
+
     print()
+
+
+
+for i in range(1, 10):
+    if i == 5 or i == 7:
+        continue
+    print(i)
+
+print("_"*40)
+for i in range(1, 10):
+    if i == 5:
+        break
+    print(i)
+
+

@@ -206,3 +206,27 @@ else:
         print("Negative and Even number")
     else:
         print("Negative and Odd number")
+
+# 22). Python program to print the largest number from two numbers.
+# Input:
+# 25, 63
+# Output = 63
+
+print("# 22nd Program" * 5)
+num1 = int(input("Enter the num1 :"))
+num2 = int(input("Enter the num2 :"))
+if num1 > num2:
+    print(num1, " is largest")
+else:
+    print(num2, " is largest")
+
+# 23). Python program to check whether a given character is uppercase or not.
+# Input = A
+# Output = The given character is an Uppercase
+
+print("# 22nd Program" * 5)
+input = input("Enter input: ")
+if input in range("A-Z"):
+    print(input, "is uppercase")
+else:
+    print(input, "is lowercase")
