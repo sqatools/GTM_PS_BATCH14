@@ -49,8 +49,8 @@ for i in range(1, 7):
                 print(" ", end=" ")
 
 
-        else:
-          print("*", end = " ")
+       # else:
+         # print("*", end = " ")
 
     print()
 
