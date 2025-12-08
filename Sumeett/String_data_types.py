@@ -14,22 +14,23 @@ print(str_a[-4])
 print("_"*50)
 
 
-name = "sumeet"
-age = 30
-city = "oslo"
+# name = "sumeet"
+# age = 30
+# city = "oslo"
 
-#String concatination(use +)
+name = input("Please enter name: ")
+age = input("Please enter age: ")
+city = input("Please enter city: ")
+
+
+# String concatination (use +)
 result = "My name is "+name+" and my age is "+str(age)+" and i live in "+city
 print(result)
 
-#string format method(.format{}) - No need to convert number to string
+# string format method(.format{}) - No need to convert number to string
 result1 = "My name is {} and age is {} and i live in {}".format(name, age, city)
 print("format result is ", result1)
 
-#f string formatting
+# f string formatting
 result3 = f"My name is {name} and age is {age} and city is {city}"
 print(result3)
-
-
-
-
