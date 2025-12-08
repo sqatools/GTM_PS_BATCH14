@@ -11,3 +11,7 @@ print(len(str))
 name = "Nalini"
 print(name.index("n"))
 print(name.index("N"))
+name = "Nalini"
+print(name[0:3])
+print(name[::-1])
+
