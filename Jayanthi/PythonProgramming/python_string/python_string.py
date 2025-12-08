@@ -40,6 +40,21 @@ print(str2[5:-1:1])
 print(str2[-11:15:1])
 print(str2[-11:5:-1])"""
 
+str5="learning programing"
+
+for i in str5:
+    print(i,end=(" "))
+
+print()
+
+for i in range(len(str5)):
+    print(i,str5[i],end=(" "))
+print()
+
+for i in enumerate(str5):
+    print(i)
+
+
 # Homework slicing
 str3 = "Virat is Best Batsman of India"
 # output1 = "VViratt iiss BBestt BBatsmann ooff IIndiaa"

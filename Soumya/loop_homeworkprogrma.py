@@ -161,14 +161,23 @@ s3 = "Virat Is Best Batsman of India"
 s3 = "Virat Is Best Batsman of India"
 output1 = (s3[0]+s3[0:5]+s3[4]+" "+s3[6]+s3[6:8]+s3[7]+" "+s3[9]+s3[9:13]+s3[12]+" "+s3[14]+s3[14:21]+s3[20]+" "+s3[22]+s3[22:24]+s3[23]+" "+s3[25]+s3[25:30]+s3[29])
 print(output1)
+# VViratt IIss BBestt BBatsmann ooff IIndiaa
+
+
+
+
+
 print("*"*40)
 output2 = (s3[0].replace("V", "a")+s3[1:5]+" "+s3[6:8]+" "+s3[9:13]+" "+s3[14:21]+" "+s3[22:24]+"  "+s3[25:29]+s3[-1].replace("a","V"))
 print(output2)
 
-print("*"*4)
+# airat Is Best Batsman of  IndiV
+
+print("*"*40)
 output3 = (s3[-26]+s3[1:4]+s3[0]+" "+s3[7]+s3[6]+" "+s3[12]+s3[10:12]+s3[9]+" "+s3[20]+s3[15:20]+s3[14]+" "+s3[23]+s3[22]+" "+s3[-1]+s3[-4:-1]+s3[-5])
 print(output3)
 
+# tiraV sI tesB natsmaB fo andiI
 
 
 
