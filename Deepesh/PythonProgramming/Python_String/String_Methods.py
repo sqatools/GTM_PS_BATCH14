@@ -137,3 +137,15 @@ print(s5)
 print(s5.strip())  # Programming  # remove both side sapces
 print(s5.lstrip()) # remove left side space
 print(s5.rstrip()) # remove right side space
+
+print("_"*50)
+#################
+str_b = "345678879"
+str_c = "Hello 768789"
+str_d = "Python123"
+str_e = "GoodMorning"
+
+print("str_b is contains number :", str_b.isnumeric()) # True
+print("str_d is contains alpha number :", str_d.isalnum()) # True
+print("str_c is contains only alpha:", str_c.isalpha()) #  False
+print("str_e is contains only alpha:", str_e.isalpha()) #  True
