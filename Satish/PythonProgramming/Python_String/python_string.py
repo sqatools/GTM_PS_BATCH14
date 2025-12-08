@@ -27,3 +27,6 @@ str3_b11=str3_b1+'V'
 
 str3_c1=str3[6:24]
 print(str3_a11+" "+ str3_c1+ " "+str3_b11)
+
+print("_"*50)
+print(str3[-1:-6:-1])
