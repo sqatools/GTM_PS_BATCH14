@@ -41,3 +41,36 @@ for index,ch in enumerate(name):
 
 print(enumerate(name))
 print(list(enumerate(name)))
+
+################################
+#Q5 write a python program to convert odd length word in upper case and even length word in lower case.
+str5 = "India iS BesT country in the world"
+# output = "INDIA is best COUNTRY in THE WORLD"
+
+word_lst=str5.split(" ")
+print(word_lst)
+output=""
+for word in word_lst:
+    if len(word)%2==0:
+        output=output+word.lower()+ " "
+    else:
+        output = output + word.upper() + " "
+
+print(output)
+
+#Write a python program to get second largest word from goven string
+str6="Everything is possible with hard work"
+
+largest=0
+second_largest=0
+sec_largest_word=""
+word_lst=str6.split()
+for word in word_lst:
+    if len(word)>largest:
+        largest=len(word)
+    elif len(word)>second_largest:
+        second_largest=len(word)
+        sec_largest_word=word
+
+print(sec_largest_word)
+
