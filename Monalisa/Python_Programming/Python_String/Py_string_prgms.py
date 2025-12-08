@@ -33,3 +33,4 @@ for word in word_list:
     elif len(word) > len(lar2) and word != lar1:
         lar2 = word
 print(lar2,len(lar2))
+print("_"*50)
