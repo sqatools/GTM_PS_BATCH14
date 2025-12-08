@@ -53,7 +53,7 @@ while p<=10:
     p+=1
 
 print("*",50)
-'''CONTINUE statement'''
+'''CONTINUE & BREAK statement'''
 s=11
 count =0
 for i in range(2,s):
@@ -74,10 +74,14 @@ for i in range(1,6):
     for j in range(1,i+1):
         print(j,end=" ")
     print()
+print()
+
 for i in range(1,6):
     for j in range(1,i+1):
         print("*",end=" ")
     print()
+
+print()
 
 for i1 in range(5,0,-1):
     for j1 in range(i1,0,-1):
