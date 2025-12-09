@@ -75,5 +75,36 @@ print("Largest word and largest len:", largst_word, largst_len)
 str5 = "India iS BesT country in the world"
 # output = "INDIA is best COUNTRY in THE WORLD"
 
-#########################################################
-summary
+for word in str5:
+    if len(str5) % 2 == 1:      # odd length
+        result.append(w.upper())
+    else:                    # even length
+        result.append(str5.lower())
+
+output = " ".join(result)
+print(output)
+
+###################
+print("--"*30)
+str6 = "Everything is possible with hard work"
+
+# split the string into words
+bond = str6.split()
+
+largest = ""
+second_largest = ""
+
+for word in bond:
+    if len(word) > len(largest):
+        second_largest = largest
+        largest = word
+    else:
+        if len(word) > len(second_largest) and word != largest:
+            second_largest = word
+
+print("second_largest:", second_largest)
+
+
+
+
+
