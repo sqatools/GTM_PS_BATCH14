@@ -37,6 +37,7 @@ print(newlist)
 str6 = "Everything is possible with hard work"
 output = "possible"
 """
+"""
 str = "Everything is possible with hard work"
 wordlist = str.split(" ")
 larg_word = " "
@@ -53,7 +54,7 @@ for word in wordlist:
         continue
 
 print(larg_word, slarg_word)
-
+"""
 
 
 
