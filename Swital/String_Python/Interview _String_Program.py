@@ -1,4 +1,29 @@
+#Q1 :  write a python program to count total vowels from given string.
+str1 = "Hello we are LeArning PythOn"
+vowels = "aeiou"
+count = 0
+for char in str1:
+    if char in vowels:
+        count += 1
+    else:
+        continue
+print(count)
+
+#q2 :  write a python program remove duplicate character from given string and generate output.
+print("#"*50)
+str2 = "Hello we are LeArning PythOn"
+output = ""
+for char in str2:
+    if char.lower() not in output:
+        output = output+char
+    else:
+        continue
+print(output)
+
+
+
 #Q5 write a python program to convert odd length word in upper case and even length word in lower case.
+print("#"*50)
 # output = "INDIA is best COUNTRY in THE WORLD"
 str_a = "India iS BesT country in the world"
 str_output = ""
@@ -28,3 +53,6 @@ for word in word_split:
     elif len(word)<word_len and len(word)>len(second_longest):
         second_longest = word
 print(second_longest)
+
+print("#"*50)
+str8 = "Motivation inspires dedication and give us strength"

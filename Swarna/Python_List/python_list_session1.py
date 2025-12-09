@@ -1,10 +1,3 @@
-"""
-# Properties:
--> List is mutable data type, that we can modify any point of time.
--> List can contain any types of data, int, float, complex, str, list, tuple, dict, set, boolean.
--> List follows positive negative indexing as like string.
--> We define list with square bracket.
-"""
 
 list1 = [2, 3.5, 5+7j, 'Hello', [4, 6, 8], (1, 3, 5), {'a': 123, 'b': 125}, {4, 6, 7}, True]
 print(list1, type(list1))
@@ -147,11 +140,3 @@ print("list_y :", list_y) # ['a', 'b', 'c', 'd', 'f']
 v2 = list_y.pop(2)
 print("removed value :", v2)  # removed value : c
 print("list_y :", list_y) # ['a', 'b', 'd', 'f']
-
-
-
-
-
-
-
-
