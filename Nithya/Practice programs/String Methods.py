@@ -22,3 +22,62 @@ print("18.", a.split())
 print("19.", a.split('o'))
 d= "friends".join(b)
 print("20.",d )
+
+print ("#"*50)
+
+Input="India iS The Best CountRY in The WOrld"
+Check= Input.split(" ")
+print(Check)#Checking
+Output=""
+print("Output:", Output)#checking
+
+for word in Check:
+    if len(word)%2==0:
+        Output= Output+word.upper()+" "
+    else:
+        Output= Output+word.lower()+" "
+print("Output:", Output)
+
+print("X"*50)
+# # Q6 :  write a python Program to get second-largest word from given string.
+
+Input="Indiaa iShjkhkjhh The Best CountRYIIII in The WOrld"
+word_list= Input.split(" ")
+lword = ''
+slword = ''
+for word in word_list:
+
+    if len(word) > len(lword):
+        slword = lword
+        lword = word
+
+
+    if len(slword) < len(word) < len(lword):
+        slword = word
+    else:
+        continue
+
+
+print("largest word :", lword)
+print("second largest word:", slword)
+
+print("#"*50)
+#Python string program to reverse a string if it’s length is a multiple of 4.
+
+str1= "Apple is my Favorite fruit in this Shopping"
+
+a= str1.split()
+
+for word in a:
+    if len(word)%4==0:
+        print(word[::-1], word)
+
+
+
+
+
+
+
+
+
+

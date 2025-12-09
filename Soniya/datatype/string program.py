@@ -74,3 +74,47 @@ print("Largest word and largest len:", largst_word, largst_len)
 #Q5 write a python program to convert odd length word in upper case and even length word in lower case.
 str5 = "India iS BesT country in the world"
 # output = "INDIA is best COUNTRY in THE WORLD"
+str5 = "India iS BesT country in the world"
+
+words = str5.split()
+result = []
+
+for word in words:
+    if len(word) % 2 != 0:
+        result.append(word.upper())
+    else:
+        result.append(word.lower())
+
+final_output = " ".join(result)
+print(final_output)
+
+# Q6 :  write a python Program to get second-largest word from given string.
+# str6 = "Everything is possible with hard work"
+# output = "possible"
+
+
+str4 = "Everything is possible with hard work"
+word_list = str4.split(" ")
+
+# Step 1: Find the largest word
+largest_word = ""
+largest_len = 0
+
+for word in word_list:
+    if len(word) > largest_len:
+        largest_len = len(word)
+        largest_word = word
+print("Largest word:", largest_word, largest_len)
+
+# Step 2: Find the second-largest word
+second_largest_word = ""
+second_largest_len = 0
+
+for word in word_list:
+    if word != largest_word:  # don't want 1argest value
+        if len(word) > second_largest_len:
+            second_largest_len = len(word)
+            second_largest_word = word
+
+print("Largest word:", largest_word, largest_len)
+print("Second largest word:", second_largest_word, second_largest_len)
