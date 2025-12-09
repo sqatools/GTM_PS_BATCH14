@@ -125,9 +125,12 @@ print("_"*50)
 ##################
 # remove() method:  this method remove any specific data from list
 #                   -> if value is repeated multiple times, then it will remove first occurrence
-list_x = [10, 20, 30, 40, 30]
+list_x = [10, 20, 30, 40, 30, 60]
 list_x.remove(30)
 print("list_x :", list_x)  # [10, 20, 40, 30]
+
+list_x.remove(10)
+print("list_x :", list_x)
 
 print("_"*50)
 ##################
