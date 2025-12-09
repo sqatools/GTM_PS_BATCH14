@@ -75,3 +75,7 @@ print("Largest word and largest len:", largst_word, largst_len)
 str5 = "India iS BesT country in the world"
 # output = "INDIA is best COUNTRY in THE WORLD"
 
+# Q6 :  write a python Program to get second-largest word from given string.
+str6 = "Everything is possible with hard work"
+output = "possible"
+
