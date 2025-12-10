@@ -91,6 +91,25 @@ for char in w1:
 #print(result1)
 print(ow.strip()) # INDIA is best COUNTRY in THE WORLD
 
-
+print()
+##################################################################
+# Write a program to get second largest word from the given string
+print("-"*15, "Program 6","-"*15)
+s1="Everything is possible with hardwork"
+s2=s1.split(" ")
+s3=[ ]
+lw=''
+slw=''
+print(s2)
+for char in s2:
+    if len(char)>len(lw):
+        lw= char
+        #print('a',lw)
+    if len(char)>len(slw) and len(char)< len(lw):
+        slw=char
+        #print('d', slw)
+    else:
+        continue
+print("Second largest word is: ", slw)
 
 
