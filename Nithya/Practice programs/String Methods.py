@@ -72,6 +72,54 @@ for word in a:
     if len(word)%4==0:
         print(word[::-1], word)
 
+print("X"*50)
+#  Print most simultaneously repeated characters in the input string.
+str2= "Apple is my Favorite fruuit in thiss Shopping baggg"
+count=0
+result1=""
+result2=""
+for char_1 in str2:
+    rep_1=[char_1]
+    #print("checking o/p:", rep_1)
+    result1=rep_1
+    if rep_1 in result1:
+        result1= result1 + rep_1
+        print("result1",result1)
+        count+=1
+    elif rep_1 in result1:
+            result1 = result2
+            print("result2", result2)
+
+
+print("Final Output:", result1)
+
+"""
+Split words in Str2
+Now split the char in each word of str2
+check if the char in str2 is already available 
+if yes add counter
+if not continue
+"""
+#Write a Python program to calculate the length of a string with loop logic.
+Str_3= "There are many flowers"
+count=0
+for word in Str_3:
+    count=count+1
+print(count,"Characters")
+
+# Write a Python program to replace the second occurrence of any char with the special character $.
+
+Input:Programming
+wrd1=""
+wrd2=""
+for occ in Input:
+    wrd1= wrd1+occ
+    wrd2= wrd2
+print("Two:", wrd2)
+
+
+
+
 
 
 
