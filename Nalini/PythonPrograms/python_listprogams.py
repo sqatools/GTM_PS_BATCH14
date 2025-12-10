@@ -43,3 +43,16 @@ for i in range(len(list2)):
 print(squarelist)
 """
 
+# 5). Python program to find the minimum and maximum elements from the list.
+
+list2 = [10,20,30,40]
+max=list2[0]
+min=list2[0]
+for i in range(len(list2)):
+    if list2[i] > max:
+        max = list2[i]
+    if list2[i] < min:
+        min = list2[i]
+print("max",max)
+print("min", min)
+
