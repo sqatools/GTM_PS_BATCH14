@@ -82,6 +82,7 @@ print("sum value:",sum(list_y))
 for i in range(97,123):
     print(chr(i),end=" ")
 print()
+print("ASCII a",ord(a))
 
 
 
