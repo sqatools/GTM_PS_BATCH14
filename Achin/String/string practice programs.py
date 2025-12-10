@@ -1,3 +1,5 @@
+#odd length in upper case and even length in lower case
+'''
 str = "India iS BesT country in the world"
 
 wordlist = str.split(" ")
@@ -11,8 +13,12 @@ for word in wordlist:
         word = word.lower()
 
     print(word)
-'''     
-#
+'''
+from Deepesh.PythonProgramming.Python_String.String_Programs import word_list
+
+'''
+
+#second largest word
 str6 = "Everything is possible with hard work"
 wordlist=str6.split(" ")
 print(wordlist)
@@ -39,3 +45,30 @@ print("secondLargest word and secondlargest len:", secondlargst_word, secondlarg
 print("Largest word and largest len:", largst_word, largst_len)
 #print(secondlargestword)
 '''
+#python reverse string if it,s length is a multiple of 4
+
+str="Hello Worldd"
+
+if len(str)% 4== 0:
+    print(str[::-1])
+
+#count occurences of substring
+str1="hi my name is achin hi"
+print(str1.count("hi"))
+
+# smallest word in string
+
+str="hi i am achin"
+
+word_list=str.split(" ")
+print(word_list)
+min=word_list[0]
+for word in word_list:
+    if len(word)<len(min):
+        min=word
+    else:
+        continue
+
+print(min)
+
+
