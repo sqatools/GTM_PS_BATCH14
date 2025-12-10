@@ -57,6 +57,7 @@ for i in range(len(list2)):
 print("max",max)
 print("min", min)
 """
+"""
 # 7). Python program to remove all duplicate elements from the list.
 list = [10,20,40,10,20,20,40,50,10,50]
 duplicatelist=[]
@@ -65,4 +66,31 @@ for i in range(len(list)):
         duplicatelist.append(list[i])
 
 print(duplicatelist)
+"""
+list1 =[10,20,30,40,50]
+evelist=[]
+for val in list1:
+    if val%2==0:
+        evelist.append(val)
+    else:
+        continue
+print(evelist)
+#comprehension method
+result=[x for x in list1 if x % 2==0]
+print(result)
+result2 = [x ** 2 for x in list1]
 
+print(result2)
+list1 = [5,10,15,20,25,30]
+result3=[ (i,'even')if i%2==0 else (i, 'odd') for i in list1]
+
+print(result3)
+list2 = [10,20,40,10,20,20,40,50,10,50]
+list2.sort()
+print(list2)
+list2.reverse()
+print(list2)
+print(dir(list))
+list2 = ["p","n","t","s"]
+list2.sort()
+print(list2)
