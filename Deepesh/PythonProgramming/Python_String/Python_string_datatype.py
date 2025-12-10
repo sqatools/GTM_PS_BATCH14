@@ -165,3 +165,14 @@ for i in range(0, len(str10), 1):
 print("_"*50)
 for i, char in enumerate(str10):
     print(i, char)
+
+print("_"*50)
+str2 = "Programming"
+len_str = len(str2)
+print(len_str) # 11
+for i in range(0, len_str, 1):
+    print(i, str2[i])
+
+
+print(list(enumerate(str2)))
+# [(0, 'P'), (1, 'r'), (2, 'o'), (3, 'g'), (4, 'r'), (5, 'a'), (6, 'm'), (7, 'm'), (8, 'i'), (9, 'n'), (10, 'g')]
