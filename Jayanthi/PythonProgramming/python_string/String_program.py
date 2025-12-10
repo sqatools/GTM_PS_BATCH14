@@ -82,6 +82,98 @@ for word in word_list1:
 print("Largest length:",large_word,lar_len)
 print("Second largest :",Sec_lar_word,sec_len)
 
+# 1). Write a Python program to get a string made of the first and the last 2 chars from a given string.
+# If the string length is less than 2, return instead of the empty string
+print("-"*50)
+char1="Janvika"
+if len(char1)<2:
+    print("True")
+else:
+    print(char1[:2]+char1[-2:])
+# 2). Python string program that takes a list of strings and
+# returns the length of the longest string.
+print("-"*50)
+char2="Janvika is good and Brilliant girl"
+leng_lar=0
+list1=char2.split()
+for i in list1:
+    if len(i)>leng_lar:
+        leng_lar=len(i)
+    else:
+        continue
+print("Largest Lenth",leng_lar)
+
+# 3). Python string program to get a string made of 4 copies of the last two
+# characters of a specified string (length must be at least 2).
+print("-"*50)
+print(char1[-2:]*4)
+
+# 5). Python string program to count occurrences of a substring in a string.
+print("-"*50)
+str10="sqatoolspythonspy"
+sub="spy"
+print(str10.count("spy"))
+
+#6). Python string program to test whether a passed letter is a vowel or consonant.
+print("-"*50)
+str11="testing"
+vowel="aeiou"
+test=str11.lower()
+for i in test:
+    if i in vowel:
+        print("Vowel:",i)
+    else:
+        print("Consonant:",i)
+        continue
+# 7). Find the longest and smallest word in the input string.
+print("-"*50)
+len1=0
+long_word=""
+short_word=""
+str12="Janvika is child of Jayanthi"
+char3=str12.split()
+for i in char3:
+    if len(i)>len1:
+        len1=len(i)
+        long_word=i
+    if len(i)<len1:
+        sec_len=len(i)
+        short_word=i
+    else:
+        continue
+print("Largest length:",len1,long_word)
+print("Largest length:",sec_len,short_word)
+
+# 8). Print most simultaneously repeated characters in the input string.
+print("-"*50)
+str15="Hellllllllllllllllllllllo Worrrrrrrrrrrrrrrd"
+repeat_count=0
+repeat_char=""
+temp=1
+for i in range(len(str15)-1):
+    if str15[i]==str15[i+1]:
+        temp=temp+1
+        if temp > repeat_count:
+
+            repeat_count=temp
+
+            repeat_char=str15[i]
+    else:
+       temp=1
+print(repeat_count,repeat_char)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -75,12 +75,16 @@ print("Largest word and largest len:", largst_word, largst_len)
 str5 = "India iS BesT country in the world"
 # output = "INDIA is best COUNTRY in THE WORLD"
 
+word_list = str5.split(" ")
+print(word_list)
+result= " "
 
+for word in word_list:
+    if len(word) % 2 ==0:
+        result= result + word.lower()+ " "
+    else:
+        result= result +word.upper() + " "
 
-
-
-
-
-
+print(result)
 
 

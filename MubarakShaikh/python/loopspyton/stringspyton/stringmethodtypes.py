@@ -156,5 +156,8 @@ print(s11.join("-"))
 print(s11.split())
 print(s11.strip())
 print(s11.replace("e","a"))
+###########
+
+print("   @@@@  "*120)
 
 
