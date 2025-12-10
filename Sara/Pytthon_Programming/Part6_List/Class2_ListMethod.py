@@ -24,7 +24,8 @@ l1 = [1, 33, 24, 100, 22]
 print(l1)
 l1.insert(2, 31)
 print('New', l1)  # New [1, 33, 31, 24, 100, 22]
-l1.insert(-2, 40)
+
+l1.insert(-2, 40) # will insert data after the negative index data
 print('neg new', l1)  # neg new [1, 33, 31, 24, 40, 100, 22]
 
 print()
@@ -62,4 +63,5 @@ print('Default value removed is from -1:', s1) # Default value removed is from -
 print(l1) # [1, 33, 24, 100]
 s2=l1.pop(-2)
 print(s2) # 24
+
 
