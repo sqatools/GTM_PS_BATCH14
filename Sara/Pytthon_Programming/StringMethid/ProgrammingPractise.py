@@ -52,5 +52,45 @@ print(output1) #Hello People. Good Morning
 
 print()
 ##################################################################
-# Write a program to get the largest word from the given statement 44:11
+# Write a program to get the largest word from the given statement
+print("-"*15, "Program 4","-"*15)
+s1="Hello. Good Morning People"
+r1=s1.split(" ")
+print(r1)
+lar_word=" "
+lar_len= 0
+for char in r1:
+    if (len(char))> lar_len:
+        lar_len=len(char)
+        lar_word= char
+    else:
+        continue
+print("Largest length is:",lar_len,"Word is:",lar_word)
+
+print()
+##################################################################
+# Write a program to print odd length work in upper case and even length word in lower case
+print("-"*15, "Program 5","-"*15)
+s1="India iS BesT country in the world"
+w1=s1.split(" ")
+print(w1)
+ew=""
+o1=""
+ow=""
+result1=[]
+for char in w1:
+    if len(char)%2==0:
+        ew=char.lower()
+        #print(ew)
+    else:
+        ew=char.upper()
+        #print(ew)
+    #result1.append(ew)
+    ow= ow +(" ") + ew
+
+#print(result1)
+print(ow.strip()) # INDIA is best COUNTRY in THE WORLD
+
+
+
 
