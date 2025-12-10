@@ -7,25 +7,23 @@
 
 """
 s1 = "soumya"
-if len(s1)<2 :
+if len(s1)<=2 :
     print("true")
 else :
     print(s1[0:2]+s1[-2:])
-
 """
 
-#----2)
 
-string = ["i", "am", "learning", "python"]
+
+string = ["i", "am", "learning", "pythontesting"]
 temp = 0
 
 for word in string:
     a = len(word)
+    print(a)
     if a > temp:
         temp = a
 
 #Printing output
 print(temp)
 
-for test in string:
-    a = len(test)

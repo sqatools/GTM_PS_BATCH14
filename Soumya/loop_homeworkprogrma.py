@@ -180,10 +180,77 @@ print(output3)
 # tiraV sI tesB natsmaB fo andiI
 
 
+"""
+Create a variable named greeting and assign it the string "Welcome to Python Programming".
+Print the greeting variable.
+Modify the string to include your instructor name "Rahul!". For example, "Welcome to Python Programming, 
+[Instructor Name]!" and print the modified string.
+
+Expected Result:
+Welcome to Python Programming
+Welcome to Python Programming, Rahul!
+"""
+
+print("_"*40)
+String = "Welcome to Python Programming"
+print(String)
+Instructorname = "Rahul!"
+print(String+" "+Instructorname)
 
 
+print("_"*40)
+age = 25
+height = 5.9
+favorite_color = "blue"
+print("age :", age , "|" , "type :",type(age))
+print("height :", height , "|" , "type :",type(height))
+print("favorite color :", favorite_color, " |" , "type :",type(favorite_color))
 
+print("_"*40)
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+print("First fruit:", fruits[0])
+print("Last fruit:", fruits[-1])
+print("Fruits from index 1 to 2:", fruits[1:3])
 
+print("_"*40)
+tup = ("Rahul", 25, 5.9)
+print("age:", tup[1])
+
+print("_"*40)
+dir = {"make": "Toyota", "model": "Camry", "year": 2020, "color": "Blue"}
+print("car model:", dir["model"])
+dir["owner"] = "Rahul"
+print("Updated car dictionary:",dir)
+
+greeting = "Hello"
+if(greeting == "Hello"):
+    print("Hello there!\nand How can I assist you today?\n")
+else:
+    print("Greetings!")
+print("Program has completed.")
+
+print("_"*40)
+b=15
+if b>10 :
+    print("Number is greater than 10")
+else:
+    print("Number is less than 10")
+print("Comparison code is completed")
+
+print("_"*40)
+ls=[1, 4, 7, 10]
+for num in ls:
+    print(num*3)
+
+hour = 1
+if hour>=5 and hour<=11:
+    print("Good Morning")
+elif hour>=12 and hour<=17:
+    print("Good Afternoon")
+elif hour>=18 and hour<=21:
+    print("Good Evening")
+else:
+    print("Good Night")
 
 
 
