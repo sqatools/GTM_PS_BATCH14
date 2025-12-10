@@ -73,3 +73,5 @@ print(count)
 
 string1 = "Sqatool"
 print(string1[-1]+string1[1:-1]+string1[0])
+string2 = string1[::-1]+ string1[0:3]
+print(string2)
