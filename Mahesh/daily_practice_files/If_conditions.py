@@ -1,4 +1,4 @@
-#print("if conditions")
+#print(" if conditions ")
 
 if_1 = 100
 if_2 = 200
@@ -20,7 +20,7 @@ else:
 print("*"*50)
 
 
-#print("if and elif and else conditions")
+#print(" if and elif and else conditions ")
 
 a = 10
 b = 20
