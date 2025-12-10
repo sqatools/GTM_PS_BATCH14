@@ -55,8 +55,21 @@ for word in wordlist:
 
 print(larg_word, slarg_word)
 """
+#Python string program to count occurrences of a substring in a string.
 
+"""
+mainstring = "Everything is possible with hard work Everything is possible with hard workEverything is possible"
+substring = "is"
+wordlist = mainstring.split(" ")
+count =0
+for word in wordlist:
+    if word == substring:
+        count +=1
+    else:
+        continue
+print(count)
+"""
+#Write a python program to get to swap the last character of a given string.
 
-
-
-
+string1 = "Sqatool"
+print(string1[-1]+string1[1:-1]+string1[0])
