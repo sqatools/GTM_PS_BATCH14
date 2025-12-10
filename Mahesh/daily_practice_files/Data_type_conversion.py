@@ -30,6 +30,11 @@ si2 = int(si1)
 print(si2)     --   #no value returned
 """
 
+print("conversion form string to int data type")
+si_1 = "123456"
+si_2 = int(si_1)
+print(si_2)   # 123456
+
 print("*"*50)
 print("conversion form string to list data type")
 sl1 = "python"
