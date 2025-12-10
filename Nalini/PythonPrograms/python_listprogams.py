@@ -43,8 +43,9 @@ for i in range(len(list2)):
 print(squarelist)
 """
 
+""
 # 5). Python program to find the minimum and maximum elements from the list.
-
+"""
 list2 = [10,20,30,40]
 max=list2[0]
 min=list2[0]
@@ -55,4 +56,13 @@ for i in range(len(list2)):
         min = list2[i]
 print("max",max)
 print("min", min)
+"""
+# 7). Python program to remove all duplicate elements from the list.
+list = [10,20,40,10,20,20,40,50,10,50]
+duplicatelist=[]
+for i in range(len(list)):
+    if list[i] not in duplicatelist:
+        duplicatelist.append(list[i])
+
+print(duplicatelist)
 
