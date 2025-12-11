@@ -44,7 +44,7 @@ l1=[5,7,8,2,9]
 result=[x**2 for x in l1]
 print(result)
 
-#proper for loop
+#program for loop
 l2=[]
 l3=0
 for val in l1:
