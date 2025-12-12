@@ -144,7 +144,7 @@ print("list_y :", list_y)  # ['a', 'b', 'd', 'f']
 
 print("_" * 50)
 ################################
-# sort() method : This method sort list data in ascending and descending order.
+# sort() method : This method sort list data in ascending and d-escending order.
 #                 This method will update the original list
 
 list_1 = [6, 2, 7, 1, 3, 5]

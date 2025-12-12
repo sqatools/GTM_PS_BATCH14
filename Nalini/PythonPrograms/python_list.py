@@ -145,4 +145,4 @@ print("list_y :", list_y) # ['a', 'b', 'c', 'd', 'f']
 # remove from specific index
 v2 = list_y.pop(2)
 print("removed value :", v2)  # removed value : c
-print("list_y :", list_y) # ['a', 'b', 'd', 'f']
+# print("list_y :", list_y) # ['a', 'b', 'd', 'f'])
