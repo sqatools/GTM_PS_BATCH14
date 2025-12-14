@@ -93,5 +93,3 @@ print("result:", result)  # (16, 36, 64, 81, 4, 9)
 # get all even value from tuple
 result2 = tuple(x for x in tup1 if x%2 ==0)
 print("result2 :", result2) # (4, 6, 8, 2)
-
-
