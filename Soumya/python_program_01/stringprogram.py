@@ -74,13 +74,3 @@ print("Largest word and largest len:", largst_word, largst_len)
 #Q5 write a python program to convert odd length word in upper case and even length word in lower case.
 str5 = "India iS BesT country in the world"
 # output = "INDIA is best COUNTRY in THE WORLD"
-
-
-
-
-
-
-
-
-
-

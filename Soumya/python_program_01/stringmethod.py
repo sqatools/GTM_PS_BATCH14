@@ -1,3 +1,4 @@
+
 print(dir(str))
 """
 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith',
@@ -14,8 +15,8 @@ print("_"*50)
 ##########
 # upper() and lower() method:
 s1 = "Hello GooD MoRning"
-print("lower case result :", s1.lower())  # hello good morning #lowe
-print("upper case result :", s1.upper())  # HELLO GOOD MORNING #upper
+print("lower case result :", s1.lower())  # hello good morning
+print("upper case result :", s1.upper())  # HELLO GOOD MORNING
 
 print("_"*50)
 ##########
@@ -130,34 +131,22 @@ print("result2 :", r2, type(r2))  # Hello Good Morning  # https://sqatools.in/py
 
 
 print("_"*50)
-################ summary and practice
+################
 # strip() method: this method remove trailing spaces.
 s5 = "  Programming  "
 print(s5)
 print(s5.strip())  # Programming  # remove both side sapces
 print(s5.lstrip()) # remove left side space
 print(s5.rstrip()) # remove right side space
-############################################################
-print("***"*21)
 
-s11 = "Hello GooD MoRning"
-s21 = "HELLO"
-S22 ="lower hello"
-print("lower case result :", s1.lower())  # hello good morning #lowe
-print("upper case result :", s1.upper())  # HELLO GOOD MORNING #upper
-print("s1 is upper:", s1.isupper())  # s1 is upper: False
-print("s21 is upper :", s21.isupper()) # s21 is upper : True
-print("s22 is lower :", s4.islower()) # s4 is lower : True
-print(s11.swapcase()) #
-print(s11.title())
-print(s11.capitalize())
-print(s11.index("e"))
-print(s11.join("-"))
-print(s11.split())
-print(s11.strip())
-print(s11.replace("e","a"))
-###########
+print("_"*50)
+#################
+str_b = "345678879"
+str_c = "Hello 768789"
+str_d = "Python123"
+str_e = "GoodMorning"
 
-print("   @@@@  "*120)
-
-
+print("str_b is contains number :", str_b.isnumeric()) # True
+print("str_d is contains alpha number :", str_d.isalnum()) # True
+print("str_c is contains only alpha:", str_c.isalpha()) #  False
+print("str_e is contains only alpha:", str_e.isalpha()) #  True

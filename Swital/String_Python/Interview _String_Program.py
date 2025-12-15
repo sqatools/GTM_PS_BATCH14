@@ -56,3 +56,31 @@ print(second_longest)
 
 print("#"*50)
 str8 = "Motivation inspires dedication and give us strength"
+
+word_split = str8.split(" ")
+longest = ""
+word_len = 0
+
+for word in word_split:
+    print(word, len(word))
+    if len(word) > word_len: # for dedication print if len(word) >= word_len:
+        word_len = len(word)
+        longest = word
+
+print(longest)
+print("*"*50)
+
+str9 = "Motivation inspires dedication and give us strength"
+
+word_split = str9.split(" ")
+word_len = 0
+longest_words = []
+
+for word in word_split:
+    if len(word) > word_len:
+        word_len = len(word)
+        longest_words = [word]   # reset list
+    elif len(word) == word_len:
+        longest_words.append(word)
+
+print(longest_words)

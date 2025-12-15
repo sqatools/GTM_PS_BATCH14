@@ -154,11 +154,12 @@ for i in range(len(str15)-1):
     if str15[i]==str15[i+1]:
         temp=temp+1
         if temp > repeat_count:
+
             repeat_count=temp
+
             repeat_char=str15[i]
     else:
        temp=1
-
 print(repeat_count,repeat_char)
 
 
