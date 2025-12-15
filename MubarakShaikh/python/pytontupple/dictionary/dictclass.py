@@ -62,6 +62,7 @@ print("#"*50)
 price_dict = {'Apple': 50, 'Banana': 60, 'Mango': 200, 'watermelon': 300}
 item_purchased = {'Apple': 5, 'Banana': 15, 'Mango': 5, 'watermelon': 2}
 
+fruit_bill_dict = {}
 total_bill = 0
 for fruit, price in price_dict.items():
     # get fruit name
@@ -80,15 +81,5 @@ for fruit, price in price_dict.items():
     print("_"*20)
 
 print("Total fruit bill :", total_bill) # Total fruit bill : 2750
-
-fruit_bill_dict = {'1': 'one', '2': 'two', '3': 'three', '4': 'four', '5':'five',
-                   '6': 'six', '7': 'seven', '8': 'eight', '9': 'nine', '0': 'zero'}
-word_result = ""
-for val in str(total_bill):
-    print(val)
-    word_result = word_result + fruit_bill_dict[val] + " "
-
-print("bill on words :", word_result)
-
 print("Fruit bill data :", fruit_bill_dict)
 # Fruit bill data : {'Apple': 250, 'Banana': 900, 'Mango': 1000, 'watermelon': 600}
