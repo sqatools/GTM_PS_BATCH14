@@ -32,3 +32,18 @@ print(dup)
 #Find Largest Number in List (Without max)
 l1=[1, 6, 87, 81, 89]
 largest=l1[0]
+
+
+#prime number
+num1=16
+count=0
+for i in range(2, num1):
+    if num1%i==0:
+        count+=1
+        break
+    else:
+        continue
+if count>0:
+    print("given number is not a prime number")
+else:
+    print("given number is a prime number")
