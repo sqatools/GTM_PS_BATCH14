@@ -83,3 +83,4 @@ for fruit, price in price_dict.items():
 print("Total fruit bill :", total_bill) # Total fruit bill : 2750
 print("Fruit bill data :", fruit_bill_dict)
 # Fruit bill data : {'Apple': 250, 'Banana': 900, 'Mango': 1000, 'watermelon': 600}
+
