@@ -12,7 +12,7 @@ list2=[4,5,6]
 list3=list1+list2
 print(list3)
 '''
-from Nalini.PythonPrograms.python_listprogams import duplicatelist
+
 
 #3
 '''
