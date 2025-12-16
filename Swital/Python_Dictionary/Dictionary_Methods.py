@@ -59,8 +59,6 @@ print("_"*50)
 print(dir(dict))
 # 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
 
-
-
 print("_"*50)
 #### Add data to dict ####
 dict_a = {'a': 123, 'b': 345}

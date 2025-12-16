@@ -21,10 +21,30 @@ print("output1 :", output1)
 
 print("#"*50)
 #######################################################################
-#Home Work Python code to generate dictionary output from given string.
-
-str2 = "Hello we Are Learning Python"
+#Home Work str2 = "Hello we Are Learning Python"
 # expected output1 = {'Ho': 'Hello', 'we': 'we', 'Ae': 'Are', 'Lg': 'Learning', 'Pn': 'Python'}
+
+print("*"*50)
+output1 = {}
+word_list = str1.split(" ")
+str1 = "Hello we Are Learning Python"
+# empty dict variable
+output1 = {}
+# split to get list of words
+word_list = str1.split(" ") # ['Hello', 'we', 'Are', 'Learning', 'Python']
+print(word_list)
+
+for word in word_list: # Hello
+    f_char = word[0]
+    f_char1 = word[-1]
+    f_char2 = f_char+f_char1
+    output1[f_char2] = word
+
+print("output1 :", output1)
+
+
+
+
 
 
 print("#"*50)

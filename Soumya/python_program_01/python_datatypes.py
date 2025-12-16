@@ -113,7 +113,7 @@ print("s5 :", s5, type(s5))
 print("_" * 15)
 print("s6 :", s6, type(s6))
 
-s7 = "ello, we are 6768766 &*&*(&( ##%$# learning Python " \
+s7 = "Hello, we are 6768766 &*&*(&( ##%$# learning Python " \
      "ProgrammingVery good evening"
 
 print("s7 :", s7, type(s7))
