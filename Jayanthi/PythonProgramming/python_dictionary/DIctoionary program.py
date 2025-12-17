@@ -36,5 +36,31 @@ for fruit,prize in dict_item.items():
 print("Total bill:",total_bill)
 
 
+#Q3 : 2). Python Dictionary program to print the square of all values in a dictionary.
+"""Input : {‘a’: 5, ‘b’:3, ‘c’: 6, ‘d’ : 8}
+Output :
+a : 25
+b : 9
+c : 36
+d : 64"""
+print('-'*50)
+input ={'a': 5, 'b':3, 'c': 6, 'd' : 8}
+for i in input:
+    print(i,":",input[i])
+
+print('-'*50)
+input ={'a': 5, 'b':3, 'c': 6, 'd' : 8}
+for i in input:
+    print(i,":",input[i])
+
+
+#
+
+
+
+
+
+
+
 
 
