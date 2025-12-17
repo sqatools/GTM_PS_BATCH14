@@ -59,8 +59,6 @@ print("_"*50)
 print(dir(dict))
 # 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
 
-
-
 print("_"*50)
 #### Add data to dict ####
 dict_a = {'a': 123, 'b': 345}
@@ -154,63 +152,4 @@ dict_1['d'] = 444
 print("dict_1 :", dict_1, id(dict_1)) # {'a': 111, 'b': 222, 'd': 444}
 print("dict_2:", dict_2, id(dict_2)) # {'a': 111, 'b': 222, 'c': 333}
 
-print("_"*50)
-##############################################
-# sort python dictionary
-list1 = [3, 1, 6, 8, 12, 2]
-# sorted function takes list as input and return the sorted value in the list
-# and does not modify the original list
-result = sorted(list1)
-print("sorted result :", result )  # list1 = [1, 2, 3, 6, 8, 12]
-print("list1 :", list1) # list1 : [3, 1, 6, 8, 12, 2]
-
-list1.sort() # sort method modifies original list
-print("list1 :", list1) # [1, 2, 3, 6, 8, 12]
-
-print("#"*50)
-#########################################################
-
-my_dict = {'a': 500, 'c': 200, 'e': 400, 'b': 700}
-
-# sorted with keys of dicts
-sorted_dict = sorted(my_dict.items())
-print(sorted_dict) # [('a', 500), ('b', 700), ('c', 200), ('e', 400)]
-print(dict(sorted_dict)) # {'a': 500, 'b': 700, 'c': 200, 'e': 400}
-
-
-# sorted with values of dict
-result2 = sorted(my_dict.items(), key=lambda item:item[1])
-print("sorted dict with values :", dict(result2))
-# {'c': 200, 'e': 400, 'a': 500, 'b': 700}
-
-
-print("_"*40)
-nested_list = [['a', 1], ['d', 10], ['c', 30], ['e', 20]]
-result3 = sorted(nested_list)
-print(result3) # [['a', 1], ['c', 30], ['d', 10], ['e', 20]]
-
-# sorted on the basic index second value of child key
-result4 = sorted(nested_list, key=lambda x: x[1])
-print("result4 :", result4) # [['a', 1], ['d', 10], ['e', 20], ['c', 30]]
-
-
-result5 = sorted(nested_list, key=lambda x: x[1])
-print("result5 :", result5) # [['a', 1], ['d', 10], ['e', 20], ['c', 30]]
-
-print("_"*50)
-######################################
-list2 = [50, 20, 1, 3, 5, 7]
-
-ascending_sort = sorted(list2)
-print(ascending_sort) # [1, 3, 5, 7, 20, 50]
-
-descending_sort = sorted(list2, reverse=True)
-print(descending_sort) # [50, 20, 7, 5, 3, 1]
-
-my_dict = {'a': 500, 'c': 200, 'e': 400, 'b': 700}
-
-
-dict_desc = sorted(my_dict.items(), reverse=True)
-print("descending order :", dict(dict_desc))
-# {'e': 400, 'c': 200, 'b': 700, 'a': 500}
 
