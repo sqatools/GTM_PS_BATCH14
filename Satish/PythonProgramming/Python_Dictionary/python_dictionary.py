@@ -115,4 +115,43 @@ dict_2 = dict_1.copy()
 dict_2['c'] = 333
 dict_1['d'] = 444
 print("dict_1 :", dict_1, id(dict_1)) # {'a': 111, 'b': 222, 'd': 444}
-print("dict_2:", dict_2, id(dict_2)) # {'a': 111, 'b': 222, 'c':
+print("dict_2:", dict_2, id(dict_2)) # {'a': 111, 'b': 222, 'c': 333}
+
+print("#"*50)
+#sort list
+list1=[4,1,7,8,9]
+list1.sort()
+print(list1) #[1, 4, 7, 8, 9]
+#sort is a method and it modify original list
+list1.sort(reverse=True)
+print(list1)#[9, 8, 7, 4, 1]
+
+print("8"*50)
+list2=[3,1,6,8,10]
+sorted_list=sorted(list2) #[1, 3, 6, 8, 10]
+print(sorted_list)
+print(list2) #[3, 1, 6, 8, 10]
+
+#sorted is a function and it does't modify original list
+
+
+
+
+#sort dictionary with keys of dicts
+dict_a={4:100,3:300,2:200,1:400}
+sorted_dict=sorted(dict_a.items())
+print(dict(sorted_dict)) #{1: 400, 2: 200, 3: 300, 4: 100}
+print(dict_a) #{4: 400, 3: 300, 2: 200, 1: 100}
+#Sorted function doesn't modify original dictionary .
+#sorted function works on iterarble so we have used items method to convert dictionary to list of key,value tuples
+
+print("p"*50)
+
+#sort dictionary with values of dicts
+sorted_dict=sorted(dict_a.items(),key=lambda x:x[1]) # x ia parameter we have taken x[1] i.e. value
+print(dict(sorted_dict)) #{4: 100, 2: 200, 3: 300, 1: 400} In this key are arranged
+
+def fc(x):
+    print(x[1])
+
+fc([1,2,3]) # 2
