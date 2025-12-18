@@ -286,3 +286,5 @@ list_2 = [5, 7, 8, 2, 9]
 square = [x**2 for x in list_2]
 print("square of values :", square)
 # [25, 49, 64, 4, 81]
+
+#list, string dictionary

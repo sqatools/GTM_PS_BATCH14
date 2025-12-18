@@ -1,4 +1,5 @@
 
+
 # range(start, end value, step)
 """
 ->  range output will include the start value and exclude end value in the output
@@ -8,6 +9,7 @@
 # print values from 1 to 10
 for i in range(1, 11, 1):
     print(i)
+
 
 
 print("_"*40)
@@ -242,3 +244,21 @@ for i in range(1, 6): # i =1, 2, 3, 4, 5
 *       *
   * * *
 """
+
+print("_"*40)
+for i in range(1,6,1):
+    for j in range(i,6, 1):
+        print("*", end=" ")
+    print()
+
+for i in range(1, 8):
+    for j in range(1, 7):
+        if i == 1 or i == 2:
+            print("*", end=" ")
+        elif i in [3, 4, 5, 6, 7]:
+            if j in [3, 4]:
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+
+    print()
