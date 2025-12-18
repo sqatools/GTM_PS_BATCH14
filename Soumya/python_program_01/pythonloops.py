@@ -1,13 +1,3 @@
-"""
-list1 = [1, 2, 6, 5, 7 , 10, 19]
-for i in list1:
-    if i%2==0 :
-        print(i)
-"""
-
-print(""*30)
-for val3 in range(5,10):
-    print(val3)
 
 # range(start, end value, step)
 """
@@ -120,10 +110,9 @@ for i in range(1, 6, 1): # i = 1, 2, 3, 4, 5
 
 print("_"*40)
 #########################################################
-# While loop condition.
+
 """
-while cond:
-   code
+while cond:code
 """
 
 # print values from 1 to 10 using while loop
@@ -148,7 +137,7 @@ print("_"*40)
 # continue statement: when the continue condition is satisfied then it will move loop to next interation
 # without executing the remaining code.
 
-# print values from 1 to 10 with continue statement
+    # print values from 1 to 10 with continue statement
 v1 = 1
 while v1 <= 10: # v1 = 1, 2, 3, 4
     if v1 == 3 or v1 == 7 or v1 == 5:
@@ -253,32 +242,3 @@ for i in range(1, 6): # i =1, 2, 3, 4, 5
 *       *
   * * *
 """
-
-print("_"*40)
-# Explanation prime number program
-num = 12 # user input
-prime = True # consider this number prime
-for i in range(2, num): #(2, 17)
-    print("i:",i) # 2
-    # check the number is divisible by i
-    if num%i == 0: # (12%2 == 0)
-        # increase counter if value is divisible by any value
-        prime = False
-        break
-
-
-
-if prime is True:
-    print("This is prime number :", num)
-else:
-    print("This is not a prime number :", num)
-
-
-"""
-1). Write a Python loops program to find those numbers which are divisible by 7 and multiple of 5, 
-between 1500 and 2700 (both included).
-"""
-
-
-
-
