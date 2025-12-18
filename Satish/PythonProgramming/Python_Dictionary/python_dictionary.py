@@ -39,3 +39,119 @@ print(dir(dict))
 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
 
 """
+
+#keys() method returns list of keys from dictionary.
+
+dict3={'a':123,'b':222,'c':333}
+print("list of keys",dict3.keys()) #['a', 'b', 'c']
+
+#values() method returns list of values from dictionary.
+
+dict3={'a':123,'b':222,'c':333}
+print("list of values",dict3.values()) # [123, 222, 333]
+
+## get method :  get method return the specific data with the help of key.
+
+print(dict3.get('c')) #333
+
+#items() methos returns list of key value
+print(dict3.items()) #[('a', 123), ('b', 222), ('c', 333)]
+
+# pop():  this method remove any specific key-value  from dict with the help of keys
+dict4={1:'a',2:'b',3:'c'}
+print(dict4.pop(2)) #b
+print(dict4) #{1: 'a', 3: 'c'}
+
+print("#"*50)
+#popitem(): this method will remove key value pair from dict and return it. it will remove data from end of
+# the dictionary.
+dict5={1:'a',2:'b',3:'c'}
+print(dict5.popitem()) #(3, 'c')
+print(dict5) #{1: 'a', 2: 'b'}
+
+print("_"*50)
+#### Add data to dict ####
+dict6={1:'a',2:'b',3:'c'}
+dict6[4]='d'
+print(dict6) #{1: 'a', 2: 'b', 3: 'c', 4: 'd'}
+
+print("#"*50)
+###### Update method ####
+# using this method we can update one dict data to another dictionary.
+dict7={1:'a',2:'b',3:'c'}
+dict8={4:'d',5:'e',6:'f'}
+dict7.update(dict8)
+print(dict7) #{1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f'}
+
+# clear method :  clear all the data from dictionary, only empty dict will remain.
+dict7.clear()
+print(dict7) #{}
+
+ #remove variable from memory using "del"
+del dict7#
+#print("dict7 :", dict7)
+# NameError: name 'dict7' is not defined
+
+print("#"*50)
+####################
+# shallow copy: when we assign one dict data to another dict, and if modify any of the dict, then changes will
+# reflect in both dictionary, then it is called shallow copy.
+
+dict_i = {'x': 100, 'y': 200}
+dict_j = dict_i
+dict_j['z'] = 300
+dict_i['w'] = 400
+
+print("dict_i :", dict_i, id(dict_i)) # dict_i : {'x': 100, 'y': 200, 'z': 300, 'w': 400}
+print("dict_j :", dict_j, id(dict_j)) # dict_i : {'x': 100, 'y': 200, 'z': 300, 'w': 400}
+
+
+print("#"*50)
+####################
+# Deep copy: In this case we use copy method to copy data from one dict to another dict,
+# and if modify changes in any of the dict, then it will reflect in another dict.
+dict_1 = {'a': 111, 'b': 222}
+dict_2 = dict_1.copy()
+dict_2['c'] = 333
+dict_1['d'] = 444
+print("dict_1 :", dict_1, id(dict_1)) # {'a': 111, 'b': 222, 'd': 444}
+print("dict_2:", dict_2, id(dict_2)) # {'a': 111, 'b': 222, 'c': 333}
+
+print("#"*50)
+#sort list
+list1=[4,1,7,8,9]
+list1.sort()
+print(list1) #[1, 4, 7, 8, 9]
+#sort is a method and it modify original list
+list1.sort(reverse=True)
+print(list1)#[9, 8, 7, 4, 1]
+
+print("8"*50)
+list2=[3,1,6,8,10]
+sorted_list=sorted(list2) #[1, 3, 6, 8, 10]
+print(sorted_list)
+print(list2) #[3, 1, 6, 8, 10]
+
+#sorted is a function and it does't modify original list
+
+
+
+
+#sort dictionary with keys of dicts
+dict_a={4:100,3:300,2:200,1:400}
+sorted_dict=sorted(dict_a.items())
+print(dict(sorted_dict)) #{1: 400, 2: 200, 3: 300, 4: 100}
+print(dict_a) #{4: 400, 3: 300, 2: 200, 1: 100}
+#Sorted function doesn't modify original dictionary .
+#sorted function works on iterarble so we have used items method to convert dictionary to list of key,value tuples
+
+print("p"*50)
+
+#sort dictionary with values of dicts
+sorted_dict=sorted(dict_a.items(),key=lambda x:x[1]) # x ia parameter we have taken x[1] i.e. value
+print(dict(sorted_dict)) #{4: 100, 2: 200, 3: 300, 1: 400} In this key are arranged
+
+def fc(x):
+    print(x[1])
+
+fc([1,2,3]) # 2

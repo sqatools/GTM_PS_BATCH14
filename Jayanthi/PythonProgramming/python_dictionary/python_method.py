@@ -71,6 +71,18 @@ dict_k['d']=444
 print(dict_k)
 print(dict_l)
 
+#Sorting
+my_dict={'a':500,'e':200,'b':300,'c':700}
+#sort with keys
+sorted_dict= sorted(my_dict.items())
+print(dict(sorted_dict))
+#Sort with value
+sorted_dict1=sorted(my_dict.items(),key=lambda item:item[1])
+print(dict(sorted_dict1))
+
+
+
+
 
 
 
