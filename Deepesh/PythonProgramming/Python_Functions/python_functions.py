@@ -106,11 +106,14 @@ multiplication(60, 10)
 
 multiplication(2)
 # Multiplication, x=2, y=8: 16
-
-
+x = y = 8
+multiplication(x, y)
 
 def addition_values(A, B, C=30, D=50):
     print("addition :", A+B+C+D)
 
 addition_values(10, 20)
 # addition : 110
+
+addition_values(A=20, B=50, D=70)
+# addition : 170
