@@ -87,13 +87,16 @@ for i in range(1, 6):
   * * *
   
 """
+print("*"*40)
+for i in range(1, 7):
+    for j in range(1, 6):
+        if i == 1 or i == 5:
+            print("  * * *")
+        else:
+            print("*", "", "", "", "   *")
 """
-for i in range(1, 6):
-    if i == 1 or i == 5:
-        print("  * * *")
-    else:
-        print("*", "", "", "", "   *")
 """
+
 
 """
 for i in range(1, 7):
@@ -111,7 +114,7 @@ for i in range(1, 7):
         else:
             print(j, end="")
 
-"""
+
 """
 for i in range(1, 7):
     for j in range(1, 6):
@@ -181,14 +184,14 @@ print(output3)
 
 
 """
-Create a variable named greeting and assign it the string "Welcome to Python Programming".
-Print the greeting variable.
-Modify the string to include your instructor name "Rahul!". For example, "Welcome to Python Programming, 
-[Instructor Name]!" and print the modified string.
+#Create a variable named greeting and assign it the string "Welcome to Python Programming".
+#Print the greeting variable.
+#Modify the string to include your instructor name "Rahul!". For example, "Welcome to Python Programming,
+#[Instructor Name]!" and print the modified string.
 
-Expected Result:
-Welcome to Python Programming
-Welcome to Python Programming, Rahul!
+#Expected Result:
+#Welcome to Python Programming
+#Welcome to Python Programming, Rahul!
 """
 
 print("_"*40)
@@ -250,8 +253,8 @@ elif hour>=12 and hour<=17:
 elif hour>=18 and hour<=21:
     print("Good Evening")
 else:
-    print("Good Night")
-
+print("Good Night")
+"""
 
 
 
