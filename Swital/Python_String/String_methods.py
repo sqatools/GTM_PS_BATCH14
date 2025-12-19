@@ -32,3 +32,16 @@ result14 = str_p.find("is")
 print("Find method:", result14)
 result15 = str_p.replace("Makes", "Make")
 print("Replace method:", result15)
+# Using partition() to split a string based on the first occurrence of a substring
+my_string = "Hello world! Welcome to Python."
+
+# Split the string at the first occurrence of ","
+result = my_string.partition("!")
+
+print(result)
+
+# Example using expandtabs() to replace tabs with spaces
+text = "Hello\tWorld\tPython"
+expanded_text = text.expandtabs(5)  # Replaces tabs with 4 spaces
+
+print(expanded_text)
