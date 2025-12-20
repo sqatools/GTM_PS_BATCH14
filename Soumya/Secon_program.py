@@ -72,7 +72,7 @@ Output: 27
 
 """
 print("_"*50)
-l = [6,9,4,5,3]
+l = [6,9,4,5,3, 7]
 def total(l):
     for val in l:
         t=0
