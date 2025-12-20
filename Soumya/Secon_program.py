@@ -71,6 +71,7 @@ Input : [6,9,4,5,3]
 Output: 27
 
 """
+print("_"*50)
 l = [6,9,4,5,3]
 def total(l):
     for val in l:
