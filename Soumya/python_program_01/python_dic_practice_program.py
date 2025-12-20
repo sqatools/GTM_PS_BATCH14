@@ -232,3 +232,4 @@ total =0
 for val in d1.values():
     total+=val
 print(total)
+
