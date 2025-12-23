@@ -172,3 +172,43 @@ print("_"*50)
 result_add = addition_of_values(10)
 print("addition result :", result_add)
 
+
+print("_"*50)
+# return multiple values from function
+
+def calculator(a,b):
+    add=a+b
+    mul=a*b
+    sub=a-b
+    div=a/b
+    return add,mul,sub,div
+
+result=calculator(20,10)
+print(f"result:{result}") #result:(30, 200, 10, 2.0)
+
+# or we can take retrn value in variable as follows
+
+w,x,y,z=calculator(20,10)
+print(f"addition is {w}")
+print(f"multiplication is {x}")
+print(f"subtraction is {y}")
+print(f"divide is {z}")
+
+"""
+addition is 30
+multiplication is 200
+subtraction is 10
+divide is 2.0
+"""
+
+# We can also use **kwargs to do above calculator operation
+# Note kwargs is also a variable name and we can give any name and it accept value as dictionary that's why we have put single coma in a for key to get value of key what we do in case of dictionary
+def calculator_2(**kwargs):
+    add=kwargs['a']+kwargs['b']
+    mul=kwargs['a'] * kwargs['b']
+    div=kwargs['a']/kwargs['b']
+    return add,mul,div
+
+
+p,q,r=calculator_2(a=30,b=40)
+print(p,q,r)#70 1200 0.75
