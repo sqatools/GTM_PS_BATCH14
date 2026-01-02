@@ -60,11 +60,46 @@ def read_all_data_excel(file_path, sheet_name):
     sheet = workbook[sheet_name]
     
     # Iterate through all rows and columns
-    for row in sheet.iter_rows(values_only=True, ):
+    for row in sheet.iter_rows(values_only=True)[0:]:
         print(row)
 
-print("#"*50)
-#read_all_data_excel(file_path='users_data.xlsx', sheet_name='Sheet4')
-for cell in "ABCDEFGHIJ":
-    read_excel_file(file_path='users_data.xlsx', sheet_name='Sheet1', cell_name=f'{cell}1')
+# print("#"*50)
+# #read_all_data_excel(file_path='users_data.xlsx', sheet_name='Sheet4')
+# for cell in "ABCDEFGHIJ":
+#     read_excel_file(file_path='users_data.xlsx', sheet_name='Sheet1', cell_name=f'{cell}1')
 
+#read_all_data_excel(file_path='users_data.xlsx', sheet_name='Sheet2')
+
+
+def read_all_data_excel(file_path, sheet_name):
+    # Load the workbook
+    workbook = openpyxl.load_workbook(file_path)
+    # Select the specified sheet
+    sheet = workbook[sheet_name]
+    
+    # Iterate through all rows and columns
+    max_row = sheet.max_row # maximum number of rows
+    max_column = sheet.max_column # maximum number of columns
+    for i in range(2, max_row + 1):
+        for j in range(1, max_column + 1):
+            cell_value = sheet.cell(row=i, column=j).value
+            print(cell_value, end=" | ")
+        print()  # New line after each row
+        
+
+#read_all_data_excel(file_path='users_data.xlsx', sheet_name='Sheet2')
+
+
+def read_all_data_excel_new(file_path, sheet_name):
+    # Load the workbook
+    workbook = openpyxl.load_workbook(file_path)
+    # Select the specified sheet
+    sheet = workbook[sheet_name]
+    
+    # Iterate through all rows and columns
+    rows_values = list(sheet.iter_rows(values_only=True))
+    # print(rows_values)
+    for row in rows_values[1:]:
+        print(row)
+
+read_all_data_excel_new(file_path='users_data.xlsx', sheet_name='Sheet2')
