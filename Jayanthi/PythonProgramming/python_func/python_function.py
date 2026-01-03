@@ -50,10 +50,33 @@ def verify_login(**kwargs):
 verify_login(user_name='Janvika',password='12345')
 verify_login(user_name='pari',password='12345')
 
-def fact
+def fact(num):
+    fact=1
+    for i in range(num,0,-1):
+        fact=fact*i
+    return fact
+result=fact(6)
+print("factorial",result)
+print("_"*50)
 
+# return statement can stop the execution of the function
 
+def get_add_of_number(num):
+    add=0
+    for i in range(num+1):
+        if add>30:
+            return add
+        add=add+i
+    print("Add value inside function:",add)
+print(get_add_of_number(10))
+print('_'*50)
 
-
-
-
+def get_multiple_value(n1,n2,n3):
+    add=n1+n2
+    sub=n2-n3   
+    mul=n3*n1
+    return add,sub,mul
+result=get_multiple_value(10,5,2)
+print("Multiple value return:",result)
+print("Add:",result[0],"sub:",result[1],"mul:",result[2])
+print('_'*50)

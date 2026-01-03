@@ -15,3 +15,7 @@ result=greeting()
 print(result) #Hello!
 
 
+# If we import only module then we have to use function as module1.add
+import module1
+result=module1.add(5,6)
+print(result)
