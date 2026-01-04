@@ -79,3 +79,16 @@ def read_all_data_excel(file_path, sheet_name):
             print(cell_value, end=" | ")
         print()  # New line after each row
 read_all_data_excel(file_path='Read_Excel.xlsx', sheet_name='Sheet3')
+
+# using iter_rows
+def read_all_data_excel(file_path, sheet_name): 
+    # Load the workbook
+    workbook = openpyxl.load_workbook(file_path)
+    # Select the specified sheet
+    sheet = workbook[sheet_name]
+    
+    # Iterate through all rows and columns
+    rows_values = list(sheet.iter_rows(values_only=True))
+    for row in rows_values[1:]:  # Skip header row
+        print(row)
+read_all_data_excel(file_path='Read_Excel.xlsx', sheet_name='Sheet1')
