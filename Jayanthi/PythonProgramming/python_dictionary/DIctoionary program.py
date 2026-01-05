@@ -17,7 +17,7 @@ output={}
 word_list=str.split(" ")
 print(word_list)
 for word in word_list:
-    f_char=word[0:2]
+    f_char=word[0]+word[-1]
     output[f_char]=word
 print(output)
 
