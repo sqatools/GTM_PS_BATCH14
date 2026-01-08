@@ -10,4 +10,14 @@ def mul():
     print("mul:", var_x * var_z)
     print("mul:",var_x * var_y) #error since no var_y in global
 mul()
+print("_"*50)
 
+""" Function calling function"""
+
+def square(num):
+    print("Square:", num * num)
+    if num == 1:
+        return num
+    else:
+        return square(num - 1)
+square(5)

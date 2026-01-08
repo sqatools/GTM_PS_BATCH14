@@ -247,3 +247,32 @@ for char in str21:
         output1 += char
 print(output1)
 
+# 22). Write a Python program to find the longest capital letter word from the string.
+# Input = “Learning PYTHON programming is FUN”
+# Output = “PYTHON”
+
+str23 = "Learning PYTHON programming is FUN"
+word_list = str23.split(" ")
+cap_word = ""
+for word in word_list:
+    if word.isupper() and len(word) > len(cap_word):
+        cap_word = word
+print("Longest capital letter word: ", cap_word)
+
+print("-"*100)
+
+# 23). Write a Python program to get common words from strings.
+# Input String1 = “Very Good Morning, How are You”
+# Input String2 = “You are a Good student, keep it up”
+# Output = “You Good are”
+
+str24_1 = "Very Good Morning, How are You"
+str24_2 = "You are a Good student, keep it up"  
+word_list1 = str24_1.replace(",", "").split(" ")
+word_list2 = str24_2.replace(",", "").split(" ")    
+common_words = []
+for word in word_list1:
+    if word in word_list2:
+        common_words.append(word)   
+print("Common words: ", " ".join(common_words))
+print("-"*100)

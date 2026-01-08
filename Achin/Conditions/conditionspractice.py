@@ -17,7 +17,7 @@ for i in range(1,31):
 """
 
 #3
-'''
+
 marks=int(input("Enter any marks:"))
 
 if(marks<40):
@@ -36,7 +36,7 @@ elif(marks>=90 and marks<100):
     print("excellent")
 else:
     print("you have to enter marks less than 100")
-'''
+
 #4
 
 #prime number
