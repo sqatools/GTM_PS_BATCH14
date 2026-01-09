@@ -34,5 +34,25 @@ a= dic_2.items()
 
 b=dic_2.clear()
 print (a,b)
+print("#"*30)
+
+
+print("_"*50)
+#print(dir(dict))
+# 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+#Shallow copy ---- Copies dic value updated in one dict to other
+dic_a={'x':"100" , 'y':"200" , 'z':"300" }
+dic_b= dic_a
+dic_b['u']="150"
+print(dic_b, dic_a)
+
+print()
+
+
+
+
+
+
 
 
