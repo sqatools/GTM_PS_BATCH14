@@ -45,3 +45,105 @@ for k in enumerate(dict3):
 (1, 'y')
 (2, 'z')
 '''
+#'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+
+print('-'*100)
+##########################################
+print('*'*15,'Add Method', '*'*15)
+d1={'a': 1, 'b': 2, 'c':3}
+print(d1) # {'a': 1, 'b': 2, 'c': 3}
+d1['d']=5
+print('new', d1) # new {'a': 1, 'b': 2, 'c': 3, 'd': 5}
+
+print('-'*100)
+##########################################
+print('*'*15,'Update Method', '*'*15)
+d2={'a': 1, 'b': 2, 'c':3}
+d3={'d': 1, 'e': 2, 'c':5}
+d2.update(d3)
+print(d2) # {'a': 1, 'b': 2, 'c': 5, 'd': 1, 'e': 2}
+print(d3) # {'d': 1, 'e': 2, 'c': 5}
+
+print('-'*100)
+##########################################
+print('*'*15,'Key and value Method', '*'*15)
+d5={'a': 1, 'b': 2, 'c':3}
+
+print('keys', d5.keys()) # keys dict_keys(['a', 'b', 'c'])
+print('values', d5.values()) # values dict_values([1, 2, 3])
+
+print('-'*100)
+##########################################
+print('*'*15,'get Method', '*'*15)
+
+d12={'a': 1, 'b': 2, 'c':3}
+v1=d12.get('c')
+print(v1) # 3
+print(d12) # {'a': 1, 'b': 2, 'c': 3}
+
+print('-'*100)
+##########################################
+print('*'*15,'pop Method', '*'*15)
+
+d7={'d': 1, 'e': 2, 'c':5}
+print('pop', d7.pop('e')) # pop 2
+print(d7) # {'d': 1, 'c': 5}
+
+print('-'*100)
+##########################################
+print('*'*15,'pop item Method', '*'*15)
+
+d8={'d': 1, 'e': 2, 'c':5}
+v= d8.popitem()
+print(v) # ('c', 5)
+print(d8) # {'d': 1, 'e': 2}
+
+print('-'*100)
+##########################################
+print('*'*15,'clear Method', '*'*15)
+
+d9={'d': 1, 'e': 2, 'c':5}
+v= d9.clear()
+print(v) # None
+print(d9) # {}
+
+print('-'*100)
+##########################################
+print('*'*15,'shallow copy Method', '*'*15)
+# d16 will only be a reference. memory address of d15 and d16 will be same
+d15={'a': 1, 'b': 2, 'c':3}
+d16=d15
+print(d15) # {'a': 1, 'b': 2, 'c': 3}
+print(d16) # {'a': 1, 'b': 2, 'c': 3}
+print(id(d15)) # 2701659307200
+print(id(d16)) # 2701659307200
+
+d16['t']=8
+d15['b']=4
+print('new',d15) # new {'a': 1, 'b': 4, 'c': 3, 't': 8}
+print('new',d16) # new {'a': 1, 'b': 4, 'c': 3, 't': 8}
+
+print('-'*100)
+##########################################
+
+print('*'*15,'Deep copy Method', '*'*15)
+# memory address of d17 and d18 will be different
+d17={'a': 1, 'b': 2, 'c':3}
+d18= d17.copy()
+print(d17) # {'a': 1, 'b': 2, 'c': 3}
+print(d18) # {'a': 1, 'b': 2, 'c': 3}
+print(id(d17)) # 2362763607168
+print(id(d18)) # 2362763607104
+
+d17['t']=8
+d18['b']=4
+print('new',d17) # new {'a': 1, 'b': 2, 'c': 3, 't': 8}
+print('new',d18) # new {'a': 1, 'b': 4, 'c': 3}
+
+print('-'*100)
+##########################################
+print('*'*15,'del Method', '*'*15)
+
+d10={'d': 1, 'e': 2, 'c':5}
+del d10
+print(d10) # NameError: name 'd10' is not defined. Did you mean: 'd1'?
