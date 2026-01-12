@@ -102,4 +102,24 @@ def read_all_data_excel_new(file_path, sheet_name):
     for row in rows_values[1:]:
         print(row)
 
-read_all_data_excel_new(file_path='users_data.xlsx', sheet_name='Sheet2')
+#read_all_data_excel_new(file_path='users_data.xlsx', sheet_name='Sheet2')
+
+
+
+def write_excel_file_with_multiple_values(file_path, sheet_name, cell_list, data_list):
+    # Load the workbook
+    workbook = openpyxl.load_workbook(file_path)
+    # Select the specified sheet
+    sheet = workbook[sheet_name]
+    # Write data to the specified cell
+    for i in range(len(cell_list)):
+        sheet[cell_list[i]] = data_list[i]
+    
+    # Save the workbook
+    workbook.save(file_path)
+
+
+cell_list = ['A1', 'B1', 'C1', 'D1', 'A2', 'B2', 'C2']
+data_list1 = [20, 30, 40, 50, 60, 70, 80]
+
+write_excel_file_with_multiple_values(file_path="users_data.xlsx", sheet_name="Sheet5", cell_list=cell_list, data_list=data_list1)
