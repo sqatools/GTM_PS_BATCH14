@@ -52,3 +52,15 @@ t8=(4,5,3,70,3)
 print('Max value is:',max(t8)) # Max value is: 70
 print('Min value is:',min(t8)) # Min value is: 3
 print('Sum value is:',sum(t8)) # Sum value is: 85
+
+print()
+################## for loop ####################
+print("-"*15,'For loop',"-"*15)
+t8=(4,5,3)
+for val in t8:
+    print(val)
+'''
+4
+5
+3
+'''
