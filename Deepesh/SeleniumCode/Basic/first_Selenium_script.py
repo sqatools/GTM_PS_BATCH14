@@ -7,9 +7,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # initialize the Chrome driver
-#driver = webdriver.Chrome()
+driver = webdriver.Chrome()
 # driver = webdriver.Firefox()
-driver = webdriver.Edge()
+# driver = webdriver.Edge()
 # set implicit wait time
 driver.implicitly_wait(10)
 # maximize the browser window
