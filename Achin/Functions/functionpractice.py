@@ -42,7 +42,7 @@ sumoflist(list1)
 
 '''
 #to find unique elements in a list
-
+'''
 list1=[1,2,3,4,5,6,7,8,9,10,5]
 list2=[]
 
@@ -52,4 +52,5 @@ def uniquelist(lst):
             list2.append(i)
     print(list2)
 uniquelist(list1)
+'''
 
