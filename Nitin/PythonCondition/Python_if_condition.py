@@ -23,3 +23,18 @@ if  num>0:
     print("positive number")
 else:
     print("Negative number")
+
+print("----"*50)
+################################
+#3.Check a number is divisible by 5
+num=int(input("Enter a number "))
+
+if num % 5==0:
+    print("The number is divisible by 5" ,num)
+else:
+    print("The number is not divisible by 5",num)
+
+"print("Number is +ve")
+"
+
+
