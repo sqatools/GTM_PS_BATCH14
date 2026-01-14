@@ -16,7 +16,7 @@ time.sleep(10)
 driver.close()
 
 """
-
+"""
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -38,3 +38,4 @@ time.sleep(5)
 driver.find_element(By.XPATH,"(//a[text()='Login Page'])[1]").click()
 time.sleep(5)
 driver.close()
+"""
