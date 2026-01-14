@@ -18,6 +18,13 @@ math_obj = MathOperations()
 print(math_obj.add(10, 20))        # Output: 30
 print(math_obj.add(10, 20, 30))    # Output: 60
 
+class AV:
+    def add(self, *args):
+        return sum(args)
+av_obj = AV()
+print(av_obj.add(10, 20))            # Output: 30
+print(av_obj.add(10, 20, 30, 40))    # Output: 100
+
 #2. method overriding : it is a feature that allows a subclass to provide a specific implementation of a method that is already defined in its superclass.
 class Animal:
     def sound(self):
@@ -34,6 +41,9 @@ cat_obj = Cat()
 print(animal_obj.sound())  # Output: Animal makes a sound
 print(dog_obj.sound())     # Output: Dog barks
 print(cat_obj.sound())     # Output: Cat meows
+
+
+
 
 #3. operator overloading : it is a feature that allows us to define custom behavior for operators in our classes.
 class Point:
