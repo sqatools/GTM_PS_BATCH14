@@ -1,0 +1,33 @@
+Assignment 1: Basic Single Inheritance
+
+Create:
+A class Person with attributes name and age
+A class Employee that inherits from Person
+Add attribute employee_id to Employee
+Create an object of Employee and display all details
+
+Assignment 2: Multilevel Inheritance
+
+Create:
+Class Company
+Class Department inheriting Company
+Class Employee inheriting Department
+Each class should have one unique method
+Call all methods using an Employee object
+
+
+Assignment 3: Method Inheritance
+
+Create:
+A base class "Vehicle" with a method start()
+A derived class "Car" that inherits Vehicle
+Call the start() method using a "Car" object
+
+Assignment 4: Using super()
+
+Create:
+A class "Account" with attribute balance
+A derived class "SavingsAccount"
+Use super() to initialize balance
+Add a method to display account details in SavingsAccount
+create object of SavingsAccount and display details
