@@ -10,12 +10,12 @@ from selenium.webdriver.common.by import By
 
 """
 Selenium Locators:
-    ID : covered 
+    ID :# covered 
     XPATH 
-    LINK_TEXT : covered
-    PARTIAL_LINK_TEXT  : covered
-    NAME  : covered
-    TAG_NAME 
+    LINK_TEXT# covered
+    PARTIAL_LINK_TEXT #  covered
+    NAME #: covered
+    TAG_NAME #  covered
     CLASS_NAME 
     CSS_SELECTOR 
 
@@ -62,13 +62,21 @@ date_time_field.send_keys("12/31/2024 10:30 AM")
 
 
 # LINK_TEXT locator
-google_link = driver.find_element(By.LINK_TEXT, "Open Google")
-google_link.click()
-time.sleep(5)
+#google_link = driver.find_element(By.LINK_TEXT, "Open Google")
+#google_link.click()
+#time.sleep(5)
 
+"""
 # PARTIAL_LINK_TEXT locator
 partial_link = driver.find_element(By.PARTIAL_LINK_TEXT, "Bottom")
 partial_link.click()
+time.sleep(5)
+
+"""
+
+# XPATH locator # press key element
+press_keys = driver.find_element(By.XPATH, "//input[@placeholder='Press any key']")
+press_keys.click()
 time.sleep(5)
 
 
