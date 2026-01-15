@@ -27,7 +27,7 @@ username_input.send_keys("Hema")
 password_input = driver.find_element(By.NAME, "password")
 password_input.send_keys("Hema123")
 address_textarea = driver.find_element(By.NAME, "address")
-address_textarea.clear
+address_textarea.clear()
 address_textarea.send_keys("Sargam, Pune  Maharashtra India")
 
 # GET By XPATH
