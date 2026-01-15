@@ -146,4 +146,40 @@ print('*'*15,'del Method', '*'*15)
 
 d10={'d': 1, 'e': 2, 'c':5}
 del d10
-print(d10) # NameError: name 'd10' is not defined. Did you mean: 'd1'?
+# print(d10) # NameError: name 'd10' is not defined. Did you mean: 'd1'?
+
+print('-'*100)
+##########################################
+print('*'*15,'Sorting Method', '*'*15)
+
+dict_sort= {'a':4,'d':3,'b': 20,'c':5}
+r1=sorted(dict_sort)
+print("Sorting using key:", r1) # Sorting using key: ['a', 'b', 'c', 'd']
+
+r2= sorted(dict_sort.items())
+print("Sorting dict using key:", r2) # Sorting dict using key: [('a', 4), ('b', 20), ('c', 5), ('d', 3)]
+
+r3= sorted(dict_sort.items(), key=lambda item:item[1])
+print("Sorting dict using values:", r3) # Sorting dict using values: [('d', 3), ('a', 4), ('c', 5), ('b', 20)]
+
+r4=sorted(dict_sort.items(), reverse=True)
+print("Sorting in desc dict using key", r4) # Sorting in desc dict using key [('d', 3), ('c', 5), ('b', 20), ('a', 4)]
+
+r5= sorted(dict_sort.items(), key=lambda item:item[1], reverse=True)
+print("Sorting in desc dict using values:", r5) # Sorting in desc dict using values: [('b', 20), ('c', 5), ('a', 4), ('d', 3)]
+
+print('-'*100)
+##########################################
+print('*'*15,'Sorting for same key', '*'*15)
+
+dict_sort= {'a':4,'d':3,'a': 20,'c':5}
+r6=sorted(dict_sort)
+print("Sorting using key:", r6) # Sorting using key: ['a', 'c', 'd']
+
+r7= sorted(dict_sort.items())
+print("Sorting dict using key:", r7) # # Sorting dict using key: [('a', 20), ('c', 5), ('d', 3)]
+
+dict_sort1= {'c':4,'d':3,'a': 4,'b':5}
+r8= sorted(dict_sort1.items(), key=lambda item:item[1])
+print("Sorting dict using values:", r8) # Sorting dict using values: [('d', 3), ('c', 4), ('a', 4), ('b', 5)]
+
