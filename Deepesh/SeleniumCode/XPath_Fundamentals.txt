@@ -18,6 +18,7 @@ There are two main types of XPath:
     -> //input[@placeholder="Enter password"]
     -> //button[@type="submit"]
 
+###################################################################
 Relative Xpath Methods:
 1. text() Method: This method is used to select elements based on their text content.
    e.g. //tagname[text()='textvalue']
@@ -35,4 +36,85 @@ Relative Xpath Methods:
     -> //h1[contains(@class, "entry")]
     -> //h1[contains(text(), 'Automation Practice Page')]
     -> (//h1[contains(text(), 'Automation Practice Page')])[1]
+
+
+3. starts-with() Method: This method is used to select elements whose attribute value or text content starts with a specific substring.
+   e.g. //tagname[starts-with(@attribute,'substring')] or 
+        //tagname[starts-with(text(),'substring')]
+
+    -> //input[starts-with(@id, 'user')]
+    -> //h2[starts-with(text(), 'XPath')]
+
+    -> //button[starts-with(text(), 'Click to')]
+    -> //button[starts-with(@id, 'stale')]
+
+
+4. and & or Operators: These operators are used to combine multiple conditions in an XPath expression.
+   e.g. //tagname[@attribute1='value1' and @attribute2='value2'] or 
+        //tagname[@attribute1='value1' or @attribute2='value2']
+
+    -> //input[@type='text' and @id='username']
+    -> //input[@type='password' and @id='password']
+    -> //input[@type='submit' or @id='loginButton']
+    -> //button[@type='button' or @id='alertButton']
+    -> //input[@type='text' and @value="Enabled"]
+    -> //input[@type='text' or @value="Enabled"]
+
+5. index Method: This method is used to select elements based on their position in a list of similar elements.
+   e.g. (//tagname[@attribute='value'])[index]  
+
+    -> (//input[@type='text'])[1]
+    -> (//input[@type='text'])[2]
+    -> (//button[@type='button'])[1]
+    -> (//button[@type='button'])[2]
+    -> (//h2[contains(text(), 'XPath')])[1]
+    -> (//h2[contains(text(), 'XPath')])[2]
+
+
+###################################################################
+XPath Axes: 
+
+XPath axes are used to navigate through the XML document structure in relation to the current node. Here are some commonly used XPath axes:
+1. child: Selects all child nodes of the current node.
+   e.g. //tagname/child::*
+
+2. parent: Selects the parent node of the current node.
+   e.g. //tagname/parent::*
+   -> //th[text()='ID']/parent::tr
+
+3. ancestor: Selects all ancestor nodes (parent, grandparent, etc.) of the current node.
+   e.g. //tagname/ancestor::*
+   -> //th[text()='ID']/ancestor::section
+
+4. descendant: Selects all descendant nodes (children, grandchildren, etc.) of the current node.
+   e.g. //tagname/descendant::*
+
+5. following-sibling: Selects all sibling nodes that come after the current node.
+   e.g. //tagname/following-sibling::*
+   -> //th[text()='Name']/following-sibling::th
+   -> //th[text()='Name']/following-sibling::th[text()='Role']
+
+
+6. preceding-sibling: Selects all sibling nodes that come before the current node.
+   e.g. //tagname/preceding-sibling::*
+   -> //th[text()='Name']/preceding-sibling::th
+
+
+7. following: Selects all nodes that come after the current node in the document.
+   e.g. //tagname/following::*
+   -> //th[text()='Name']/following::td[text()='Developer']
+   -> //th[text()='Name']/following::input[@id="searchBox"]
+
+
+8. preceding: Selects all nodes that come before the current node in the document.
+   e.g. //tagname/preceding::*
+   -> //th[text()='Name']/preceding::h2[text()='Web Table']
+   -> //th[text()='Name']/preceding::input[@id="username"]
+
+
+
+
+
+
+
 
