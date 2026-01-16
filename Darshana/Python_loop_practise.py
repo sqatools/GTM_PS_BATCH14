@@ -1,7 +1,7 @@
 #apply loop on string
 from sqlite3 import ProgrammingError
 
-str = "Programming1"
+str = "Programming2"
 print(str)
 
 for char in str:
