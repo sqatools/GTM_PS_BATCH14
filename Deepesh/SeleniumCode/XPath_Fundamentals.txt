@@ -72,7 +72,7 @@ Relative Xpath Methods:
 
 
 ###################################################################
-XPath Axes: 
+XPath Axes: Advance XPath Concepts
 
 XPath axes are used to navigate through the XML document structure in relation to the current node. Here are some commonly used XPath axes:
 1. child: Selects all child nodes of the current node.
