@@ -71,6 +71,14 @@ Relative Xpath Methods:
     -> (//h2[contains(text(), 'XPath')])[2]
 
 
+6. normalize-space() Method: This method is used to remove leading and trailing whitespace from the text content of an element.
+   e.g. //tagname[normalize-space(text())='textvalue']
+   
+    -> //h2[normalize-space(text())='XPath Syntax']
+    -> //td[normalize-space(text())='Deepesh']
+    -> //button[normalize-space()='Login'] 
+
+
 ###################################################################
 XPath Axes: Advance XPath Concepts
 
@@ -110,8 +118,6 @@ XPath axes are used to navigate through the XML document structure in relation t
    e.g. //tagname/preceding::*
    -> //th[text()='Name']/preceding::h2[text()='Web Table']
    -> //th[text()='Name']/preceding::input[@id="username"]
-
-
 
 
 
