@@ -1,4 +1,4 @@
-import time
+"""import time
 from webbrowser import Chrome
 from selenium import webdriver
 from selenium.webdriver.common.by import By     
@@ -56,7 +56,7 @@ Mult_Select.click()
 Mult_Select.send_keys("Selenium") 
 Mult_Select.send_keys("API Testing")
 
-
+"""
 print("#" * 20)
 import time
 from selenium import webdriver
@@ -74,6 +74,10 @@ driver.find_element(By.NAME, "password").send_keys("admin123")
 driver.find_element(By.XPATH, "//button[@type='submit']").click()
 time.sleep(1)
 driver.find_element(By.XPATH, "(//span[contains(@class,'oxd-text oxd-text--span oxd-main-menu-item--name')])[6]").click()
-time.sleep(1)
-driver.find_element(By.XPATH, "//form[div =//following::div[@class='oxd-input oxd-input--active']]]").send_keys("77117")
+time.sleep(5)
+element = driver.find_element(By.XPATH, "//label[contains(text(),'Employee Id')]//parent::div/parent::div//input")
+#element.click()
+time.sleep(2)
+element.clear()
+element.send_keys("1234")
 time.sleep(5)   
