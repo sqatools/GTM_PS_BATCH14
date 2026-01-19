@@ -7,8 +7,19 @@ driver.implicitly_wait(10)
 driver.maximize_window()
 driver.get("https://selectorshub.com/xpath-practice-page/")
 
-download_link = driver.find_element(By.XPATH, "//a[text()= 'DownLoad Link']")
-download_link.click()
+# Locate the elements using all possibile locators
+# For email
+driver.find_element(By.NAME, "email")
+driver.find_element(By.XPATH, '//input[@type = 'email']')
+driver.find_element(By.XPATH, "//label[text() = 'User Email']/following-sibling::input[@type = 'email']")
+
+# For password
+driver.find_element(By.NAME, "Password")
+driver.find_element(By.XPATH, '//input[@name='Password']')
+driver.find_element(By.XPATH, "//label[text() = 'Password']/following-sibling::input[@type='password']") 
+
+
+
 
 """
 # Example of Xpath Axis Selectors
