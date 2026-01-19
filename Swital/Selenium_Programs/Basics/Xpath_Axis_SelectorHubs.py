@@ -7,6 +7,10 @@ driver.implicitly_wait(10)
 driver.maximize_window()
 driver.get("https://selectorshub.com/xpath-practice-page/")
 
+download_link = driver.find_element(By.XPATH, "//a[text()= 'DownLoad Link']")
+download_link.click()
+
+"""
 # Example of Xpath Axis Selectors
 #1. child axis
 driver.find_element(By.XPATH, "//div[@id='tableWrapper']/child::table")
@@ -43,3 +47,4 @@ driver.find_element(By.XPATH, "//th[@class='header']/following::h3[text()='Usefu
 #8. preceding axis
 driver.find_element(By.XPATH, "//tr[@class='usr_acn']/preceding::th[@class='header'][3]")
 driver.find_element(By.XPATH, "//td[text()= 'Garry White']/preceding::th[@class='header'][4]")
+"""
