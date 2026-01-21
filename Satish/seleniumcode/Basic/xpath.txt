@@ -1,0 +1,46 @@
+"""
+What is XPath in Selenium (Python)?
+
+XPath (XML Path Language) is a locator strategy used in Selenium to find elements on a web page.
+It navigates through the HTML (DOM structure) of a webpage to identify elements like buttons, text boxes, links, etc.
+
+In Selenium with Python, XPath is commonly used when:
+
+Elements don’t have unique id or name
+
+You need to locate elements based on text, attributes, or relationships
+
+Basic XPath Syntax
+//tagname[@attribute='value']
+
+
+Types of XPath
+1. Absolute XPath ❌ (Not Recommended)
+
+Starts from the root of the HTML document.
+
+/html/body/div[1]/form/input[2] (To get Absolute path right click on element>inspect then right click on html highlighted code >copy>copy full xpath
+
+
+⚠️ Breaks easily if page structure changes.
+
+2. Relative XPath ✅ (Recommended)
+
+Starts from anywhere in the DOM.
+Basic XPath Syntax:
+//tagname[@attribute='value']
+e.g.
+//input[@name='password'] # Here input is a tagname and name is a attribute and password is a vale of attribute
+"""
+
+Relative Xpath Methods:
+1. text() Method: This method is used to select elements based on their text content (e.g. text on button,h1,h2 tag, link etc).
+   e.g. //tagname[text()='textvalue']
+2.contains() Method:
+
+Basic syntax of contains()
+Attribute-based
+//tagname[contains(@attribute,'partial_value')] # partial value means for e.g value is user_123_name then partial value use 'user' only
+
+Text-based
+//tagname[contains(text(),'partial_text')]
