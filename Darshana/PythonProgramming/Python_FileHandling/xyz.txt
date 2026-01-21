@@ -1,0 +1,16 @@
+Bihar Squad: Vaibhav Suryavanshi, 
+Sakibul Gani(c), Piyush Singh, Akash
+Raj, Bipin Saurabh(w), Sabir Khan, 
+Himanshu Singh, Himanshu Tiwari, 
+Honey Singh, Badal Kanaoujia, Kumar 
+Rajnish, Mangal Mahrour, Suraj Kashyap, 
+Shabbir Khan, Ayush Loharuka
+Arunachal Pradesh Squad: Nabam Tempol,
+Neelam Obi, Techi Doria, Nabam Natung,
+Ajit Kamra, Kamsha Yangfo(w/c), 
+Tadakamalla Mohith, Suryansh Singh, 
+Techi Tiklee, Techi Neri, Penjor Mangal,
+This is appended line. adding with append mode.
+This is appended line. adding with append mode.
+This is appended line. adding with append mode.
+This is appended line. adding with append mode.

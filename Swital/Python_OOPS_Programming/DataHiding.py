@@ -3,6 +3,21 @@
 # Any attribute with a name starting with double underscores (__) is considered private 
 # and cannot be accessed directly from outside the class.
 
+"""
+Data Hiding – Best Practice Flow
+
+Create private attribute in constructor
+
+Do NOT access private attribute directly
+
+Create public getter method to read data
+
+Create public setter method to modify data
+
+Private methods stay internal
+
+No name mangling usage in real code"""
+
 class DataHidingExample:
 
     def __init__(self, public_value, private_value):
