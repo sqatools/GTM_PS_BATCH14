@@ -28,6 +28,6 @@
 #
 #     count += 1
 
-fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry","pineapple"]
 for x in fruits:
   print(x)
