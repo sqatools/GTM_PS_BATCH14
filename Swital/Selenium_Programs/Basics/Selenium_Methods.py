@@ -17,6 +17,9 @@ current_url = driver.current_url
 print("The current url is:", current_url)
 
 # 3. Get page source code
-page_scode = driver.page_source
-print("Source code : ", page_scode)
+#page_scode = driver.page_source
+#print("Source code : ", page_scode)
 
+# 4. Get Text of the element
+header = driver.find_element(By.XPATH, "//header/h1")
+print("The text of the element is: ", header.text)
