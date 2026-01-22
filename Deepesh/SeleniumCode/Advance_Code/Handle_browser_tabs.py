@@ -42,7 +42,7 @@ def handle_browser_tabs():
     file_path = f"E:\\Filesdata\\Batch14\\{random_file_name}"
     # create a sample file to upload
     with open(file_path, 'w') as f:
-        f.write("This is a sample file for upload testing.")   
+        f.write("This is a sample file for upload testing.")
 
 
     #driver.find_element(By.ID, "fileUpload").send_keys(r"E:\Filesdata\count_name.txt")
