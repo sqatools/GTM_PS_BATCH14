@@ -31,5 +31,24 @@ def handle_confirm_alert():
     alert_obj.dismiss # It will click on Cancel button
 
 
-handle_confirm_alert()
+#handle_confirm_alert()
+
+def handle_prompt_alert():
+    driver.get("https://automationbysqatools.blogspot.com/2020/08/alerts.html")
+    alert_obj = Alert(driver)
+    alert_btn = driver.find_element(By.XPATH, "//button[text()='Prompt Box']")
+    alert_btn.click()
+    time.sleep(5)
+    print(alert_obj.text)
+
+    alert_obj.send_keys("SQAtools")
+    time.sleep(10)
+
+    alert_obj.accept() # it will click on OK button
+    time.sleep(10)
+    #alert_obj.dismiss() # It will click on Cancel button
+    message = driver.find_element(By.ID, "prompt")
+    print(message.text)
+
+handle_prompt_alert()
 
