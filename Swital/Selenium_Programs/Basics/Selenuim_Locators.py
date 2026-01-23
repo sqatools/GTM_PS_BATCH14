@@ -25,3 +25,4 @@ link_google.click()
 # partial_LINK_TEXT Locator
 Plink_google = driver.find_element(By.PARTIAL_LINK_TEXT, "Open")
 Plink_google.click()
+
