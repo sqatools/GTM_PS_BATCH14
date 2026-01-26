@@ -15,4 +15,3 @@ def handle_iframe():
     driver.switch_to.frame(iframe_element)
 
     # get element with reference inside the iframe
-    heading_elem = 
