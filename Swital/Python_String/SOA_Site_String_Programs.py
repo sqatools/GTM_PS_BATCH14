@@ -557,3 +557,84 @@ for word in words3:
 #Output = ‘sqat’
 str_47 = "Sqatools"
 print("The first four characters are: ", str_47[0:4])
+
+#48). Write a Python program to get a string made of the first 2 and the last 2 chars from a given string.
+# Input = ‘Sqatools’
+# Output = ‘Sqls’ 
+str_48 = "Sqatools"
+print(str_48[:2] + str_48[-2:])
+
+#49). Write a python program to print the mirror image of the string.
+# Input = ‘Python’
+# Output = ‘nohtyp 
+str_49 = "Python"
+print("Mirror or reverseo of string:", str_49[::-1])
+
+#50). Write a python program to split strings on vowels
+# Input = ‘qwerty’
+# Output = ‘qw rty’
+str_50 = "qwerty"
+vowels ="aeiou"
+output =""
+for ch in str_50:
+    if ch not in vowels:
+        output = output+ch
+    else:
+        output = output + " "
+print(output)
+
+import re
+str_50 = "qwerty"
+output = re.split("a|e|i|o|u", str_50)
+print(" ".join(output))
+
+# 51). Write a python program to replace multiple words with certain words.
+"""Input = “I’m learning python at Sqatools”
+Replace python with SQA  and sqatools with TOOLS 
+Output = “I’m learning SQA at TOOLS “ """
+str_51 = "I'm learning python at Sqatools"
+output = str_51.replace("python", "SQA")
+output1 = output.replace("Sqatools", "TOOLS")
+print("The replaced words: ", output1)
+
+#Input string
+string = "I’m learning python at Sqatools"
+List = string.split(" ")
+
+for i in range(len(List)):
+    if List[i] == "python":
+        List[i] = "SQA"
+    elif List[i] == "Sqatools":
+        List[i] = "TOOLS"
+
+#Printing output
+print(" ".join(List))
+
+# 52). Write a python program to replace different characters in the string at once.
+"""Input = ‘Sqatool python’
+Replace a with 1,
+Replace t with 2,
+Replace o with 3
+Output = ‘sq1233l py2h3n” """
+string = "Sqatool python"
+output = string.replace("a", "1")
+output1 = output.replace("t", "2")
+output2 = output1.replace("o", "3")
+
+print(output2)
+
+#######################################
+string = "Sqatool python"
+new_str = ""
+for ch in string:
+    if ch == "a":
+        new_str += "1"
+    elif ch == "t":
+        new_str += "2"
+    elif ch == "o":
+        new_str += "3"   
+    else:
+        new_str += ch 
+
+#Printing output
+print(new_str)
