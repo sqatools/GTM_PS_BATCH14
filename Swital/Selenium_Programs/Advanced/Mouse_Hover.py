@@ -18,3 +18,7 @@ action.move_to_element(submenu_demosite).perform()
 time.sleep(4)
 dialog_box = driver.find_element(By.XPATH, "//div[@class='subsub_menu']//span[text()='Dialog Boxes']")
 action.move_to_element(dialog_box).click().perform()
+
+
+#$x("//input[@name ='username']").[0].value='abc'
+#$x("//input[@value='male']")[0].click()
