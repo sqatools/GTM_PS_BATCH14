@@ -64,25 +64,4 @@ def scroll_to_element():
     element2 = driver.execute_script("return document.getElementsByClassName('drop')[0].innerText;")
     print("Text of the first drop element is:", element2)
 
-
 #scroll_to_element()
-
-def enter_text_to_disable_element():
-    time.sleep(5)
-    disabled_input = driver.find_element(By.ID, "disabledInput")
-    driver.execute_script("arguments[0].removeAttribute('disabled');", disabled_input)
-    disabled_input.send_keys("Text entered to disabled input field.")
-    time.sleep(5)
-    print("Text entered to disabled input field successfully.")
-
-
-#enter_text_to_disable_element()
-
-def get_hidden_element():
-    hidden_elem = driver.find_element(By.ID, "hiddenField")
-    driver.execute_script("arguments[0].style.display='block';", hidden_elem)
-    time.sleep(5)
-    hidden_elem.send_keys("Text entered to hidden field.")
-    time.sleep(5)
-
-get_hidden_element()
