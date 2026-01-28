@@ -638,3 +638,35 @@ for ch in string:
 
 #Printing output
 print(new_str)
+
+# 53). Write a python program to remove empty spaces from a list of strings.
+#Input = [‘Python’, ‘ ‘, ‘ ‘, ‘sqatools’]
+#Output = [‘Python’, ‘sqatools’] 
+
+str_53 = ["Python", " ", " ", "sqatools"]
+list = []
+for word in str_53:
+    if word != " ":
+        list.append(word)
+print(list)
+
+# 54).  Write a python program to remove punctuations from a string
+#Input = ‘Sqatools : is best, for python’
+#Output = ‘Sqatools is best for python’
+str_54 = "Sqatools : is best, for python"
+result_54 = ""
+punc = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+for ch in str_54:
+    if ch not in punc:
+        result_54 += ch
+print(result_54)
+
+# 55).  Write a python program to find duplicate characters in a string
+#Input = “hello world”
+#Output = ‘lo’
+str_55 = "hello world"
+result_55 = []
+for ch in str_55:
+    if str_55.count(ch) > 1:
+       result_55.append(ch)
+print(set(str_55))
