@@ -121,11 +121,9 @@ time.sleep(5)
 
 #IFrame
 # Use WebDriverWait to wait for element to be clickable
-# learn_more_link = WebDriverWait(driver, 10).until(
-#     EC.element_to_be_clickable((By.XPATH, "//a[text()='Learn more']"))
-# )
-# learn_more_link.click()
-# time.sleep(2)
+iframe_link = driver.find_element(By.XPATH, "//a[text()='Learn more']")
+iframe_link.click()
+time.sleep(2)
 
 #Enabled and Disabled Elements
 input_box = driver.find_element(
