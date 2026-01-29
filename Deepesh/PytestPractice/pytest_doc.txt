@@ -3,3 +3,26 @@
 
 # command to execute pytest file
 -> python -m pytest -v .\test_math_operations.py
+
+-m :  means : Run a Python module as script from root location.
+
+pytest :  This is testing framework there we want to execute code.
+
+-v :  Verbose mode of execution.
+   :  It shows detailed information of test cases execution.
+
+# Command to execute the test cases with marker
+-> python -m pytest -m "regression" -v .\test_math_operations_markers.py
+
+# command to execute test with multiple marker using or condition.
+->  python -m pytest -m "smoke or regression" -v .\test_math_operations_markers.py
+
+# command to excute the test case with and condition of marker
+-> python -m pytest -m "smoke and sanity" -v .\test_math_operations_markers.py
+
+# command to specific execute
+-> python -m pytest -k "test_combined_operations" -v .\test_math_operations_markers.py
+
+
+
+
