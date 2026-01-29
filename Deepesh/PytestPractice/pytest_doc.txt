@@ -20,7 +20,7 @@ pytest :  This is testing framework there we want to execute code.
 # command to excute the test case with and condition of marker
 -> python -m pytest -m "smoke and sanity" -v .\test_math_operations_markers.py
 
-# command to specific execute
+# command to specific test case with name
 -> python -m pytest -k "test_combined_operations" -v .\test_math_operations_markers.py
 
 
