@@ -1,0 +1,101 @@
+# Java script executor method and operation:
+OPERATIONS POSSIBLE WITH JAVASCRIPT EXECUTOR (NOT RELIABLE WITH NORMAL SELENIUM)
+✅ 1. Click Hidden / Covered Elements
+
+Selenium may throw:
+
+ElementClickInterceptedException
+
+JS ignores visibility rules.
+
+element = driver.find_element(By.ID, "submitBtn")
+driver.execute_script("arguments[0].click();", element)
+
+
+✔ Works even if:
+
+Element is hidden behind another element
+
+CSS overlay present
+
+Element is off-screen
+
+✅ 2. Enter Text Without send_keys()
+input_box = driver.find_element(By.ID, "email")
+driver.execute_script("arguments[0].value='test@mail.com';", input_box)
+
+
+Useful when:
+
+Input field blocks typing
+
+Key events are restricted
+
+✅ 3. Scroll Page / Element (Precise Control)
+Scroll to bottom
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+Scroll to element
+element = driver.find_element(By.ID, "footer")
+driver.execute_script("arguments[0].scrollIntoView(true);", element)
+
+✅ 4. Remove Disabled Attribute
+button = driver.find_element(By.ID, "payBtn")
+driver.execute_script("arguments[0].removeAttribute('disabled');", button)
+
+
+Now Selenium can click it.
+
+✅ 5. Modify CSS (Make Hidden Element Visible)
+element = driver.find_element(By.ID, "hiddenDiv")
+driver.execute_script("arguments[0].style.display='block';", element)
+
+✅ 6. Get Page Title / URL via JS
+title = driver.execute_script("return document.title;")
+url = driver.execute_script("return document.URL;")
+
+✅ 7. Get Hidden Text or Inner HTML
+text = driver.execute_script("return arguments[0].innerText;", element)
+html = driver.execute_script("return arguments[0].innerHTML;", element)
+
+✅ 8. Highlight Element (For Debugging)
+driver.execute_script("arguments[0].style.border='3px solid red'", element)
+
+✅ 9. Handle Date Picker Directly
+date = driver.find_element(By.ID, "dateField")
+driver.execute_script("arguments[0].value='2026-01-27';", date)
+
+✅ 10. Trigger Browser Alert
+driver.execute_script("alert('Test Alert');")
+
+✅ 11. Refresh Page Without Selenium Command
+driver.execute_script("location.reload();")
+
+✅ 12. Navigate Back/Forward
+driver.execute_script("window.history.back();")
+driver.execute_script("window.history.forward();")
+
+✅ 13. Click Using Coordinates
+driver.execute_script("""
+var evt = document.createEvent('MouseEvents');
+evt.initMouseEvent('click',true,true,window,0,0,0,100,200,false,false,false,false,0,null);
+document.elementFromPoint(100,200).dispatchEvent(evt);
+""")
+
+✅ 14. Work with Shadow DOM (Very Important)
+
+Selenium struggles with Shadow DOM.
+
+shadow_host = driver.find_element(By.CSS_SELECTOR, "custom-element")
+shadow_root = driver.execute_script("return arguments[0].shadowRoot", shadow_host)
+element = shadow_root.find_element(By.CSS_SELECTOR, "button")
+element.click()
+
+✅ 15. Count Elements Faster
+count = driver.execute_script("return document.getElementsByTagName('a').length;")
+
+✅ 16. Zoom In / Zoom Out
+driver.execute_script("document.body.style.zoom='80%'")
+
+✅ 17. Check if Page Fully Loaded
+state = driver.execute_script("return document.readyState;")

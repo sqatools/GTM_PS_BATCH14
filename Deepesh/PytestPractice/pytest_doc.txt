@@ -1,0 +1,5 @@
+# install pytest on machine using pip
+-> pip install pytest
+
+# command to execute pytest file
+-> python -m pytest -v .\test_math_operations.py
