@@ -72,7 +72,6 @@ partial_link.click()
 time.sleep(5)
 
 
-
 # XPATH locator # press key element
 press_keys = driver.find_element(By.XPATH, "//input[@placeholder='Press any key']")
 press_keys.click()

@@ -2,9 +2,6 @@
 -> pip install pytest
 
 # command to execute pytest file
-<<<<<<< HEAD
--> python -m pytest -v .\test_math_operations.py
-=======
 -> python -m pytest -v .\test_math_operations.py
 
 -m :  means : Run a Python module as script from root location.
@@ -22,13 +19,6 @@ pytest :  This is testing framework there we want to execute code.
 
 # command to excute the test case with and condition of marker
 -> python -m pytest -m "smoke and sanity" -v .\test_math_operations_markers.py
-for mac user
--> python -m pytest -m "smoke and sanity" -v test_math_operations_markers.py
 
 # command to specific test case with name
 -> python -m pytest -k "test_combined_operations" -v .\test_math_operations_markers.py
-
-
-
-
->>>>>>> 6885a57fb3363533401e683e9fac22c339fa2776
