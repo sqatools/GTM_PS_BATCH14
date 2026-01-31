@@ -61,27 +61,4 @@ def perform_hover_to_element():
     action.move_to_element(alerts_link).click().perform()
     time.sleep(5)
 
-#perform_hover_to_element()
-
-def scrolling_page():
-    driver.get("https://sqatools.in/automation-practice-page/")
-    time.sleep(5)
-    about_us_link = driver.find_element(By.XPATH, "//input[@placeholder='Press any key']")
-    action.scroll_to_element(about_us_link).click(about_us_link).send_keys("Python").perform()
-    time.sleep(5)
-    print("Scrolled to About Us link successfully.")
-    time.sleep(10)
-#scrolling_page()
-
-def context_click_operation():
-    driver.get("https://sqatools.in/automation-practice-page/")
-    time.sleep(5)
-    right_click_button = driver.find_element(By.ID, "drag1")
-    #action.context_click(right_click_button).perform()
-    action.drag_and_drop_by_offset(right_click_button, 100, 0).perform()
-    time.sleep(5)
-    print("Context click operation performed successfully.")
-    time.sleep(10)  
-
-
-context_click_operation()
+perform_hover_to_element()
