@@ -8,7 +8,6 @@ from selenium.webdriver.common.by import By
 
 # initialize the Chrome driver
 driver = webdriver.Chrome()
-
 # maximize the browser window
 driver.maximize_window()
 # navigate to the URL
