@@ -1,42 +1,91 @@
-<!-- Auto-generated: concise guidance for AI coding agents working in this repository -->
-# Copilot / AI agent instructions
+<!-- AI agent instructions for GTM_PS_BATCH14: a distributed student exercise repository -->
+# Copilot / AI Agent Instructions
 
-This repository is a collection of small, individual Python example projects organized per contributor (top-level folders like `Swital`, `Anshika`, `Deepesh`, etc.). There is no single application, build system, or test harness — treat this as a student-exercises workspace.
+## Repository Overview
 
-Goals for AI edits
-- Prefer read-only analysis first: open files under each contributor folder to understand intent before changing code.
-- Do not bulk-modify many contributors' files without an explicit PR and a clear rationale.
+**GTM_PS_BATCH14** is a distributed learning workspace: 30+ contributor folders (e.g., [Swital/](Swital/), [Dhanush/](Dhanush/), [Deepesh/](Deepesh/)) each containing independent Python exercise collections. This is **NOT** a monolithic application—each folder is a student's personal practice space with its own learning goals.
 
-Repository characteristics (quick summary)
-- Structure: Many top-level folders are personal exercise collections (e.g. [Swital/Python_BasicProg_Practise/AI_integrate_understand](Swital/Python_BasicProg_Practise/AI_integrate_understand)).
-- Most files are single-file Python scripts (`First_program.py`, `first_program.py`, `first_file.py`), plain text, or short exercises.
-- No CI, package manifests, or centralized tests were found in the repository root (see [README.md](README.md)).
+## Critical Before-You-Edit Rules
 
-How to be productive here (concrete, project-specific guidance)
-- To run an example on Windows, use: `python path\\to\\script.py` from the workspace root.
-- Debugging: use `python -m pdb path\\to\\script.py` or VS Code Run/Debug for a single file.
-- If you find identical improvements across many personal folders (typo fixes, README updates), prefer proposing a single PR that documents the change and lists affected user folders.
+1. **Never bulk-edit multiple contributor folders** without explicit per-folder rationale and user consent
+2. **Preserve student work**: Don't remove or alter solutions unless asked; code quality varies by learning stage
+3. **Read-only first**: Open ~5-10 files in a contributor's folder to understand their learning path before suggesting changes
+4. **Match existing style**: File naming is inconsistent (`first_program.py`, `First_program.py`, `FirstProgram.py`)—preserve each contributor's conventions to avoid duplicates
 
-Patterns and conventions discovered
-- Filenames vary in case and style (`First_program.py` vs `first_program.py`). Match existing casing when editing to avoid creating duplicates.
-- Many scripts assume no external packages; changes that add dependencies must include an explicit note and a minimal `requirements.txt` in the repo root.
+## Essential Patterns & Conventions
 
-Safe-edit checklist (apply before committing changes)
-- Confirm the intent of the target file by reading its first ~20 lines and nearby files in the same folder.
-- Avoid changing student answers or removing content marked as an assignment unless asked.
-- For any formatting or linting changes, target only one folder at a time and include a short PR description.
+### File Organization
+- **Root level**: Minimal metadata only (`README.md`, root Python examples like [Exceptionhandling.py](Exceptionhandling.py))
+- **Per-contributor**: Topic subdirectories like `Python_Loops/`, `Selenium_Code/`, `PythonProgramming/` mixed with flat scripts
+- **No dependencies**: Almost all scripts use only Python stdlib; external packages (Selenium) are isolated in contributor folders
+- **Text/notes**: `.txt` files mixed in as exercise notes or assignments
 
-Examples to reference in PRs or suggestions
-- Simple run example: `python Swital\\first_program.py` (adjust path to the actual file name).
-- Suggested documentation target: [README.md](README.md) — add a one-line repo description if you modify high-level documentation.
+### Typical Contributor Folder Structure
+- **Organized learner** (e.g., [Swital/](Swital/)): Hierarchical structure (`Python_BasicProg_Practise/`, `Python_OOPS_Programming/`, `Selenium_Programs/`)
+- **Linear learner** (e.g., [Dhanush/](Dhanush/)): Flat list of scripts by topic (`Average.py`, `AND Operator.py`, `class1.py`)
+- **Hybrid** (e.g., [Deepesh/](Deepesh/)): Mix of flat files and topic folders
 
-If you find an existing AI guidance file
-- Merge instead of overwrite: preserve any hand-authored instructions and extend them with discovered facts above.
+### Code Characteristics
+- Early scripts: simple syntax (`print()`, operators, loops)
+- Later scripts: functions, classes, Selenium automation
+- Variable quality: typos, incomplete solutions, exploratory code—all intentional part of learning
+- No docstrings or comments in most files (follows tutorial patterns)
 
-When to escalate to the repo owner
-- Large-scale automated refactors, dependency additions, or changes that affect many personal folders.
+## How to Run & Debug
 
-Questions? After this addition, ask the maintainer which contributor folders are safe to modify and whether they prefer a single aggregate PR or many small ones.
+```powershell
+# From repo root on Windows
+python Dhanush\Average.py
+
+# Debug a single file
+python -m pdb Swital\Python_BasicProg_Practise\Variables.py
+
+# Or use VS Code Run/Debug for single files
+```
+
+## Safe-Edit Workflow
+
+**Before making ANY change:**
+1. Read the contributor's **top 3-4 files** to assess learning level
+2. Check for an existing [README.md](README.md) or `.txt` notes in their folder
+3. If fixing syntax/typos, confirm it's not an assignment under development
+4. Propose small, single-contributor changes with clear learning value
+
+**Acceptable edits:**
+- Bug fixes in one contributor's scripts (with explanation of what was wrong)
+- Adding minimal docstrings to one contributor's learning files
+- Creating a simple `requirements.txt` if adding external packages
+- Clarifying exercise instructions in comments
+
+**Escalate to user first:**
+- Refactoring across >1 contributor's folder
+- Adding dependencies
+- Removing or fundamentally restructuring a contributor's work
+
+## Running & Testing
+
+- **No centralized test suite** — each contributor runs their own scripts
+- **No build system** — Python 3.x execution only
+- **Execution verify**: `python script.py` should complete without import errors or uncaught exceptions
+
+## Examples (Reference in PRs)
+
+```powershell
+# Correct path format for windows
+python Anshika\First_program.py
+python Deepesh\PythonProgramming\loops.py
+
+# Invalid (won't work on Windows)
+python Anshika/First_program.py
+```
+
+## When to Escalate
+
+- Changing architecture or structure of >2 contributor folders
+- Adding project-wide dependencies
+- Modifying core files like [README.md](README.md) or [.gitignore](.gitignore)
+- Bulk fixes (e.g., "fix all typos in all folders")
 
 ---
-Generated by an AI assistant to help agents start work quickly in this workspace. Please review and adjust to team preferences.
+
+**Last updated:** January 2026 | **Scope:** Distributed Python learning exercises | **No external dependencies** by default
