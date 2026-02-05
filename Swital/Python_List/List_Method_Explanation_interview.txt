@@ -1,0 +1,185 @@
+Got it 👍 You want only programs + output + one-line explanation for Python List methods (simple format).
+Here is a clean interview/practice-ready list:
+________________________________________
+✅ 1. append()
+a = [1, 2, 3]
+a.append(4)
+print(a)
+Output:
+[1, 2, 3, 4]
+Explanation: Adds element at the end.
+________________________________________
+✅ 2. extend()
+a = [1, 2]
+a.extend([3, 4])
+print(a)
+Output:
+[1, 2, 3, 4]
+Explanation: Adds multiple elements.
+________________________________________
+✅ 3. insert()
+a = [1, 3, 4]
+a.insert(1, 2)
+print(a)
+Output:
+[1, 2, 3, 4]
+Explanation: Inserts value at given index.
+________________________________________
+✅ 4. remove()
+a = [1, 2, 3, 2]
+a.remove(2)
+print(a)
+Output:
+[1, 3, 2]
+Explanation: Removes first matching value.
+________________________________________
+✅ 5. pop()
+a = [1, 2, 3]
+a.pop()
+print(a)
+Output:
+[1, 2]
+Explanation: Removes last element.
+________________________________________
+✅ 6. sort()
+a = [4, 1, 3, 2]
+a.sort()
+print(a)
+Output:
+[1, 2, 3, 4]
+Explanation: Sorts list in ascending order.
+________________________________________
+✅ 7. reverse()
+a = [1, 2, 3]
+a.reverse()
+print(a)
+Output:
+[3, 2, 1]
+Explanation: Reverses list order.
+________________________________________
+✅ 8. clear()
+a = [1, 2, 3]
+a.clear()
+print(a)
+Output:
+[]
+Explanation: Deletes all elements.
+________________________________________
+✅ 9. copy()
+a = [1, 2, 3]
+b = a.copy()
+print(b)
+Output:
+[1, 2, 3]
+Explanation: Creates duplicate list.
+________________________________________
+✅ 10. index()
+a = [10, 20, 30]
+print(a.index(20))
+Output:
+1
+Explanation: Finds position of element.
+________________________________________
+✅ 11. count()
+a = [1, 2, 2, 3]
+print(a.count(2))
+Output:
+2
+Explanation: Counts occurrences.
+________________________________________
+📌 Built-in Functions
+________________________________________
+✅ 12. len()
+a = [1, 2, 3]
+print(len(a))
+Output:
+3
+Explanation: Returns length.
+________________________________________
+✅ 13. max()
+a = [5, 2, 9]
+print(max(a))
+Output:
+9
+Explanation: Finds largest value.
+________________________________________
+✅ 14. min()
+a = [5, 2, 9]
+print(min(a))
+Output:
+2
+Explanation: Finds smallest value.
+________________________________________
+✅ 15. sum()
+a = [1, 2, 3]
+print(sum(a))
+Output:
+6
+Explanation: Adds all values.
+________________________________________
+✅ 16. sorted()
+a = [3, 1, 2]
+print(sorted(a))
+Output:
+[1, 2, 3]
+Explanation: Returns new sorted list.
+________________________________________
+✅ 17. list()
+t = (1, 2, 3)
+print(list(t))
+Output:
+[1, 2, 3]
+Explanation: Converts to list.
+________________________________________
+✅ 18. any()
+a = [False, True, False]
+print(any(a))
+Output:
+True
+Explanation: True if any value is True.
+________________________________________
+✅ 19. all()
+a = [True, True]
+print(all(a))
+Output:
+True
+Explanation: True if all are True.
+________________________________________
+✅ 20. enumerate()
+a = ['A', 'B', 'C']
+
+for i, v in enumerate(a):
+    print(i, v)
+Output:
+0 A
+1 B
+2 C
+Explanation: Gives index + value.
+________________________________________
+✅ 21. zip()
+a = [1, 2]
+b = ['A', 'B']
+
+print(list(zip(a, b)))
+Output:
+[(1, 'A'), (2, 'B')]
+Explanation: Combines lists.
+________________________________________
+✅ 22. reversed()
+a = [1, 2, 3]
+print(list(reversed(a)))
+Output:
+[3, 2, 1]
+Explanation: Reverses without changing original.
+________________________________________
+📌 Slice Update
+________________________________________
+✅ 23. Delete using Slice
+a = [1, 2, 3, 4, 5]
+a[1:4] = []
+print(a)
+Output:
+[1, 5]
+Explanation: Removes multiple items.
+________________________________________
+
