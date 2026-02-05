@@ -1160,3 +1160,156 @@ result = sum(not char.isspace() for char in str92)
 print(result)
 output = str92.replace(" ", "")
 print(len(output))
+
+# 93). Write a program to accept a string that contains only vowels
+"""Input = ‘python’
+Output- ‘not accepted’
+
+Input = ‘aaieou’
+Output = ‘accepted’ """
+str93 = "AaTesiuu"
+vowels = "aeiou"
+count = 0
+for ch in str93:
+    if ch.lower() in vowels:
+        count = count + 1
+if count == len(str93):
+    print("Accepted")
+else:
+    print("Not Accepted")
+
+# 94). Write a program to remove the kth element from the string
+#K=2
+#Input = ‘sqatools’
+#Output = ‘sqtools’
+str94 = "sqatools"
+k = 2
+print(str94.index('a'))
+print(str94[:2]+ str94[3:])
+print(str94[:k]+ str94[k+1:])
+
+# 95). Write a program to check if a given string is binary or not.
+"""Hint: Binary numbers only contain 0 or 1.
+
+Input = ‘01011100’
+Output = yes
+
+Input = ‘sqatools 100’
+Output = ‘No’ """
+
+in1  = "01011100"
+count = 0
+for ch in in1:
+    if ch == "0" or ch == "1":
+        count += 1
+if count == len(in1):
+    print("Yes")
+else:
+    print("No")
+
+#96). Write a program to add ‘ing’ at the end of the string using python.
+#Input = ‘xyz’
+#Output = ‘xyzing’
+
+str96  = "xyz"
+b = "ing"
+print(str96+b)
+print(str96 + "ing")
+
+# 97). Write a program to add ly at the end of the string if the given string ends with ing.
+#Input = ‘winning’
+#Output = ‘winningly’
+
+str97 = "winning"
+if str97.endswith("ing"):
+    print(str97+ "ly")
+else:
+    print(str97)
+
+#98). Write a program to reverse words in a string using python.
+#Input = ‘string problems’
+#Output = ‘problems string’
+str98 = "string problems"
+word_list = str98.split(" ")
+list = ""
+print(" ".join(word_list[::-1]))
+
+# 99). Write a program to print the index of each character in a string.
+"""Input =  ‘sqatools’
+Output :
+Index of s is 0
+Index of q is 1
+Index of a is 2
+Index of t is 3
+Index of o is 4
+Index of o is 5
+Index of l is 6
+Index of s is 7 """
+str99 = "sqatools"
+for ch in str99:
+    print("Index of", ch, "is:", str99.index(ch))
+
+# 100). Write a program to find the first repeated character in a string and its index.
+#Input = ‘sqatools’
+#Output = (s,0)
+str100 = "sqatools"
+for i in range(len(str100)):
+        for j in range(i+1, len(str100)):
+            if str100[i] == str100[j]:
+                print(f"({str100[i]}, {str100.index(str100[i])})")
+                break
+
+# 101). Write a program to swap cases of a given string using python.
+#Input = ‘Learning Python’
+#Output = ‘lEARNING pYTHON’
+str101 = "Learning Python"
+print("swapcase result:", str101.swapcase())
+
+# 102). Write a program to remove repeated characters in a string and replace it with a single letter using python.
+#Input = ‘aabbccdd’
+#Output = ‘cabd’
+str102 = "aabbccdd"
+lst = set(str102)
+print("".join(lst))
+
+# 103). Write a program to print a string 3 times using python.
+#Input = ‘sqatools’
+#Output = ‘sqatoolssqatoolssqatools’
+str103 = "sqatools"
+print("Repeat string:", str103*3)
+
+#104). Write a program to print each character on a new line using python.
+"""Input = ‘python’
+Output:
+p
+y
+t
+h
+o
+n """
+str104 = "python"
+for ch in str104:
+    print(ch, end= "\n")
+
+# 105). Write a program to get all the email id’s from given string using python.
+#Input str = “”” We have some employee whos john@gmail.com email id’s are randomly distributed jay@lic.com we want to get hari@facebook.com all the email mery@hotmail.com id’s from this given string.”””
+#Output = [‘john@gmail.com’, ‘ jay@lic.com’, ‘hari@facebook.com’, ‘mery@hotmail.com’ ]
+str105 = "We have some employee whos john@gmail.com email id’s are randomly distributed jay@lic.com we want to get hari@facebook.com all the email mery@hotmail.com id’s from this given string."
+word_list = str105.split(" ")
+print(word_list)
+list1 =[]
+for word in word_list:
+    if word.endswith(".com"):
+        list1.append(word)
+print(list1)
+
+# 106). Write a program to get a list of all the mobile numbers from the given string using python.
+#Input str = “”” We have 2233 some employee 8988858683 whos 3455 mobile numbers are randomly distributed 2312245566 we want 453452 to get 4532892234 all the mobile numbers 9999234355  from this given string.”””
+# Output = [‘8988858683’, ‘2312245566’, ‘4532892234’, ‘9999234355’]
+str106 = "We have 2233 some employee 8988858683 whos 3455 mobile numbers are randomly distributed 2312245566 we want 453452 to get 4532892234 all the mobile numbers 9999234355  from this given string."
+word_list = str106.split(" ")
+list1 = []
+for word in word_list:
+    if word.isdigit() and len(word)>=10:
+        list1.append(word)
+print(list1)
