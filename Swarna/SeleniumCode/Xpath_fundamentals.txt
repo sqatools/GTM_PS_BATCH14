@@ -38,6 +38,7 @@ Relative Xpath Methods:
     -> (//h1[contains(text(), 'Automation Practice Page')])[1]
 
 
+ 
 3. starts-with() Method: This method is used to select elements whose attribute value or text content starts with a specific substring.
    e.g. //tagname[starts-with(@attribute,'substring')] or 
         //tagname[starts-with(text(),'substring')]

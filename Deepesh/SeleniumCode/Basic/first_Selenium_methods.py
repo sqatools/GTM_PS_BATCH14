@@ -78,3 +78,5 @@ time.sleep(3)
 driver.forward()
 driver.save_screenshot("forward_navigation.png")
 time.sleep(3)
+
+
