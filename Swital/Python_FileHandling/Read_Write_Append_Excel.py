@@ -10,7 +10,7 @@ def read_excel_file(file_path, sheet_name, cell_name):
     cell_value = sheet[cell_name].value
     print(f"Value in {cell_name} of sheet '{sheet_name}': {cell_value}")
 # read one cell data 
-# read_excel_file(file_path='Read_Excel.xlsx', sheet_name='Sheet1', cell_name='A2')
+read_excel_file(file_path='Read_Excel.xlsx', sheet_name='Sheet1', cell_name='A2')
 
 # get all rows and columns from excel sheet
 #for i in range(1, 6):
@@ -56,7 +56,7 @@ def read_all_data_excel(file_path, sheet_name):
     # Iterate through all rows and columns
     for row in sheet.iter_rows(values_only=True):
         print(row)
-read_all_data_excel(file_path='Read_Excel.xlsx', sheet_name='Sheet2')
+#read_all_data_excel(file_path='Read_Excel.xlsx', sheet_name='Sheet2')
 
 # Read cell data using for loop
 for cell in "ABCDE":
@@ -78,7 +78,7 @@ def read_all_data_excel(file_path, sheet_name):
             cell_value = sheet.cell(row=i, column=j).value
             print(cell_value, end=" | ")
         print()  # New line after each row
-read_all_data_excel(file_path='Read_Excel.xlsx', sheet_name='Sheet3')
+#read_all_data_excel(file_path='Read_Excel.xlsx', sheet_name='Sheet3')
 
 # using iter_rows
 def read_all_data_excel(file_path, sheet_name): 
@@ -91,4 +91,4 @@ def read_all_data_excel(file_path, sheet_name):
     rows_values = list(sheet.iter_rows(values_only=True))
     for row in rows_values[1:]:  # Skip header row
         print(row)
-read_all_data_excel(file_path='Read_Excel.xlsx', sheet_name='Sheet1')
+#read_all_data_excel(file_path='Read_Excel.xlsx', sheet_name='Sheet1')

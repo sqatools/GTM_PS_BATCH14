@@ -661,6 +661,20 @@ for ch in str_54:
         result_54 += ch
 print(result_54)
 
+###########################################
+import string
+
+str_54 = "Sqatools : is best, for python"
+result = ""
+
+for ch in str_54:
+    if ch not in string.punctuation:
+        result += ch
+
+result1 = result.split(" ")
+print(" ".join(result1))
+
+
 # 55).  Write a python program to find duplicate characters in a string
 #Input = “hello world”
 #Output = ‘lo’
@@ -669,4 +683,633 @@ result_55 = []
 for ch in str_55:
     if str_55.count(ch) > 1:
        result_55.append(ch)
-print(set(str_55))
+print(set(result_55))
+
+# 56).  Write a python program to check whether the string is a subset of another string or not
+"""Input str1 = “iamlearningpythonatsqatools”
+str = ‘pystlmi’
+Output = True """
+string1 = "iamlearningpythonatsqatools"
+string2 = "pystlmi"
+string3 = set(string1)
+print(string3)
+count = 0
+for ch in string3:
+    if ch in string2:
+        count += 1
+if count == len(string2):
+    print("True")
+else:
+    print("False")
+
+# 57). Write a python program to sort a string
+#Input = ‘xyabkmp’
+#Output = ‘abkmpxy’
+input = "xyabkmp"
+print("The sorting is:", "".join(sorted(input)))
+
+#58). Write a python program to generate a random binary string of a given length.
+#Input = 8
+#Output = 10001001
+import random
+input = 8
+output = ""
+for i in range(9):
+    val = str(random.randint(0,1))
+    output += val
+print(output)
+
+# 59). Write a python program to check if the substring is present in the string or not
+# Input string= ‘I live in Pune’
+# Substring= ‘I live ‘
+# Output = ‘Yes
+
+str_59 = "I live in Pune"
+substr = "I live"
+word_list1 = str_59.split(" ")
+word_list2 = substr.split(" ")
+count = 0
+for word in word_list1:
+    if word in word_list2:
+        count = count + 1
+
+if count == len(word_list2):
+    print("true")
+else:
+    print("false")
+
+# 60). Write a program to find all substring frequencies in a string.
+#Input str1 = “abab” 
+#Output = {‘a’: 2, ‘ab’: 2, ‘aba’: 1,‘abab’: 1, ‘b’: 2, ‘ba’: 1, ‘bab’: 1}  
+str1 = "abab"
+
+substrings = []
+freq = {}
+
+for i in range(len(str1)):
+    for j in range(i+1, len(str1)+1):
+
+        sub = str1[i:j]
+        substrings.append(sub)
+
+        if sub in freq:
+            freq[sub] += 1
+        else:
+            freq[sub] = 1
+
+print(freq)
+
+# 61). Write a python program to print the index of the character in a string.
+#Input = ‘Sqatools’
+#Output = ‘The index of q is 1’
+
+input = "Sqatools"
+print("The index of letter is 1:", input.index('o'))
+
+# 62). Write a program to strip spaces from a string.
+#Input = ‘    sqaltoolspythonfun     ‘ 
+#Output = ‘ sqaltoolspythonfun’
+input = "    sqaltoolspythonfun     "
+print(input.strip())
+
+# 63). Write a program to check whether a string contains all letters of the alphabet or not.
+# Input = ‘abcdgjksoug’
+# Output = False
+#Importing string
+import string
+alphabet = set(string.ascii_lowercase)
+
+#Input string
+string = "abcdgjksoug"
+
+#Printing output
+print(set(string.lower()) >= alphabet)
+
+# 64). Write a python program to convert a string into a list of words.
+#Input = ‘learning python is fun’
+#Output = [learning, python, is, fun] 
+input = "learning python is fun"
+print(input.split(" "))
+
+# 65). Write a python program to swap commas and dots in a string.
+# Input = sqa,tools.python
+# Output = sqa.tools,python
+input = "sqa,tools.python"
+print(input.replace(",", "#"))
+print(input.replace(".", ","))
+print(input.replace("#", "."))
+
+input1 = "sqa,tools.python"
+table = input1.maketrans(",.", ".,")
+result = input1.translate(table)
+print(result)
+
+# 66). Write a python program to count and display the vowels in a string
+#Input = ‘welcome to Sqatools’
+#Output = 70
+str66 = "welcome to a ESqatools"
+vowels = "aeiou"
+count = 0
+for ch in str66:
+    if ch.lower() in vowels:
+        count = count + 1
+print(count)
+
+# 67). Write a Python program to split a string on the last occurrence of the delimiter. 
+#Input = ‘l,e,a,r,n,I,n,g,p,y,t,h,o,n’
+#Output = [‘l,e,a,r,n,I,n,g,p,y,t,h,o ‘ ,’n’]
+str67 = "l,e,a,r,n,I,n,g,p,y,t,h,o,n" 
+print(str67.rsplit(",", 1))
+
+#68). Write a Python program to find the first repeated word in a given string. 
+#Input = ‘ab bc ca ab bd’
+#Output = ‘ab’
+str68 = "ab bc ca ab bd"
+output = []
+word_split = str68.split(" ")
+print(word_split)
+for word in word_split:
+    if word not in output:
+        print(word)
+        break
+    else:
+        output.append(word)
+    
+# 69). Write a program to find the second most repeated word in a given string using python.
+#Input = ‘ab bc ac ab bd ac nk hj ac’
+#Output = (‘ab’, 2)
+#Input string
+string = "ab bc ac ab bd ac nk hj ac"
+dictionary = {}
+
+for char in string.split(" "):
+    if char != " ":
+        dictionary[char] = string.count(char)
+
+counts_ = sorted(dictionary.items(), key=lambda val: val[1])
+#Printing output
+print(counts_[-2])
+
+# 70). Write a Python program to remove spaces from a given string.
+#Input = ‘python at sqatools’
+#Output = ‘pythonatsqatools’
+str70 = "python at sqatools"
+print(str70.replace(" ", ""))
+
+# 71). Write a Python program to capitalize the first and last letters of each word of a given string.
+#Input = ‘this is my first program’
+#Output = ‘ThiS IS MY FirsT PrograM’
+str_71 = "this is my first program"
+word = str_71.split(" ")
+for ch in word:
+    print(ch[0].upper() + ch[1:-1] + ch[-1].upper(), end= " ")
+
+# 72). Write a Python program to calculate the sum of digits of a given string.
+#Input = ’12sqatools78′
+#Output = 18
+str72 = "12sqatools78"
+total = 0
+for ch in str72:
+    if ch.isnumeric():
+        total = total + int(ch)
+print("\n", total)
+
+# 73). Write a Python program to remove zeros from an IP address. 
+#Input = 289.03.02.054
+#Output = 289.3.2.54
+#Importing re
+import re
+
+#Input string
+str1 = "289.03.02.054"
+
+string = re.sub('\.[0]*', '.', str1)
+
+#Printing output
+print(string)
+
+#74). Write a program to find the maximum length of consecutive 0’s in a given binary string using python.
+Input = "10001100000111"
+result = Input.split("1")
+result1 = max(result, key = len)
+print(len(result1))
+
+Input = "10320000041000001110000"
+
+count = 0
+max_count = 0
+
+for ch in Input:
+    if ch == "0":
+        count += 1
+        max_count = max(max_count, count)
+    else:
+        count = 0
+
+print(max_count)
+
+# 75). Write a program to remove all consecutive duplicates of a given string using python.
+#Input = ‘xxxxyy’
+#Output = ‘xy’
+
+s = "xxxxyy"
+result = s[0]
+
+for i in range(1, len(s)):
+    if s[i] != s[i-1]:
+        result += s[i]
+
+print(result)
+
+#Input string
+str1= "xxxxyy"
+list1 = []
+
+#Importing group
+from itertools import groupby
+
+for (key,group) in groupby(str1):
+    list1.append(key)
+
+#Printing output
+print("".join(list1))
+
+# 76). Write a program to create strings from a given string. Create a string that consists of multi-time occurring characters in the said string using python.
+#Input = “aabbcceffgh”
+#Output = ‘abcf’
+str76 = "aabbcceffggghiiijj"
+result = ""
+for ch in str76:
+    if str76.count(ch)>1 and ch not in result:
+        result += ch
+print(result)
+
+
+#Input string
+str1 = "aabbcceffgh"
+
+#Importing counter
+from collections import Counter
+str_char = Counter(str1)
+
+part1 = [ key for (key,count) in str_char.items() if count>1]
+
+#printing output
+print("Occurring more than once: ", "".join(part1))
+
+# 77). Write a Python program to create a string from two given strings combining uncommon characters of the said strings.  
+"""
+Input string :
+s1 = ‘abcdefg’
+s2 = ‘xyzabcd’
+Output string : ‘efgxyz’"""
+s1 = "abcdefg"
+s2 = "xyzabcd"
+output = ""
+for ch in s1:
+    if ch not in s2:
+        output = output+ch
+for ch in s2:
+    if ch not in s1:
+        output = output+ch    
+
+print(output)
+
+# 78). Write a Python code to remove all characters except the given character in a string. 
+"""Input = “Sqatools python”
+Remove all characters except S
+Output = ‘S’"""
+str78 = "Sqatools python"
+output = "" 
+for ch in str78:
+    if ch == "S":
+        output = output + ch
+print(output)
+
+# 79). Write a program to count all the Uppercase, Lowercase, special character and numeric values in a given string using python.
+"""Input = ‘@SqaTools.lin’
+Output:
+Special characters: 1
+Uppercase characters: 2
+Lowercase characters: 8 """
+str79 = "@SqaTools.lin"
+upper = 0
+lower = 0 
+digit = 0
+special = 0
+for ch in str79:
+    if ch.islower():
+        lower = lower + 1
+    elif ch.isupper():
+        upper = upper + 1
+    elif ch.isdigit():
+        digit = digit + 1
+    else:
+        special = special+1
+print("Special characters:", special)
+print("Uppercase characters:", upper)
+print("Lowercase characters:", lower)
+
+#80). Write a Python program to count a number of non-empty substrings of a given string.
+#Input a string = ‘sqatools12’
+#Number of substrings = 55
+str80 = "sqatools12"
+n = len(str80)
+count = n * (n+1) //2
+print(count)
+
+# 81). Write a program to remove unwanted characters from a given string using python.
+#Input = ‘sqa****too^^{ls’
+#Output = ‘Sqatools’
+import string
+str81 = "sqa****too^^{ls"
+output = ""
+for ch in str81:
+    if ch not in string.punctuation:
+        output = output + ch
+
+print(output)
+
+# 82). Write a program to find the string similarity between two given strings using python.
+"""Input : 
+Str1 = ‘Learning is fun in Sqatools’
+Str2 = ‘Sqatools Online Learning Platform’
+
+Output :
+Similarity : 0.4"""
+import difflib
+str1 = "Learning is fun in Sqatools"
+str2 = "Sqatools Online Learning Platform"
+result = difflib.SequenceMatcher(a=str1.lower(), b=str2.lower())
+print(result.ratio())
+
+# 83). Write a program to extract numbers from a given string using python.
+#Input = ‘python 456 self learning 89’
+#Output = [456, 89]
+str83 = "python 456 self learning 89"
+list = str83.split(" ")
+list2 = []
+for word in list:
+    if word.isdigit():
+        list2.append(int(word))
+print(list2)
+
+# 84). Write a program to split a given multiline string into a list of lines using python.
+"""Input =”’This string Contains
+Multiple
+Lines”’
+Output = [‘This string Contains’, ‘Multiple’, ‘Lines’] """
+
+str84 = "This string Contains\nMultiple\nLines"
+print("Multiline split:", str84.split("\n"))
+
+# 85). Write a program to add two strings as they are numbers using python.
+"""Input :
+a=’3′, b=’7′
+Output  = ’10’ """
+
+a = "3"
+b = "7"
+a1 = int(a)
+b1 = int(b)
+print(a1,b1)
+c = a1+b1
+print(c)
+
+# 86). Write a program to extract name from a given email address using python.
+"""Input = ‘student1@gmail.com’
+Output = ‘student’ """
+
+email = "student1@gmail.com"
+name = email.split("@")[0]
+result = ""
+print(name)
+for word in name:
+    if word.isalpha():
+        result = result + word
+print(result)
+
+# 87). Write a  program that counts the number of leap years within the range of years using python. The range of years should be accepted as a string. 
+
+#(“1981-2001)  =  Total leap year 5
+year = "1981-2001"
+y = year.split("-")
+year1 = int(y[0])
+year2 = int(y[1])
+
+count = 0
+
+for year in range(year1, year2 + 1):
+
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        count += 1
+
+print("Total leap years:", str(count))
+
+# 88). Write a program to insert space before every capital letter appears in a given word using python. 
+"""Input = ‘SqaTools pyThon’
+Output = ‘ Sqa Tools py Thon’ """
+
+str88 = "SqaTools pyThon"
+output = ""
+for ch in str88:
+    if ch.isupper():
+        output = output + " " + ch
+    else:
+        output = output + ch
+print(output)
+
+# 89). Write a program to uppercase half string using python.
+#Input = ‘banana’
+#Output = ‘banANA’
+str89 = "banana"
+output =""
+length = len(str89)//2
+for i in range(0, length):
+    output = output + str89[i]
+for i in range(length, len(str89)):
+    output = output + str89[i].upper()
+print("solution1", output)
+output = str89[:len(str89)//2] + str89[len(str89)//2:].upper()
+print("solution2", output)
+output = str89[:3]+str89[3:-3]+str89[3:].upper()
+print("solution3", output)
+
+# 90). Write a program to split and join a string using “-“.
+#Input = ‘Sqatools is best’
+#Output = ‘Sqatools-is-best’
+str90 = "Sqatools is best"
+print("-".join(str90.split(" ")))
+
+# 91). Write a python program to find permutations of a given string using in built function.
+#Input  = ‘CDE’
+#Output = [‘CDE’, ‘CED’ ‘EDC’, ‘ECD’, ‘DCE’, ‘DEC’]
+from itertools import permutations
+
+str1 = "CDE"
+list_data = []
+for p in permutations(str1):
+    list_data.append("".join(p))
+print(list_data)
+
+# 92). Write a program to avoid spaces in string and get the total length
+#Input = ‘sqatools is best for learning python’
+#Output = 31
+str92 = "sqatools is best for learning python"
+result = sum(not char.isspace() for char in str92)
+print(result)
+output = str92.replace(" ", "")
+print(len(output))
+
+# 93). Write a program to accept a string that contains only vowels
+"""Input = ‘python’
+Output- ‘not accepted’
+
+Input = ‘aaieou’
+Output = ‘accepted’ """
+str93 = "AaTesiuu"
+vowels = "aeiou"
+count = 0
+for ch in str93:
+    if ch.lower() in vowels:
+        count = count + 1
+if count == len(str93):
+    print("Accepted")
+else:
+    print("Not Accepted")
+
+# 94). Write a program to remove the kth element from the string
+#K=2
+#Input = ‘sqatools’
+#Output = ‘sqtools’
+str94 = "sqatools"
+k = 2
+print(str94.index('a'))
+print(str94[:2]+ str94[3:])
+print(str94[:k]+ str94[k+1:])
+
+# 95). Write a program to check if a given string is binary or not.
+"""Hint: Binary numbers only contain 0 or 1.
+
+Input = ‘01011100’
+Output = yes
+
+Input = ‘sqatools 100’
+Output = ‘No’ """
+
+in1  = "01011100"
+count = 0
+for ch in in1:
+    if ch == "0" or ch == "1":
+        count += 1
+if count == len(in1):
+    print("Yes")
+else:
+    print("No")
+
+#96). Write a program to add ‘ing’ at the end of the string using python.
+#Input = ‘xyz’
+#Output = ‘xyzing’
+
+str96  = "xyz"
+b = "ing"
+print(str96+b)
+print(str96 + "ing")
+
+# 97). Write a program to add ly at the end of the string if the given string ends with ing.
+#Input = ‘winning’
+#Output = ‘winningly’
+
+str97 = "winning"
+if str97.endswith("ing"):
+    print(str97+ "ly")
+else:
+    print(str97)
+
+#98). Write a program to reverse words in a string using python.
+#Input = ‘string problems’
+#Output = ‘problems string’
+str98 = "string problems"
+word_list = str98.split(" ")
+list = ""
+print(" ".join(word_list[::-1]))
+
+# 99). Write a program to print the index of each character in a string.
+"""Input =  ‘sqatools’
+Output :
+Index of s is 0
+Index of q is 1
+Index of a is 2
+Index of t is 3
+Index of o is 4
+Index of o is 5
+Index of l is 6
+Index of s is 7 """
+str99 = "sqatools"
+for ch in str99:
+    print("Index of", ch, "is:", str99.index(ch))
+
+# 100). Write a program to find the first repeated character in a string and its index.
+#Input = ‘sqatools’
+#Output = (s,0)
+str100 = "sqatools"
+for i in range(len(str100)):
+        for j in range(i+1, len(str100)):
+            if str100[i] == str100[j]:
+                print(f"({str100[i]}, {str100.index(str100[i])})")
+                break
+
+# 101). Write a program to swap cases of a given string using python.
+#Input = ‘Learning Python’
+#Output = ‘lEARNING pYTHON’
+str101 = "Learning Python"
+print("swapcase result:", str101.swapcase())
+
+# 102). Write a program to remove repeated characters in a string and replace it with a single letter using python.
+#Input = ‘aabbccdd’
+#Output = ‘cabd’
+str102 = "aabbccdd"
+lst = set(str102)
+print("".join(lst))
+
+# 103). Write a program to print a string 3 times using python.
+#Input = ‘sqatools’
+#Output = ‘sqatoolssqatoolssqatools’
+str103 = "sqatools"
+print("Repeat string:", str103*3)
+
+#104). Write a program to print each character on a new line using python.
+"""Input = ‘python’
+Output:
+p
+y
+t
+h
+o
+n """
+str104 = "python"
+for ch in str104:
+    print(ch, end= "\n")
+
+# 105). Write a program to get all the email id’s from given string using python.
+#Input str = “”” We have some employee whos john@gmail.com email id’s are randomly distributed jay@lic.com we want to get hari@facebook.com all the email mery@hotmail.com id’s from this given string.”””
+#Output = [‘john@gmail.com’, ‘ jay@lic.com’, ‘hari@facebook.com’, ‘mery@hotmail.com’ ]
+str105 = "We have some employee whos john@gmail.com email id’s are randomly distributed jay@lic.com we want to get hari@facebook.com all the email mery@hotmail.com id’s from this given string."
+word_list = str105.split(" ")
+print(word_list)
+list1 =[]
+for word in word_list:
+    if word.endswith(".com"):
+        list1.append(word)
+print(list1)
+
+# 106). Write a program to get a list of all the mobile numbers from the given string using python.
+#Input str = “”” We have 2233 some employee 8988858683 whos 3455 mobile numbers are randomly distributed 2312245566 we want 453452 to get 4532892234 all the mobile numbers 9999234355  from this given string.”””
+# Output = [‘8988858683’, ‘2312245566’, ‘4532892234’, ‘9999234355’]
+str106 = "We have 2233 some employee 8988858683 whos 3455 mobile numbers are randomly distributed 2312245566 we want 453452 to get 4532892234 all the mobile numbers 9999234355  from this given string."
+word_list = str106.split(" ")
+list1 = []
+for word in word_list:
+    if word.isdigit() and len(word)>=10:
+        list1.append(word)
+print(list1)

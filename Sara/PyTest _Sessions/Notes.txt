@@ -1,4 +1,5 @@
 """
+Session 1:
 
 Docstring for Sara.PyTest _Sessions.Test_Class1
 
@@ -106,4 +107,42 @@ or
 python -m pytest -k "test_addition" -v .\test_Class1.py
 
 #######################################################
+****************************************************************************
+Session 2: 
 
+@pytest.mark.skip(reason="Skipping this test case")
+Also known as unconditional skip
+if you want to skip a test case
+
+#######################################################
+
+@pytest.mark.skipif(2+2 !=4, reason="Skipping as condition is true")
+if you want to skip a test case based on condition
+like if the condition in brackets is true then only it
+will skip the test case
+
+#####################################################
+
+@pytest.mark.xfail(reason="Expected to fail as bug is logged")
+xfail means expected failure
+if the test fails, it will be marked as xfailed
+
+if the test passes, it will be marked as xpassed. It means if the
+code writted in the test is fixed, then the test will pass.
+
+#####################################################
+
+assert means we are checking if the condition is true.
+
+#####################################################
+
+parameterized markers
+parametrize can be used to run a test function 
+with different arguments. It allows you to define multiple
+sets of input data for a single test function, enabling 
+you to test various scenarios without writing separate test 
+functions for each case.
+
+#######################################################
+****************************************************************************
+Session 3: 
