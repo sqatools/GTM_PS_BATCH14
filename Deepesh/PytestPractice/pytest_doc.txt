@@ -27,3 +27,14 @@ for mac user
 
 # command to specific test case with name
 -> python -m pytest -k "test_combined_operations" -v .\test_math_operations_markers.py
+
+# Generate html report in pytest
+->  install pyhtml package using below command
+->  pip install pytest-html
+->  python -m pytest -v test_file --html=report.html
+->  python -m pytest -v .\PytestPractice\ --html=report.html
+
+# Generate pytest html report graph presentation.
+->  pip install pytest-html-reporter
+->  python -m pytest -v .\PytestPractice\ --html-report=./report
+

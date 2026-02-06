@@ -14,3 +14,8 @@ def test_login(user, passwd):
 def test_login_2(user, passwd):
     assert (user, passwd) in db_info
 
+
+@pytest.mark.parametrize("name", ['Alice', 'Bob', 'Charlie'])
+def test_get_username(name):
+    assert name in ['Alice', 'Bob1', 'Charlie1']
+
