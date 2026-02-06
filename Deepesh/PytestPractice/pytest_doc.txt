@@ -33,8 +33,17 @@ for mac user
 ->  pip install pytest-html
 ->  python -m pytest -v test_file --html=report.html
 ->  python -m pytest -v .\PytestPractice\ --html=report.html
+->  python -m pytest -v .\Deepesh\PytestPractice\ --html=report.html --self-contained-html
 
-# Generate pytest html report graph presentation.
-->  pip install pytest-html-reporter
-->  python -m pytest -v .\PytestPractice\ --html-report=./report
+Pytest Fixture : fixture is function that help us to initiate the pre-requisite setup
+and teadown before and after execution of the test cases.
 
+
+# Generate Allure results (already works)
+python -m pytest -v . --alluredir=./allure-results
+
+# Install Allure command-line (via pip)
+pip install allure-pytest
+
+# View report in browser
+allure serve ./allure-results

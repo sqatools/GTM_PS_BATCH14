@@ -1,3 +1,8 @@
 .vscode/
 .idea/
 .DS_Store
+__pycache__/
+*.pyc
+# Ignore test files
+*/allure-results/
+*.log
