@@ -26,6 +26,7 @@ class TestLoginFature:
         female = self.driver.find_element("id", "female")
         assert female.is_displayed(), "Female radio button is not displayed"
         time.sleep(5)
+        
 
 
 
