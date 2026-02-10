@@ -20,3 +20,16 @@ def get_instance_request(request):
     request.cls.driver = driver_instance
     yield 
     driver_instance.quit()
+
+
+@pytest.fixture(scope="class")
+def get_instance_module(request):
+    driver_instance = webdriver.Chrome()
+    driver_instance.get("https://sqatools.in/automation-practice-page/")
+    driver_instance.maximize_window()
+    # Assigning the driver instance to the class variable
+    request.cls.driver = driver_instance
+    yield 
+    driver_instance.quit()
+
+

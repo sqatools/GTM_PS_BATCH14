@@ -1,5 +1,5 @@
 import pytest
-from data_file import db_info, user_info
+from Deepesh.PytestPractice.basics.data_file import db_info, user_info
 
 
 @pytest.mark.parametrize("user, passwd", [
