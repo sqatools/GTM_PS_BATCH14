@@ -31,7 +31,7 @@ which is typically the entire test run.
 """
 import pytest
 
-@pytest.fixture(scope="function", autouse=True)
+@pytest.fixture(scope="function")
 def fun_fixture():
     """
     - If we want to for specific test function, then can defined as 
