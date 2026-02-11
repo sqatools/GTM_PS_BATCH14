@@ -497,3 +497,131 @@ for val in l50:
     else:
         zero.append(val)
 print(positive+zero)
+
+#51). Python program to find the list in a list of lists whose sum of elements is the highest.
+#Input: [[11, 2, 3], [4, 15, 6], [10, 11, 12], [7 8, 19]]
+#Output: [7, 8, 19]
+l51 = [[11, 2, 3], [4, 15, 6], [10, 11, 12], [7, 8, 19]]
+print(max(l51, key = sum))
+
+# 52). Python program to find the items that start with a specific character from a given list.
+"""Input: [‘abbcd’, ‘ppq, ‘abdd’, ‘agr’, ‘bhr’, ‘sqqa’, tools, ‘bgr’]
+ 
+# item starts with a from the given list.
+[‘abbcd’, ‘abdd’, ‘agr’]
+ 
+# item starts with b from the given list.
+[‘bhr’, ‘bgr’]
+ 
+# item starts with c from the given list.
+[]"""
+l52 = ['Abbcd', 'ppq', 'abdd', 'agr', 'bhr', 'sqqa', 'tools', 'bgr']
+a_list = []
+b_list = []
+c_list = []
+for val in l52:
+    if val.lower().startswith("a"):
+        a_list.append(val)
+    elif val.startswith("b"):
+        b_list.append(val)
+    elif val.startswith("c"):
+        c_list.append(val)
+print(a_list)
+print(b_list)
+print(c_list)
+
+######################################
+words = ["abbcd", "ppq", "abd", "agr", "bhr", "sqqa", "tools", "bgr"]
+
+result = {"a": [], "b": [], "c": []}
+
+for word in words:
+    first = word[0].lower()
+    if first in result:
+        result[first].append(word)
+
+print(result["a"])
+print(result["b"])
+print(result["c"])
+
+# 53). Python program to count empty dictionaries from the given list.
+#Input: [{}, {‘a’: ‘sqatools’}, [], {}, {‘a’: 123}, {},{},()]
+#empty_count: 3
+l53 = [{}, {'a': 'sqatools'}, [], {}, {'a': 123}, {},{},()]
+output = []
+for element in l53:
+    if isinstance(element, dict):
+        if len(element) == 0:
+            output.append(element)
+print(len(output))
+
+# 54). Python program to remove consecutive duplicates of given lists.
+#Input: [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]
+#Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 4]
+l54 = [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]
+output = []
+for val in l54:
+    if val not in output:
+        output.append(val)
+print(output)
+
+#####################33
+#Input list
+list1 = [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]
+
+#Creating empty list
+list2 = []
+
+from itertools import groupby
+for value in groupby(list1):
+    list2.append(value[0])
+
+#Printing output
+print(list2)
+
+# 55). Python program to pack consecutive duplicates of given list elements into sublists.
+#Input: [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9]
+#Output: [[0, 0], [1], [2], [3], [4, 4], [5], [6, 6], [7], [8, 8], [9]]
+l55 = [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9]
+from itertools import groupby
+output = [list(group) for key, group in groupby(l55)]
+print(output)
+
+# 56). Python program to split a given list into two parts where the length of the first part of the list is given.
+#Input: [4, 6, 7, 3, 2, 5, 6, 7, 6, 4]
+#length of the first part is 4
+#Output: [[4, 6, 7, 3], [2, 5, 6, 7, 6, 4]]
+l56 = [4, 6, 7, 3, 2, 5, 6, 7, 6, 4]
+output = []
+output.append(l56[:4])
+output.append(l56[4:])
+print(output)
+
+# 57). Python program to insert items at a specific position in the list.
+"""Input: [2, 4, 6, 8, 3, 22]
+Index: 3
+Item: 55
+Output: [2, 4, 6, 55, 8, 3, 22]"""
+l57 = [2, 4, 6, 8, 3, 22]
+l57.insert(3,55)
+print(l57)
+
+# 58). Python program to select random numbers from the list.
+#Input: [1, 4, 5, 7, 3, 2, 9]
+#Selected 4 random numbers from the list.
+"""l58 = [1, 4, 5, 7, 3, 2, 9]
+count = 0
+list1 = []
+import random
+while count<4:
+    list1.append(random.choice(l58))
+print(list1)"""
+
+#59). Python program to create a 3*3 grid with numbers.
+#Output: [[4, 5, 6], [4, 5, 6], [4, 5, 6]]
+output = []
+for i in range(3):
+    output.append([])
+    for j in range(4,7):
+        output[i].append(j)
+print(output)
