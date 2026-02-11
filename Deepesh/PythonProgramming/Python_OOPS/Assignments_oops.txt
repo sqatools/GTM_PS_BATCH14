@@ -31,3 +31,20 @@ A derived class "SavingsAccount"
 Use super() to initialize balance
 Add a method to display account details in SavingsAccount
 create object of SavingsAccount and display details
+
+
+############################### HOME WORK ########################
+
+1. Create five 5 different classes in 5 different files
+  ->  Car (name, price, company)
+  ->  School (name, fee, address)
+  ->  ITCompany (comp_name, comp_Address, company_status)
+  ->  HRDepart (recruirment, training, activity)
+  ->  Hotel (Hotelname, hoteladdress, roomprice)
+  
+2. Each class contains 3 menthods
+
+3. Create ManagementClass in the 6th file and import all 5 files classes in one class.
+   ->  create object of all the classes in one class
+   ->  through class ManagementClass object access all different method.
+
