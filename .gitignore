@@ -2,6 +2,7 @@
 .idea/
 .DS_Store
 __pycache__/
+*/__pycache__/
 *.pyc
 # Ignore test files
 */allure-results/
