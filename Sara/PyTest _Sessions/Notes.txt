@@ -145,4 +145,19 @@ functions for each case.
 
 #######################################################
 ****************************************************************************
-Session 3: 
+Session 3: Extract Report
+Install pip pytest-html
+Run: python -m pytest -v .\filename.py --html=report.html
+
+############################################################
+***********************************************************************
+Session 4: Fixture
+
+pytest fixture: Fixture is a function that runs before each 
+test function to set up any necessary preconditions or state. 
+It can be used to create test data, initialize resources, or 
+perform any setup tasks required for the tests.
+
+To execute a fixture function: python -m pytest -v -s .\filename.py
+
+-s : to execute the text mentioned before and after the yield statement in the fixture function.
