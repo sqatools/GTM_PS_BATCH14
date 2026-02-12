@@ -13,6 +13,7 @@ class Hotel:
 
 
 h1 = Hotel()
+#h1.display_details() 
 h1.hotelname = "Taj Hotel"
 h1.hoteladdress = "Mumbai"
 h1.roomprice = 5000
