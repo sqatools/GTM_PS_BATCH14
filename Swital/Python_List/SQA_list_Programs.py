@@ -609,13 +609,17 @@ print(l57)
 # 58). Python program to select random numbers from the list.
 #Input: [1, 4, 5, 7, 3, 2, 9]
 #Selected 4 random numbers from the list.
-"""l58 = [1, 4, 5, 7, 3, 2, 9]
+import random
+
+l58 = [1, 4, 5, 7, 3, 2, 9]
 count = 0
 list1 = []
-import random
 while count<4:
     list1.append(random.choice(l58))
-print(list1)"""
+    count += 1
+print(list1)
+
+
 
 #59). Python program to create a 3*3 grid with numbers.
 #Output: [[4, 5, 6], [4, 5, 6], [4, 5, 6]]
@@ -625,3 +629,10 @@ for i in range(3):
     for j in range(4,7):
         output[i].append(j)
 print(output)
+
+#60). Python program to zip two lists of lists into a list.
+#list1: [[1, 3], [5, 7], [9, 11]]
+#list2: [[2, 4], [6, 8], [10, 12, 14]]
+list1 = [[1, 3], [5, 7], [9, 11]]
+list2 = [[2, 4], [6, 8], [10, 12, 14]]
+for (a,b) in zip(list1, list2)

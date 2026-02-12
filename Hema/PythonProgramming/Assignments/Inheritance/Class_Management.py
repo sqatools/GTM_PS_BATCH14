@@ -12,16 +12,26 @@ class Management():
        self.hotel = Hotel("Taj", "Mumbai", 10000)
        self.itcompany = ITCompany("TCS", "Pune", "Active")
        self.hrdepartment = HRDepartment("Recruitment", "Training", "Activities")
-    """result = Management()
-    class1 = result.Management(BMW, 100000, Germany)
-    class1.display_name()
-    class1.display_price()
-    class1.display_company()"""
 
+    def create_objects(self):
+       self.car1 = Car("BMW", 100000, "Germany")
+       self.school1 = School("DAV Public School", 50000, "Pune")
+       self.hotel1 = Hotel("Taj", "Mumbai", 10000)
+       self.itcompan1 = ITCompany("TCS", "Pune", "Active")
+       self.hrdepartment1 = HRDepartment("Recruitment", "Training", "Activities")
+        
+      
 #create object of management class and through class ManagementClass object access all different method.
 result = Management()
 # Access all methods through Management object
 #car
+result.create_objects() # Create objects of all classes
+
+result.car1.display_name()
+result.car1.display_price() 
+result.car1.display_company()
+
+
 result.car.display_name()
 result.car.display_price()
 result.car.display_company()
