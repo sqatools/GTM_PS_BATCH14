@@ -274,23 +274,19 @@ else:
     print("The list does not contains sublist ")
 # 28). Python program to generate all sublists with 5 or more elements in it from the given list.
 #Importing combinations - NOT UNDERSTAND
-from itertools import combinations
 
-#Input list
+from itertools import combinations
 list1 = [1,3,5,8,0,22,45]
 
-#Creating an empty list
 sub = []
 
-for i in range(0,len(list1)+1):
-#Checking for combinations
-    for sublist in combinations(list1,i):
-        temp = list(sublist)
-        if len(temp) > 4:
-            sub.append(temp)
+for i in range(5, len(list1)+1):   # start from 5 directly
+    for c in combinations(list1, i):
+        sub.append(list(c))
 
 #Printing output
 print(sub)
+
 
 # 29). Python program to find the second largest number from the list.
 l29 = [3,5,7,9,1]
@@ -353,4 +349,279 @@ for element in input:
         value.append(element[val])
 print(key,value)
 
-        
+# 36). Python program to get all the unique numbers in the list.
+l36 = [3,5,3,6,1,2,5]
+result = list(set(l36))
+print(result)
+
+#############################################3
+result1 = []
+for val in l36:
+    if val not in result1:
+        result1.append(val)
+print(result1)
+
+# 37). Python program to convert a string into a list.
+l37 = "Flooring"
+list_data = []
+for ch in l37:
+    list_data.append(ch)
+print("convert a string into a list:", list_data)
+
+# 38). Python program to replace the last and the first number of the list with the word.
+#Input: [12, 32, 33, 5, 4, 7]
+#output : [‘SQA’, 32, 33, 5, 4, ‘Tools’]
+input =  [12, 32, 33, 5, 4, 7]
+input[0] = "SQA"
+input[-1] = "Tools"
+print(input)
+
+#39). Python program to check whether the given element is exist in the list or not.
+l39 = [3,4,5,6,7]
+print("value exist:", 6 in l39)
+
+# 40). Python program to remove all odd index elements.
+#Input: [12, 32, 33, 5, 4, 7, 33]
+#Output: [12,33,4,33]
+input = [12, 32, 33, 5, 4, 7, 33]
+output = []
+for i in range(len(input)):
+    if i%2 == 0:
+        output.append(input[i])
+print(output)
+
+# 41). Python program to take two lists and return true if then at least one common member.
+list1 = [2,3,4,5,6]
+list2 = [3,4,5,7,8]
+count = 0
+for val in list1:
+    if val in list2:
+        count +=1
+if count>0:
+    print("True")
+else:
+    print("False")
+
+#42). Python program to convert multiple numbers from a list into a single number.
+#Input: [12, 45, 56]
+#Output:124556
+list42 = [12, 45, 56]
+for val in list42:
+    print(val, end="")
+############################33
+print()
+
+# 43). Python program to convert words of a list into a single string.
+#Input: [‘Sqa’, ‘Tools’, ‘Best’, ‘Learning’, ‘Platform’]
+#Output: SqaToolsBestLearningPlatform
+# same as above but if dont want to change original variable then use below
+l43 = ['Sqa', 'Tools', 'Best', 'Learning', 'Platform']
+output =''
+for val in l43:
+    if val not in output:
+        output = output + val
+print(output, end="")
+print()
+# 44). Python program to print elements of the list separately.
+"""Input: [(‘Black’, ‘Yellow’, ‘Blue’), (50, 55, 60), (30.0, 50.5, 55.66)]
+Output:
+(‘Black’, ‘Yellow’, ‘Blue’)
+(50, 55, 60)
+(30.0, 50.5, 55.66)"""
+input = [('Black', 'Yellow', 'Blue'), (50, 55, 60), (30.0, 50.5, 55.66)]
+for val in input:
+    print(val)
+
+#45). Python program to create a sublist of numbers and their squares from 1 to 10.
+#Output : [[1, 1], [2, 4], [3, 9], [4, 16], [5, 25], [6, 36], [7, 49], [8, 64], [9, 81], [10, 100]]
+output = [[i, i**2] for i in range(1,11)]
+print(output)
+
+# 46). Python program to create a list of five consecutive numbers in the list.
+#Output : [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15], [16, 17, 18, 19, 20]]
+list1 = [[5*i + j for j in range(1,6)] for i in range(4)]
+print(list1)
+
+# 47). Python program to insert a given string at the beginning of all items in a list.
+#Input: [1, 2, 3, 4, 5], Sqa
+#Output: [‘Sqa1’, ‘Sqa2’, ‘Sqa3’, ‘Sqa4’, ‘Sqa5’]
+l47 = [1, 2, 3, 4, 5], 'Sqa'
+print([f"Sqa{val}" for val in l47[0]])
+
+# 48). Python program to iterate over two lists simultaneously and create a list of sublists.
+#list1 = [1, 3, 5, 7, 9]
+#list2 = [8, 6, 4, 2, 10]
+#output = [[1, 8], [3, 6], [5, 4], [7, 2], [9, 10]]
+
+list1 = [1, 3, 5, 7, 9]
+list2 = [8, 6, 4, 2, 10]
+output = []
+for (a,b) in zip(list1,list2):
+    data = [a,b]
+    output.append(data)
+print(output)
+
+# 49). Python program to move all positive numbers on the left side and negative numbers on the right side.
+#Input: [2, -4, 6, 44, -7, 8, -1, -10]
+#Output: [2, 6, 44, 8, -4, -7, -1, -10]
+l49 = [2, -4, 6, 44, -7, 8, -1, -10]
+var = 0
+for i in range(0,len(l49)):
+    if l49[i] > 0:
+        temp = l49[i]
+        l49[i] = l49[var]
+        l49[var] = temp
+        var += 1
+print(l49)
+
+################################
+l49 = [2, -4, 6, 44, -7, 8, -1, -10]
+positive = []
+negative = []
+for val in l49:
+    if val>0:
+        positive.append(val)
+    else:
+        negative.append(val)
+print(positive+negative)
+
+# 50). Python program to move all zero digits to the end of a given list of numbers.
+#Input: [3, 4, 0, 0, 0, 0, 6, 0, 4, 0, 22, 0, 0, 3, 21, 0]
+#Output: [3, 4, 6, 4, 22, 3, 21, 0, 0, 0, 0, 0, 0, 0, 0]
+l50 = [3, 4, 0, 0, 0, 0, 6, 0, 4, 0, 22, 0, 0, 3, 21, 0]
+positive = []
+zero = []
+for val in l50:
+    if val>0:
+        positive.append(val)
+    else:
+        zero.append(val)
+print(positive+zero)
+
+#51). Python program to find the list in a list of lists whose sum of elements is the highest.
+#Input: [[11, 2, 3], [4, 15, 6], [10, 11, 12], [7 8, 19]]
+#Output: [7, 8, 19]
+l51 = [[11, 2, 3], [4, 15, 6], [10, 11, 12], [7, 8, 19]]
+print(max(l51, key = sum))
+
+# 52). Python program to find the items that start with a specific character from a given list.
+"""Input: [‘abbcd’, ‘ppq, ‘abdd’, ‘agr’, ‘bhr’, ‘sqqa’, tools, ‘bgr’]
+ 
+# item starts with a from the given list.
+[‘abbcd’, ‘abdd’, ‘agr’]
+ 
+# item starts with b from the given list.
+[‘bhr’, ‘bgr’]
+ 
+# item starts with c from the given list.
+[]"""
+l52 = ['Abbcd', 'ppq', 'abdd', 'agr', 'bhr', 'sqqa', 'tools', 'bgr']
+a_list = []
+b_list = []
+c_list = []
+for val in l52:
+    if val.lower().startswith("a"):
+        a_list.append(val)
+    elif val.startswith("b"):
+        b_list.append(val)
+    elif val.startswith("c"):
+        c_list.append(val)
+print(a_list)
+print(b_list)
+print(c_list)
+
+######################################
+words = ["abbcd", "ppq", "abd", "agr", "bhr", "sqqa", "tools", "bgr"]
+
+result = {"a": [], "b": [], "c": []}
+
+for word in words:
+    first = word[0].lower()
+    if first in result:
+        result[first].append(word)
+
+print(result["a"])
+print(result["b"])
+print(result["c"])
+
+# 53). Python program to count empty dictionaries from the given list.
+#Input: [{}, {‘a’: ‘sqatools’}, [], {}, {‘a’: 123}, {},{},()]
+#empty_count: 3
+l53 = [{}, {'a': 'sqatools'}, [], {}, {'a': 123}, {},{},()]
+output = []
+for element in l53:
+    if isinstance(element, dict):
+        if len(element) == 0:
+            output.append(element)
+print(len(output))
+
+# 54). Python program to remove consecutive duplicates of given lists.
+#Input: [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]
+#Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 4]
+l54 = [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]
+output = []
+for val in l54:
+    if val not in output:
+        output.append(val)
+print(output)
+
+#####################33
+#Input list
+list1 = [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]
+
+#Creating empty list
+list2 = []
+
+from itertools import groupby
+for value in groupby(list1):
+    list2.append(value[0])
+
+#Printing output
+print(list2)
+
+# 55). Python program to pack consecutive duplicates of given list elements into sublists.
+#Input: [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9]
+#Output: [[0, 0], [1], [2], [3], [4, 4], [5], [6, 6], [7], [8, 8], [9]]
+l55 = [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9]
+from itertools import groupby
+output = [list(group) for key, group in groupby(l55)]
+print(output)
+
+# 56). Python program to split a given list into two parts where the length of the first part of the list is given.
+#Input: [4, 6, 7, 3, 2, 5, 6, 7, 6, 4]
+#length of the first part is 4
+#Output: [[4, 6, 7, 3], [2, 5, 6, 7, 6, 4]]
+l56 = [4, 6, 7, 3, 2, 5, 6, 7, 6, 4]
+output = []
+output.append(l56[:4])
+output.append(l56[4:])
+print(output)
+
+# 57). Python program to insert items at a specific position in the list.
+"""Input: [2, 4, 6, 8, 3, 22]
+Index: 3
+Item: 55
+Output: [2, 4, 6, 55, 8, 3, 22]"""
+l57 = [2, 4, 6, 8, 3, 22]
+l57.insert(3,55)
+print(l57)
+
+# 58). Python program to select random numbers from the list.
+#Input: [1, 4, 5, 7, 3, 2, 9]
+#Selected 4 random numbers from the list.
+"""l58 = [1, 4, 5, 7, 3, 2, 9]
+count = 0
+list1 = []
+import random
+while count<4:
+    list1.append(random.choice(l58))
+print(list1)"""
+
+#59). Python program to create a 3*3 grid with numbers.
+#Output: [[4, 5, 6], [4, 5, 6], [4, 5, 6]]
+output = []
+for i in range(3):
+    output.append([])
+    for j in range(4,7):
+        output[i].append(j)
+print(output)
