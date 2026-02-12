@@ -6,7 +6,8 @@ from selenium import webdriver
 def get_driver(request):
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.get("https://sqatools.in/automation-practice-page/")
+    driver.get("https://sqatools.in/login-page/")
     request.cls.driver = driver
     yield
     driver.quit()
+
