@@ -584,7 +584,7 @@ print(list2)
 #Output: [[0, 0], [1], [2], [3], [4, 4], [5], [6, 6], [7], [8, 8], [9]]
 l55 = [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9]
 from itertools import groupby
-output = [list(group) for key, group in groupby(l55)]
+output = [list(data) for key, data in groupby(l55)]
 print(output)
 
 # 56). Python program to split a given list into two parts where the length of the first part of the list is given.
@@ -635,4 +635,76 @@ print(output)
 #list2: [[2, 4], [6, 8], [10, 12, 14]]
 list1 = [[1, 3], [5, 7], [9, 11]]
 list2 = [[2, 4], [6, 8], [10, 12, 14]]
-for (a,b) in zip(list1, list2)
+print(list(zip(list1, list2)))
+
+# 61). Python program to convert the first and last letter of each item from Upper case and lowercase.
+#Input: [‘Learn’, ‘python’, ‘From’, ‘Sqa’, tools]
+#Output =
+#[‘LearN ‘, ‘PythoN ‘, ‘FroM ‘, ‘SqA ‘, ‘ToolS ‘]
+#[‘learn ‘, ‘python ‘, ‘from ‘, ‘sqa ‘, ‘tools ‘]
+
+l61 = ['Learn', 'python', 'From', 'Sqa', 'tools']
+output =[]
+output1 =[]
+for val in l61:
+    output.append(val[0].lower()+val[1:-1]+val[-1].upper())
+
+for val in l61:
+    output1.append(val[0].lower()+val[1:-1]+val[-1].lower())
+print(output)
+print(output1)
+
+# 62). Python to find maximum and minimum values in the given heterogeneous list.
+#Input: [‘Sqa’, 6, 5, 2, ‘Tools’]
+#Output: [6,2]
+l62 = ['Sqa', 6, 5, 2, 'Tools']
+Max = max(value for value in l62 if isinstance(value, int))
+Min = min(value for value in l62 if isinstance(value, int))
+
+print(Max, Min)
+
+# 63). Python program to sort a given list in ascending order according to the sum of its sublist.
+#Input: [[3, 5, 6], [2, 1, 3], [5, 1, 1], [1, 2, 1], [0, 4, 1]]
+#            14         6         7           4          5
+#Output = [[1, 2, 1], [0, 4, 1], [2, 1, 3], [5, 1, 1], [3, 5, 6]]
+list1 = [[3, 5, 6], [2, 1, 3], [5, 1, 1], [1, 2, 1], [0, 4, 1]]
+print(sorted(list1, key = sum))
+
+# 64). Python program to extract the specified sizes of strings from a given list of string values.
+#Input: [‘Python’, ‘Sqatools’, ‘Practice’, ‘Program’, ‘test’, ‘list’]
+##size = 8
+#Output: [‘Sqatools’, ‘Practice’]
+
+l64 = ['Python', 'Sqatools', 'Practice', 'Program', 'test', 'list']
+output = []
+for val in l64:
+    if len(val)>=8:
+        output.append(val)
+print(output)
+
+#65). Python program to find the difference between consecutive numbers in a given list.
+#Input list: [1, 1, 3, 4, 4, 5, 6, 7]
+#Output list: [0, 2, 1, 0, 1, 1, 1]
+l65 = [1, 1, 3, 4, 4, 5, 6, 7]
+output = []
+for a,b in zip(l65[:-1], l65[1:]):
+    difft = b-a
+    output.append(difft)
+print(output)
+
+# 66). Python program to calculate the average of the given list.
+#Input : [3, 5, 7, 2, 6, 12, 3]
+#Output: 5.428571428571429
+l66 = [3, 5, 7, 2, 6, 12, 3]
+output = sum(l66)/len(l66)
+print(output)
+
+# 67). Python program to count integers in a given mixed list.
+#Input list: [‘Hello’, 45, ‘sqa’,  23, 5, ‘Tools’, 20]
+#Output: 4
+l67 = ['Hello', 45, 'sqa',  23, 5, 'Tools', 20]
+count = 0
+for value in l67:
+    if isinstance(value, int):
+        count += 1
+print(count)
