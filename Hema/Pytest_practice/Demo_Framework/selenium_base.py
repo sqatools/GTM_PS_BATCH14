@@ -36,3 +36,4 @@ class SeleniumBase:
     def element_is_displayed(self, locator):
         elem = self.get_element(locator)
         return elem.is_displayed()
+    
