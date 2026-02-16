@@ -12,7 +12,7 @@ print("_"*50)
 
 ######odd/even######
 num1=12
-if num1%2==0:
+if (num1%2==0):
     print(num1,"is even number")
 else:
     print(num1,"is odd number")
@@ -74,7 +74,7 @@ print("_"*50)
 num1=input("please enter your value")
 print(num1,type(num1))
 x=int(num1)
-if x%3 == 0 and x%5 == 0:
+if (x%3 == 0) and (x%5 == 0):
     print("this number is divisible by both 3 and 5:",x)
 else:
     print("this number is not divisible by both 3 and 5:",x)

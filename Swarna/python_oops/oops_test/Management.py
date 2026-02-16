@@ -58,4 +58,4 @@ class ManagementClass:
 # Main execution
 if __name__ == "__main__":
     management = ManagementClass()
-    management.manage_all_classes()
+    management.manage_all_classes() 
