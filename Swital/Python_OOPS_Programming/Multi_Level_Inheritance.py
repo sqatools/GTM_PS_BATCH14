@@ -1,4 +1,6 @@
-# Multiple level inheritance in Python
+# Multi level inheritance in Python : it is a type of inheritance where a class (child class) inherits from another class (parent class), which in turn inherits from another class (grandparent class).
+# Here, the child class inherits properties and behaviors from both the parent and grandparent classes.
+# child inherits from parent, and parent inherits from grandparent.
 class Grandparent:
     def grandparent_method(self):
         print("This is a method from Grandparent class") 

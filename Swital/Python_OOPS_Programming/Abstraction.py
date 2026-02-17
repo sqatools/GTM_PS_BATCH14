@@ -23,5 +23,5 @@ print(cat.sound())  # Output: Meow Meow
 # The abstract class Animal cannot be instantiated directly.
 # It can only be used as a base class for other classes that implement the abstract methods.
 # This ensures that any subclass of Animal must provide an implementation for the sound() method.
-# Abstraction helps in reducing complexity and increases efficiency by allowing the user to focus on interactions at a higher level.
+# Abstraction helps in reducing complexity and increases efficiency by git allowing the user to focus on interactions at a higher level.
 # It also helps in achieving security by restricting access to certain details of the implementation.

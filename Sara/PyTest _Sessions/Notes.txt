@@ -1,0 +1,163 @@
+"""
+Session 1:
+
+Docstring for Sara.PyTest _Sessions.Test_Class1
+
+########################################################
+
+Install pytest by using below command:
+
+pip install pytest
+
+##################################################
+
+What is pytest?
+Pytest is a popular testing framework for Python that allows you to write 
+simple and scalable test cases.
+It provides a powerful and flexible 
+way to write unit tests, functional tests, and integration tests.   
+
+For pytest test case or function need to start with 'test_'
+if you do not follow this convention pytest will not be able 
+to detect and run your test cases.
+
+Pytest will automatically discover all the test cases in the file
+that start with 'test_' and execute them when you run the pytest command.
+
+command to execute pytest from terminal:
+pytest <file_name.py>
+
+e.g pytest Test_Class1.py
+
+
+YOu cannot create pytest file like .py
+It will throw below error while running in terminal
+
+============================ no tests ran in 0.01s ============================= 
+ERROR: file or directory not found: .\Test_Class1.py
+
+
+File name should be like test_practise
+and then run below command
+python -m pytest -v .\test_Class1.py
+
+##########################################################
+
+python -m pytest -v .\test_Class1.py
+
+-m: m stands for module. Run python module as script from
+ root location
+
+pytest : is a testing framework where we want to execute 
+the code.
+
+-v : verbose we have detailed information about each test being run.
+we can trigger file without -v also but we will not get details information
+like % of each test case etc.
+without it you will get just 1-2 line successfully executed.
+
+###################################################
+
+Captial T for Test is not allowed as file name. Becasue pytest
+look for test_ in small letters
+
+####################################################
+
+marker allows you to group your tests and run a specific group
+using the -m option in pytest.
+below @ tag you need to add above the method/test case that u want
+to group and run only that 1 group
+@pytest.mark.math 
+
+To run in terminal: e.g.
+python -m pytest -v -m "smoke" .\test_Class1.py
+
+first -m stands for module
+second -m stands for marker. Its mandatory to write marker (-m)
+after pytest. It can be before -v or after -v 
+"""
+##############################################################
+
+You can also run 2 group at one by giving or command
+i.e. test cases matching with any one marker needs to be executed
+python -m pytest -v -m "smoke or regression" .\test_Class1.py
+or 
+python -m pytest -m "smoke or regression" -v .\test_Class1.py
+
+#######################################################
+
+if you want to execute test cases that has 2 or more markers
+then you need to use "and" command
+i.e. only execute test cases that has both the markers: 1 and 2
+if it has only 1 of the 2 then do not execute.
+
+python -m pytest -v -m "smoke and regression" .\test_Class1.py
+or 
+python -m pytest -m "smoke and regression" -v .\test_Class1.py
+
+#######################################################
+
+single test case to execute
+If you want to execute only 1 test case out of entire sheet then
+use "-k" followed by test case name that you want to execute.
+
+example:
+python -m pytest -v -k "test_addition" .\test_Class1.py
+or 
+python -m pytest -k "test_addition" -v .\test_Class1.py
+
+#######################################################
+****************************************************************************
+Session 2: 
+
+@pytest.mark.skip(reason="Skipping this test case")
+Also known as unconditional skip
+if you want to skip a test case
+
+#######################################################
+
+@pytest.mark.skipif(2+2 !=4, reason="Skipping as condition is true")
+if you want to skip a test case based on condition
+like if the condition in brackets is true then only it
+will skip the test case
+
+#####################################################
+
+@pytest.mark.xfail(reason="Expected to fail as bug is logged")
+xfail means expected failure
+if the test fails, it will be marked as xfailed
+
+if the test passes, it will be marked as xpassed. It means if the
+code writted in the test is fixed, then the test will pass.
+
+#####################################################
+
+assert means we are checking if the condition is true.
+
+#####################################################
+
+parameterized markers
+parametrize can be used to run a test function 
+with different arguments. It allows you to define multiple
+sets of input data for a single test function, enabling 
+you to test various scenarios without writing separate test 
+functions for each case.
+
+#######################################################
+****************************************************************************
+Session 3: Extract Report
+Install pip pytest-html
+Run: python -m pytest -v .\filename.py --html=report.html
+
+############################################################
+***********************************************************************
+Session 4: Fixture
+
+pytest fixture: Fixture is a function that runs before each 
+test function to set up any necessary preconditions or state. 
+It can be used to create test data, initialize resources, or 
+perform any setup tasks required for the tests.
+
+To execute a fixture function: python -m pytest -v -s .\filename.py
+
+-s : to execute the text mentioned before and after the yield statement in the fixture function.

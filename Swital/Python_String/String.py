@@ -132,3 +132,38 @@ result_output3 = ["t"+str3_1[1:4]+"V" + " " +
                   "f" + str3_5[0:0] + "o" + " " +
                   "a" + str3_6[1:4]+"I"]
 print(result_output3)
+
+str3 = "Virat is Best Batsman of India"
+
+result = ""
+
+for ch in str3:
+    result = result + ch*2   # repeat each character twice
+
+print(result)
+
+str3 = "Virat is Best Batsman of India"
+
+words = str3.split()   # split into words
+result = []
+
+for word in words:
+    if len(word) > 1:
+        new_word = word[0]*2 + word[1:-1] + word[-1]*2
+    else:
+        new_word = word * 2   # for single letter words
+
+    result.append(new_word)
+
+final_output = " ".join(result)
+
+print(final_output)
+
+s = "tiraV si tesB natsmaB fo andiI"
+
+result = " ".join(
+    word[-1] + word[1:-1] + word[0]
+    for word in s.split()
+)
+
+print(result)
