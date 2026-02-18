@@ -1,6 +1,7 @@
 import pytest
-from webpage_file import WebPage
-from test_datafile import *
+from ...page_classes.pages_locators_data_file.webpage_file import WebPage
+from ...page_classes.pages_locators_data_file.test_datafile import *
+import time
 
 @pytest.mark.usefixtures("get_driver")
 class TestFile:
@@ -13,4 +14,6 @@ class TestFile:
         self.wp.launch_website(website_url)
         self.wp.enter_first_name(first_name)
         self.wp.enter_last_name(last_name)
-
+        self.wp.click_on_gender()
+        self.wp.select_passenger(2)
+        time.sleep(5)

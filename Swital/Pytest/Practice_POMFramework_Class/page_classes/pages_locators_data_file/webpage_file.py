@@ -1,5 +1,5 @@
-from selenium_basefile import Selenium_base
-from locators import Locator
+from ...base.selenium_basefile import Selenium_base
+from .locators import Locator
 
 class WebPage(Selenium_base):
     def __init__(self, driver):
@@ -14,3 +14,9 @@ class WebPage(Selenium_base):
 
     def enter_last_name(self, value):
         self.enter_text(Locator.L_name, value)
+
+    def click_on_gender(self):
+        self.click_element(Locator.radio_gender)
+
+    def select_passenger(self, index):
+        self.select_by_index(Locator.no_passenger,index)
