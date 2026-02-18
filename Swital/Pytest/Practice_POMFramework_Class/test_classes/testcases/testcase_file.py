@@ -16,4 +16,5 @@ class TestFile:
         self.wp.enter_last_name(last_name)
         self.wp.click_on_gender()
         self.wp.select_passenger(2)
+        self.wp.cities_multicheckbox()
         time.sleep(5)

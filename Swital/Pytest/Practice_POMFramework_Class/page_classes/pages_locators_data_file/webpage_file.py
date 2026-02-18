@@ -20,3 +20,6 @@ class WebPage(Selenium_base):
 
     def select_passenger(self, index):
         self.select_by_index(Locator.no_passenger,index)
+
+    def cities_multicheckbox(self):
+        self.multicheckbox_selection(Locator.multicity_checkboxes)
