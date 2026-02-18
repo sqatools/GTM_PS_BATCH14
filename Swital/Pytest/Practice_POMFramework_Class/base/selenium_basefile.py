@@ -11,6 +11,9 @@ class Selenium_base:
     def get_element(self, locator):
         return self.wait.until(EC.presence_of_element_located(locator))
     
+    def get_elements(self, locator):
+        return self.wait.until(EC.presence_of_all_elements_located(locator))
+    
     def click_element(self, locator):
         element = self.get_element(locator)
         element.click()
@@ -35,3 +38,10 @@ class Selenium_base:
     def select_by_visible_text(self, locator, text):
         element = self.get_element(locator)
         Select(element).select_by_visible_text(text)   
+
+    def multicheckbox_selection(self, locator):
+        elements = self.get_elements(locator)
+       # time.sleep(2)
+        for element in elements:
+            if not element.is_selected():
+                element.click()
