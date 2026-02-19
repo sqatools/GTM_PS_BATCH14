@@ -6,6 +6,8 @@ import pytest
 def get_driver(request):
     driver = webdriver.Chrome()
     driver.maximize_window()
+    # class variable as driver, that we can 
+    # access inside as self.driver
     request.cls.driver = driver
     yield
     driver.quit()

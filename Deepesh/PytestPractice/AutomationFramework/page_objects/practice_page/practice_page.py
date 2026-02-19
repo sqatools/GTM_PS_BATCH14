@@ -9,12 +9,15 @@ class PracticePage(SeleniumBase):
         self.driver.get(url)
 
     def enter_username(self, username):
+        self.log.info(f"enter first name: {username}")
         self.enter_text(PracticePageLocators.USERNAME_FIELD, username)
 
     def enter_password(self, password):
+        self.log.info(f"enter password: {password}")
         self.enter_text(PracticePageLocators.PASSWORD_FIELD, password)
 
     def enter_address(self, address):
+        self.log.info(f"enter address: {address}")
         self.enter_text(PracticePageLocators.ADDRESS_FIELD, address)
 
     def enter_login_details(self, username, password, address):

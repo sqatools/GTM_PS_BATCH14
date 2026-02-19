@@ -12,7 +12,8 @@ class TestPracticePage:
         self.pp = PracticePage(self.driver)
 
 
-    def test_enter_user_details_verify(self):
+    def test_enter_user_details_verify(self, request):
+        self.pp.log.info(f"Test Name: --- {request.node.name} -------")
         self.pp.launch_url(url=practice_url)
         self.pp.enter_login_details(username=username_value,
                                     password=password_value,

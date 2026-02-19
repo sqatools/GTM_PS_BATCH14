@@ -8,7 +8,7 @@ class PracticePageLocators:
     FEMALE_RADIO_BUTTON = (By.ID, "female")
 
     ################ Checkbox Locators ################
-    JAVA_CHECKBOX = (By.ID, "java")
+    JAVA_CHECKBOX = (By.ID, "java12")
     PYTHON_CHECKBOX = (By.ID, "python")
     SELENIUM_CHECKBOX = (By.ID, "selenium")
 
