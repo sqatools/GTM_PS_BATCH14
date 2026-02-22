@@ -8,6 +8,7 @@ class TestWebsite:
     @pytest.fixture(scope="function", autouse=True)
     def setup(self):
         self.wp = WebPage(self.driver)
+
     def test_provide_user_details(self):
         self.wp.launch_website(website)
         self.wp.enter_first_name(first_name)
