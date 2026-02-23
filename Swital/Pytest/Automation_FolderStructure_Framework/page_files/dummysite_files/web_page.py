@@ -1,6 +1,7 @@
 from ...base.selenium_base import SeleniumBase
 from .pagewise_locators import Page_locator
 
+
 class WebPage(SeleniumBase):
     def __init__(self, driver):
         super().__init__(driver)
