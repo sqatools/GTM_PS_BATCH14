@@ -1,0 +1,9 @@
+# to alearn about API's
+
+https://restful-api.dev/
+
+# To install API related s/w
+- Install -> pip install requests
+
+# To run APi file.
+- python -\file name. (API file name needs to start always with 'api' keyword followed by anything)
