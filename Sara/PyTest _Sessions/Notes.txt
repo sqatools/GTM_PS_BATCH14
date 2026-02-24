@@ -161,3 +161,11 @@ perform any setup tasks required for the tests.
 To execute a fixture function: python -m pytest -v -s .\filename.py
 
 -s : to execute the text mentioned before and after the yield statement in the fixture function.
+
+#############################################################################3
+super() keyword is used to inherit variable of parent class in child
+
+-used to call a method from the parent class.
+- It allows you to access methods and properties of a parent class from a child class.
+- This is particularly useful when you want to extend or modify the behavior of a method in the child
+class while still retaining the functionality of the parent class.

@@ -7,3 +7,15 @@ https://restful-api.dev/
 
 # To run APi file.
 - python -\file name. (API file name needs to start always with 'api' keyword followed by anything)
+
+# payload
+payload - data that we want to send to the API. In GET request we are not sending any data to the API, 
+hence it is empty.
+
+# GET Method
+- While using Get method- payload and header is empty.
+
+# POST Method
+When we use POST method we need to give payload and header values
+payload usually converts the request body in json format.
+
