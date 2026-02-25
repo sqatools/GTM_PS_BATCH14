@@ -1,0 +1,13 @@
+1. Create a api base file. THis file will be common for all API released testing.
+
+2. Create a API objects folder.
+    1. In this folder first create a __init__ file. This file is created to convert api object folder to module.
+    2. Create a class file of the API in this folder that you want to automate.
+    3. Create a test data file with all the data that would require for the API test
+
+3. Create a test file either in API object file or create a separata test folder and create in it.
+    1. Assertion we will do in this test file.
+    2. Create a function fixture
+    3. Create object of page class/restful api class. (self.object_of_page_class_name)
+
+Whatever we have written in class file we can write it in test file also. BUt we need to try that test file has less number of code. So if we write the method in class file then we will reduce those many line of code in test file and we can directly call the class method in the test file.     

@@ -17,5 +17,5 @@ hence it is empty.
 
 # POST Method
 When we use POST method we need to give payload and header values
-payload usually converts the request body in json format.
+payload is the json format (required for python coding) of request body
 
