@@ -12,5 +12,5 @@ from .restful_testdata import *
 class call_all_objects(APIBase):
 
     def get_all_objects(self):
-        res_data, res_reason_code = self.get_method(url=url) # we are getting data and reason code from the url
+        res_data, res_reason_code = self.get_method(url=pg_url) # we are getting data and reason code from the url
         return res_data, res_reason_code

@@ -1,5 +1,6 @@
 import pytest
-from ..api_objects.api_restful_class import call_all_objects
+from ..page_objects.api_restful_class import call_all_objects
+from ..page_objects.restful_testdata import *
 
 class run_api_scenario():
 
@@ -15,5 +16,10 @@ class run_api_scenario():
             assert len(res_data)==13
             assert status_reason_code == 200
 
-       
+    def test_specfic_id(self):
+         res_data, status_reason_code = self.RP.get_single_object(single_object)        
+         
+         assert len(res_data)== 3
+         assert res_data ['id'] == single_object
+         assert status_reason_code == 200
 
