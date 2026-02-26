@@ -1,5 +1,6 @@
 import pytest
 import time
+#from page_objects.dummy_page.dummy_page import DummyPage
 from page_objects.dummy_page.dummy_page import DummyPage
 from page_objects.dummy_page.dummy_page_data import *
 
