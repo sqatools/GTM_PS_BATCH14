@@ -11,6 +11,7 @@ class TestDummyWebsite:
     def setup(self):
         self.dp = DummyPage(self.driver)
 
+    @pytest.mark.ui
     def test_provide_user_details(self):
         self.dp.launch_website(url=website_url)
         self.dp.enter_first_name(first_name_value)
