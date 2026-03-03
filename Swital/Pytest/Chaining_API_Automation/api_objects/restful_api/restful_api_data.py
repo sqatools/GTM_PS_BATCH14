@@ -16,3 +16,13 @@ create_new_object_payload = json.dumps({
 new_object_headers = {
     'Content-Type': 'application/json'
     }
+
+create_new_object_payload2 = json.dumps({
+  "name": "Apple MacBook Pro 20",
+  "data": {
+    "year": 2020,
+    "price": 1849.99,
+    "CPU model": "Intel Core i9",
+    "Hard disk size": "1 TB"
+  }
+})
