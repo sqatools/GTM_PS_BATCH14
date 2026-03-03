@@ -112,3 +112,10 @@ class SeleniumBase:
         """
         file_input_element = self.get_element(locator)
         file_input_element.send_keys(file_path)
+
+    def get_attribute(self, locator, attribute):
+        """Return the value of a given attribute on the element located by *locator*."""
+        element = self.get_element(locator)
+        if element:
+            return element.get_attribute(attribute)
+        return None
