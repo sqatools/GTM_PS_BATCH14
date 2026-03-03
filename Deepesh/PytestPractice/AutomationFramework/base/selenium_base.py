@@ -21,7 +21,8 @@ class SeleniumBase:
             os.mkdir(logs_path)
 
     def take_screenshot(self):
-        file_name = f'{datetime.now().strftime("%Y_%m_%d_%H_%M_%S")}_image.png'
+        new_name = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
+        file_name = f"{new_name}_image.png"
         file_path = os.path.join(os.getcwd(), f"logs\{file_name}")
         self.log.info(f"screenshot path : {file_path}")
         self.driver.save_screenshot(file_path)
