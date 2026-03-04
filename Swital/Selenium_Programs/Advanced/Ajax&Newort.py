@@ -12,6 +12,7 @@ def main():
         wait = WebDriverWait(driver, 10)
         # ---------------- AJAX Success & Network Failure ----------------
         # Click 'Load Success' and verify loader text
+        
         success_btn = driver.find_element(By.XPATH, "//button[contains(@onclick,'loadAjax(true)')]")
         success_btn.click()
         wait.until(EC.text_to_be_present_in_element((By.ID, "loader"), "Data loaded successfully!"))
