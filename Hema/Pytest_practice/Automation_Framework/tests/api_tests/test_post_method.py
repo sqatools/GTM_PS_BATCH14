@@ -9,6 +9,7 @@ class TestPostMethod:
 
     def test_post_method_for_objects_And_verify(self):
         response, statuscode = self.apitest2.post_method_for_objects(payload=data_for_post_method)
-        assert response["name"] == data_for_post_method["name"]
-        assert statuscode == 201
+        assert response["name"] == "Hema's Apple MacBook Pro 16"
+        assert response['data']['year'] == 2025
+        assert statuscode == 200
 
