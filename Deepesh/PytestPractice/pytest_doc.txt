@@ -1,0 +1,105 @@
+# install pytest on machine using pip
+-> pip install pytest
+
+# command to execute pytest file
+
+-> python -m pytest -v .\test_math_operations.py
+
+-> python -m pytest -v .\test_math_operations.py
+
+-m :  means : Run a Python module as script from root location.
+
+pytest :  This is testing framework there we want to execute code.
+
+-v :  Verbose mode of execution.
+   :  It shows detailed information of test cases execution.
+
+# Command to execute the test cases with marker
+-> python -m pytest -m "regression" -v .\test_math_operations_markers.py
+
+# command to execute test with multiple marker using or condition.
+->  python -m pytest -m "smoke or regression" -v .\test_math_operations_markers.py
+
+# command to excute the test case with and condition of marker
+-> python -m pytest -m "smoke and sanity" -v .\test_math_operations_markers.py
+for mac user
+-> python -m pytest -m "smoke and sanity" -v test_math_operations_markers.py
+
+# command to specific test case with name
+-> python -m pytest -k "test_combined_operations" -v .\test_math_operations_markers.py
+
+# Generate html report in pytest
+->  install pyhtml package using below command
+->  pip install pytest-html
+->  python -m pytest -v test_file --html=report.html
+->  python -m pytest -v .\PytestPractice\ --html=report.html
+->  python -m pytest -v .\Deepesh\PytestPractice\ --html=report.html --self-contained-html
+
+Pytest Fixture : fixture is function that help us to initiate the pre-requisite setup
+and teadown before and after execution of the test cases.
+
+
+# Generate Allure results (already works)
+python -m pytest -v . --alluredir=./allure-results
+
+# Install Allure command-line (via pip)
+pip install allure-pytest
+
+# View report in browser
+allure serve ./allure-results
+
+"""
+fixture: A fixture is a function that is decorated with @pytest.fixture. 
+It can be used to set up some state or data before running a test, and 
+then clean up after the test is done. Fixtures can be used to provide a 
+consistent and reusable way to set up test data, mock objects, or any other resources needed for testing.
+
+@pytest.fixture(scope="function"):
+def my_fixture():
+    # setup code
+    yield resource
+    # teardown code
+
+In this example, the fixture my_fixture is defined with a scope of "function", 
+which means it will be executed for each test function that uses it. 
+The setup code is executed before the test runs, and the teardown code 
+is executed after the test completes. The yield statement allows you to return 
+a resource that can be used in the test function.
+
+1. function scope: The function scope is the default scope for fixtures.
+This means that the fixture will be executed once for each test function that uses it.
+
+2. class scope: The class scope means that the fixture will be executed once per test class.
+
+3. module scope: The module scope means that the fixture will be executed once per module.
+
+4. package scope: The package scope means that the fixture will be executed once per package.
+
+5. session scope: The session scope means that the fixture will be executed once per execution session, 
+which is typically the entire test run.
+
+# Execution structure of the fixture.
+
+start session fixture
+  package fixture
+     modules fixture
+         class fixture
+            function fixture start
+            test
+            function fixture teardown
+
+         class fixture teardown
+      module fixture teardown
+   package fixture teardown
+session fixture teardown
+
+      
+
+
+"""
+- common fixture file name has to conftest.py, that we can not change.
+  - we can define all the common fixture inside the conftest file.
+  - no need to inport the fixture file in any test file. it will auto import.
+
+
+- Test class name has to start with Test* as prefix

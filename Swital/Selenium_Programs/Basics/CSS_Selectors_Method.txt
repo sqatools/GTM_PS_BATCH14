@@ -1,0 +1,38 @@
+# CSS Selectors
+
+Method of css Selectors in selenium:
+1. Id Selector
+CSS selectors can be written in two ways:
+Short form (without tag name):  Syntax: #idvalue
+Explicit form (with tag name):  Syntax: tagname#idvalue
+
+   Example: #txtUsername
+   Example: input#txtUsername
+
+2. Class Selector
+Same written in two ways:
+Short form (without tag name):  Syntax: .classvalue
+Explicit form (with tag name):  Syntax: tagname.classvalue
+   Example: .form-control
+   Example: input.form-control
+
+3. Attribute Selector
+    Syntax: tagname[attribute='value']
+    Example: input[name='txtPassword']
+
+4. Contains or Substring Selector
+    Syntax: tagname[attribute*='value']
+    Example: input[name*='txt']
+
+5. Starts-with Selector
+      Syntax: tagname[attribute^='value']
+      Example: input[name^='txt']
+
+6. Ends-with Selector
+      Syntax: tagname[attribute$='value']
+      Example: input[name$='name']
+
+7. Multiple Attribute Selector
+      Syntax: tagname[attribute1='value'][attribute2='value']
+      Example: input[name='txtUsername'][type='text']
+
