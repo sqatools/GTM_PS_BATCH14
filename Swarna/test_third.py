@@ -1,1 +1,0 @@
-print("always be happy")

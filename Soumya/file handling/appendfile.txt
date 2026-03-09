@@ -1,3 +1,0 @@
-
-This is appended line. adding with append mode.
-This is appended line. adding with append mode.

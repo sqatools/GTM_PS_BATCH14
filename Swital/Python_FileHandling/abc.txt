@@ -1,2 +1,0 @@
-we are learning python file handling.
-File handling is very important in python.

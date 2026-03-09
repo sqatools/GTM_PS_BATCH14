@@ -1,2 +1,0 @@
-We are learning python file handling.
-This is appended line. adding with append mode.
