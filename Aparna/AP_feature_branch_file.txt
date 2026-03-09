@@ -1,3 +1,0 @@
-Adding file to git  repository
-
-Thi sfile belongs to feature branch

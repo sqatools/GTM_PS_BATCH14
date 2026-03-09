@@ -1,1 +1,0 @@
-#page lovcators file is used to store all the locators of the elements which are used in the test cases
