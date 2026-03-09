@@ -11,7 +11,7 @@ class TestPracticePage:
     def setup(self):
         self.pp = PracticePage(self.driver)
 
-
+    @pytest.mark.ui
     def test_enter_user_details_verify(self, request):
         self.pp.log.info(f"Test Name: --- {request.node.name} -------")
         self.pp.launch_url(url=practice_url)
@@ -27,7 +27,6 @@ class TestPracticePage:
             file.write("We are learning framework")
         file_path_upload = os.path.join(os.getcwd(), "data_file.txt")
         self.pp.upload_file_on_web(file_path=file_path_upload)
-
-        time.sleep(10)
+        time.sleep(5)
 
 

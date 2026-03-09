@@ -9,5 +9,8 @@ feature folder.
 
 - conftest.py file will available inside the tests directory.
 
+<!-- USE CMD SHIFT 7 FOR COMMENTING OUT MULTIPLE LINES -->
+
+
 
 
