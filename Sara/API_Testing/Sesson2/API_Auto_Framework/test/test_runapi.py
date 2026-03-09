@@ -1,11 +1,11 @@
 import pytest
 from ..api_objects.api_restful_class import call_all_objects
 
-class run_api_scenario():
+class Test_run_api_scenario:
 
     @pytest.fixture(scope="function", autouse=True)
     def setup_restful_class(self):
-        self.RP = call_all_objects() # careating object of another/inheritate class
+        self.RP = call_all_objects() # creating object of another/inheritate class
 
      # to call all the methods present in above class   
     def test_get_objects_method(self):
