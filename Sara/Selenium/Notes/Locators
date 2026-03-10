@@ -1,0 +1,22 @@
+ON page control+F Inspect
+https://sqatools.in/automation-practice-page/
+
+1. For ID location- You will get all the fields whose locator ID has that value
+-> #value
+
+2. For CLASS- You will get all the fields whose locator CLASS has that value
+-> .value
+
+
+3. For NAME- You will get all the fields whose locator CLASS has that value
+-> [NAME='value']
+-> ex. [name='username'] 
+
+4. For LINK_TEXT- Finding element by giving entire text visible on the UI for a hyperlink
+
+5. PARTIAL_LINK_TEXT: Finding element by giving partail text from entire text visible on the UI
+for a hyperlink
+
+6. XPath
+->Absolute : Details in separate file
+-> Relative : Details in separate file

@@ -1,0 +1,14 @@
+Absolute xpath:
+->Follow the entire DOM structure.
+-> From root to desired path.
+-> Starts with single slash (/)
+-> example: 
+For url : https://sqatools.in/automation-practice-page/
+To find Automation practice page header we need to paste the below xpath
+
+/html/body/div[1]/div/div[1]/main/article/div/header/h1
+
+-> Right click on element-> Inspect -> right click on the element->Copy->full xpath.
+
+-> NOt adivced to use
+

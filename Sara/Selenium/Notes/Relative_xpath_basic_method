@@ -1,0 +1,35 @@
+https://sqatools.in/automation-practice-page/
+
+########################### METHODS ###########################
+1. text()
+-> Selects element based on their text.
+//tagname[text()='textvalue']
+-> example:
+//option[text()="Python"]
+
+----------------------------------------------------------------------------
+
+2. contains()
+-> selects element based on partial value or partial text
+-> we can use any portion of the sentence/value. Not just first
+//tagname[contains(@attribute,'substring')] or //tagname[contains(text(),'substring')]
+->example:
+//option[contains(text(),"Play")]
+
+------------------------------------------------------------------------------------
+3. starts-with():
+-> elements whose attribute value or text content starts with a specific substring.
+-> //tagname[starts-with(@attribute,'substring')] or //tagname[starts-with(text(),'substring')]
+->example:
+//button[starts-with(text(),'Normal')]
+//button[starts-with(@type,'res')]
+
+---------------------------------------------------------------------------------
+
+4. and/or operator:
+-> combine multiple conditions in an XPath expression.
+-> //tagname[@attribute1='value1' and @attribute2='value2'] or 
+//tagname[@attribute1='value1' or @attribute2='value2']
+-> example:
+//input[@id='disabledInput' or @value='Disabled']
+/input[@type='text' and @value='Enabled']

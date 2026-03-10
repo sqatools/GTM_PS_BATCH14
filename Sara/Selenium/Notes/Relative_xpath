@@ -1,0 +1,30 @@
+https://sqatools.in/automation-practice-page/
+
+Relative Xpath:
+->path from the current node to the desired element
+-> starts with a double slash (//)
+
+-> //taganame[@attribute='value'] or //*[@attribute='value']
+
+-> attribute can be anything that has value to it.
+-> example:
+For url : https://sqatools.in/automation-practice-page/
+To find Automation practice page header:
+//h1[@class='entry-title']  or  //*[@class="entry-title"]
+
+######################################################
+
+Single slash: is 1 level down
+Double slash between 2 tag is any level down
+example:
+
+The below path will give you the hyperlink python basic program
+//ul[@class='wp-block-list']/li/a[text()='Python Basic Programs']
+and 
+//ul[@class='wp-block-list']//a[text()='Python Basic Programs']
+
+
+But the below will not give the same result coz there is 1 more tag present 
+between 'a' tag and 'ul' tag. and single slash means only 1 level down.
+
+//ul[@class='wp-block-list']/a[text()='Python Basic Programs']
