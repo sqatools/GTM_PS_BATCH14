@@ -33,3 +33,11 @@ https://sqatools.in/automation-practice-page/
 -> example:
 //input[@id='disabledInput' or @value='Disabled']
 /input[@type='text' and @value='Enabled']
+
+--------------------------------------------------------------------
+
+5. index Method: select elements based on their position in a list of similar elements.
+-> (//tagname[@attribute='value'])[index]  
+->example:
+(//input[@type='text'])[1]
+(//h2[contains(text(), 'XPath')])[2]

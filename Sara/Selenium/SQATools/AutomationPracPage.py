@@ -7,6 +7,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.alert import Alert
 
 driver = webdriver.Chrome()
 driver.maximize_window()
@@ -72,8 +73,46 @@ time.sleep(2)
 #driver.find_element(By.LINK_TEXT,"Open Google").click()
 #time.sleep(2)
 
-driver.find_element(By.PARTIAL_LINK_TEXT,"Bottom").click()
+#driver.find_element(By.PARTIAL_LINK_TEXT,"Bottom").click()
+#time.sleep(2)
+
+# Handling simple alert option
+simple_alert=driver.find_element(By.XPATH,"//button[text()='Simple Alert']")
+simple_alert.click()
 time.sleep(2)
+
+popup = Alert(driver)
+print("Simple Alert text: ", popup.text)
+popup.accept()
+time.sleep(2)
+
+# Handling confirm alert option
+
+confirm_alert= driver.find_element(By.XPATH,"//button[text()='Confirm Alert']")
+confirm_alert.click()
+time.sleep(2)
+
+c_popup=Alert(driver)
+print("Confirm Alert text:", c_popup.text)
+c_popup.dismiss()
+
+'''
+# Handling prompt alert option - ISsue with this alert on UI
+
+prompt_alert=driver.find_element(By.XPATH,"//button[text()='Prompt Alert']")
+prompt_alert.click()
+
+p_popup=Alert(driver)
+print("Prompt Alert:", p_popup.text)
+p_popup.send_keys("Automation Learning")
+time.sleep(5)
+print("Prompt Alert 2:", p_popup.text)
+p_popup.accept()
+
+'''
+#Upload file
+
+driver.find_element(By.ID,"fileUpload").click()
 
 '''
 # Relative xpath: and operator method - Enabled & Disabled Fields
