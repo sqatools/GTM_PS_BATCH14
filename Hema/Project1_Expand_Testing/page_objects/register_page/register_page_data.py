@@ -1,0 +1,5 @@
+website_url ="https://practice.expandtesting.com/register"
+input_username = "practice"
+input_password = "SuperSecretPassword!"
+confirm_password = "SuperSecretPassword!"
+register_button = "Register"
