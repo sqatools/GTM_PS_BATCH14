@@ -1,3 +1,5 @@
+from select import select
+
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
@@ -36,8 +38,16 @@ class SeleniumBase:
             raise
     
     def click_element(self, locator):
-        element = self.get_element(locator)
-        element.click()
+        wait = WebDriverWait(self.driver, 10)
+        element = wait.until(EC.element_to_be_clickable(locator))
+        #scroll the element into view
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", element)   
+        try:
+            element.click()
+        except:
+            self.driver.execute_script("arguments[0].click();", element)
+       # element = self.get_element(locator)
+        #element.click()
 
     def enter_text(self, locator, text):
         element = self.get_element(locator)
@@ -62,6 +72,7 @@ class SeleniumBase:
         dropdown_element  = self.get_element(dropdown_locator)
         select = Select(dropdown_element)
         select.select_by_visible_text(option_value)
+      #  select.select_by_index(option_value)
 
     def upload_file(self, locator, file_path):
         file_input_element = self.get_element(locator)
