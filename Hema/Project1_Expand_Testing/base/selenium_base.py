@@ -1,5 +1,6 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
 import logging
 import os
 from datetime import datetime
@@ -76,3 +77,7 @@ class SeleniumBase:
     def get_attribute(self, locator, attribute_name):
         element = self.get_element(locator)
         return element.get_attribute(attribute_name)
+    
+    def drag_and_drop(self, source_locator, target_locator):
+        action = ActionChains(self.driver)
+        action.drag_and_drop(source_locator, target_locator).perform()

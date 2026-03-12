@@ -4,7 +4,6 @@ from page_objects.radio_button_page.radio_button_page import RadioButtonPage
 import pytest
 import time
 
-
 @pytest.mark.usefixtures("get_driver")
 class TestRadioButtonPage:
 

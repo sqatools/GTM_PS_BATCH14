@@ -1,5 +1,4 @@
 from page_objects.login_page.login_page_data import website_url, input_username, input_password
-from page_objects.login_page.login_page_locator import LoginPageLocator
 from page_objects.login_page.login_page import LoginPage
 import pytest
 import time
