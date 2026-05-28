@@ -29,6 +29,7 @@ driver.get("https://sqatools.in/automation-practice-page/")
 
 # Using different locators to find elements
 # GET By TAG_NAME
+
 heading_element = driver.find_element(By.TAG_NAME, "h1")
 print("Heading Text:", heading_element.text)
 
