@@ -165,6 +165,7 @@ e.g. //tagname[@attribute='value']/preceding::tagname
 --//th[text()='Name']//preceding::h2[text()='Web Table']--upper  side no matter withtagname
 --//th[text()='Name']//preceding::label[text()='Male']
 --//th[text()='Name']/preceding::label[text()='Male']--we can use with single slash also
+---//th[text()='Name']//preceding::h2[text()='Text Fields']
 
 Following-sibling: Selects all siblings that come after the current node.
 e.g. //tagname[@attribute='value']/following-sibling::tagname
