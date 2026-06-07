@@ -21,6 +21,7 @@ e.g., you can specify that the WebDriver should check for the presence of an ele
 ignore NoSuchElementException while waiting.
 
 4. static wait
+static is not used in production code because it is not efficient and can lead to longer test execution times.
 Static wait is a simple wait mechanism where you specify a fixed amount of time to wait
 before proceeding
 
@@ -60,13 +61,18 @@ def implicit_wait_example():
 #implicit_wait_example()
 
 
+# fault wait --will checking every time forthe element and if it is not found then it will wait for 10 seconds and 
+# after that it will throw an exception.
+#to avoid stress on weddriver using fault waitexample :to upload huge file we can use fault.add()
+
+
 def explicit_wait_example():
 
     # 2. Explicit Wait
     wait = WebDriverWait(driver, 15, poll_frequency=1)  # seconds
     t1 = time.time()
     try:
-        element = wait.until(EC.presence_of_element_located((By.NAME, "address")))
+        element = wait.until(EC.presence_of_element_located((By.XPATH, "//textarea[@name='address']")))
         element.send_keys("456 Another St, City, Country")
 
         radio_button = wait.until(EC.element_to_be_clickable((By.ID, "male")))
