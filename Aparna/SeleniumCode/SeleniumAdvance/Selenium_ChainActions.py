@@ -38,6 +38,9 @@ def dragAnddrop2():
     print("Sucessfully drag the option")
 #dragAnddrop2()
 
+#mouse hover to element for that we nedd to perform actions 
+#I want to locate and scroll the bottom
+
 def perform_mouseHover_to_element():
     driver.get("https://www.globalsqa.com/demo-site/draganddrop/")
     time.sleep(5)
@@ -54,8 +57,32 @@ def perform_mouseHover_to_element():
     print(alert_box.text)
     
     time.sleep(10)
-perform_mouseHover_to_element()
+#perform_mouseHover_to_element()
+
+
+#scroll to the particular element
+def scrolling_page():
+     driver.get("https://sqatools.in/automation-practice-page/")
+     time.sleep(5)
+     scroll_ele=driver.find_element(By.XPATH,"//input[@placeholder='Press any key']")
+     action.scroll_to_element(scroll_ele).click(scroll_ele).send_keys("python").perform()
+     time.sleep(5)
+     print("Scrol to the keyborad actions")
+     time.sleep(5)
+     
+#scrolling_page()
+#context click means right click
+def context_click():
+    driver.get("https://sqatools.in/automation-practice-page/")
+    time.sleep(5)
+    right_clickbutton=driver.find_element(By.ID,"drag1")
+    action.context_click(right_clickbutton).perform()
+    time.sleep(5)
+    print("Context click performed sucessfully")
+    time.sleep(5)
     
+context_click()    
+
 
     
 
