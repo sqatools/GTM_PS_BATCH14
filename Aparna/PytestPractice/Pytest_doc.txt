@@ -1,0 +1,29 @@
+#Inorder to write  manual we do in automation we write different test function 
+#help us write code in particular  function
+#To  desgin framework pytest will help us
+#intsall pytest on machine using pip
+# pip install pytest not support  use--pip3
+
+#to execute pytest file open integrated terminalscript-not in script file-
+----python -m pytest -v .\test_mathoperations.py 
+
+#every new file will start with 'test_filename.py'
+
+-m  module:meams run python module as script from root location.
+
+pytest: testing framework there we want to execute code.
+
+-v: verbose mode of execution it will give percentage 
+    :it shows detail information of test cases execution
+
+--command to execute the test cases with marker
+-->-python -m pytest -m "regression" -v .\test_mathoperations_markers.py
+
+--command  to execute with multiple marker using or condition
+-->python -m pytest -m "smoke or regression" -v .\test_mathoperations_markers.py
+
+-- command to excute the test case with and condition of marker
+-> python -m pytest -m "smoke and sanity" -v .\test_mathoperations_markers.py
+
+# command to specific test case with name
+-> python -m pytest -k "test_division" -v .\test_mathoperations_markers.py
