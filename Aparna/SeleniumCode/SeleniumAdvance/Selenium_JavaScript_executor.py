@@ -65,6 +65,7 @@ def javascript_executor():
     time.sleep(5)
 
 #javascript_executor()
+
 #arguments[0] = first argument after the script string (element)
 #arguments[1] = second argument
 #true → align the element to the top of the viewport.
