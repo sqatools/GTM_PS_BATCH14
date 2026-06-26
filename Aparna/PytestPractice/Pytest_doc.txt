@@ -1,10 +1,15 @@
 #Inorder to write  manual we do in automation we write different test function 
 #help us write code in particular  function
 #To  desgin framework pytest will help us
-#intsall pytest on machine using pip
-# pip install pytest not support  use--pip3
+# Install pytest on machine using pip
+# On Windows:
+#   python -m pip install pytest
+# On Linux/macOS:
+#   pip3 install pytest
+# Or use the Python module form for the current interpreter:
+#   python -m pip install pytest
 
-#to execute pytest file open integrated terminalscript-not in script file-
+# To execute pytest file open integrated terminal - not in script file
 ----python -m pytest -v .\test_mathoperations.py 
 
 #every new file will start with 'test_filename.py'
@@ -27,3 +32,38 @@ pytest: testing framework there we want to execute code.
 
 # command to specific test case with name
 -> python -m pytest -k "test_division" -v .\test_mathoperations_markers.py
+
+Skip scenario---If we have two environment UAT AND prod ,We want to skip the credentials 
+--in production we dont want to run the test cases in thatcase we can skip the test case 
+---and we can run other test cases
+
+xfail marker---expectedfailure
+working on feature testcases in that particulartwo particulartest cases
+are failing because of production issue
+
+parameterize--one single testcase execute with different number of list  
+of inputes
+
+# generate HTML report in pytest
+Install the pytest-html plugin first:
+-- python -m pip install pytest-html
+
+If you get this error:
+  unrecognized arguments: --html=report.html --self-contained-html
+then the pytest-html plugin is not installed.
+
+Run pytest and generate a report file:
+-- python -m pytest -v . --html=report.html --self-contained-html
+
+Or run a specific test file:
+-- python -m pytest -v .\test_mathoperations.py --html=report.html --self-contained-html
+
+Or run a directory:
+-- python -m pytest -v .\PytestPractice\ --html=report.html --self-contained-html
+
+# generate pytest HTML graph/report presentation using pytest-html-reporter
+Install the pytest-html-reporter plugin (different plugin):
+-- python -m pip install pytest-html-reporter
+
+Run pytest with the reporter option:
+-- python -m pytest -v .\PytestPractice\ --html-report=./report
