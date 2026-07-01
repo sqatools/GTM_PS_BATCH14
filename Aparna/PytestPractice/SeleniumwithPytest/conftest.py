@@ -28,6 +28,22 @@ def get_instance_request(request):
     driver_instance.get("https://sqatools.in/automation-practice-page/")
     #Assigng the driver instance to the class variable
     request.cls.driver=driver_instance
+    #driver can write as anything it is an instance 
+    yield 
+    
+    driver_instance.quit()
+
+
+@pytest.fixture(scope='class')
+def get_instance_module(request):
+    driver_instance=webdriver.Chrome()
+    driver_instance.maximize_window()
+    
+    driver_instance.get("https://sqatools.in/automation-practice-page/")
+    #Assigng the driver instance to the class variable
+    request.cls.driver=driver_instance
+    #created the class variable ,if we  want to acces the var
+    # we can directly use this fixture--self.driver
     #driver can write as anything 
     yield 
     
