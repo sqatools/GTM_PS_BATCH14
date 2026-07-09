@@ -14,3 +14,6 @@ class School():
 
     def displayschool_details(self):
         print(f"School Name:{self.name},School Fee:{self.fee},School Address:{self.address}")
+        
+        
+        

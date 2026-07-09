@@ -34,7 +34,7 @@ class Main():
         itcompany.test_aaplication()
 
 
-#if __name__== "__main__":
+#if __name__== "__main__":--only for test the particular portionis working or not 
 #create object of main class
 main = Main()
 main.execute()#if const not their 
