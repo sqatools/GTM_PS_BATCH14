@@ -1,6 +1,6 @@
 
-from page import Page
-from pagedata import website_url, ENTER_EMAIL, ENTER_PASSWORD, ENTER_ADDRESS
+from ...page_objects.pages.page import Page
+from ...page_objects.pages.pagedata import website_url, ENTER_EMAIL, ENTER_PASSWORD, ENTER_ADDRESS
 from selenium import webdriver
 import pytest
 import time
