@@ -142,3 +142,7 @@ session fixture teardown
 
 
 - Test class name has to start with Test* as prefix
+
+##############################headles mode execution##########
+pytest -m  pytest -v -m "ui".\tests ,nobrowser will open 
+EVRY thing is hapens in memory

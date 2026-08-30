@@ -21,7 +21,7 @@ class TestPracticePage:
     def setup(self):
         self.pp = PracticePage(self.driver)
 
-    #@pytest.mark.ui
+    @pytest.mark.ui
     def test_enter_user_details_verify(self, request):
         #reqest.node.name is used to get the name of the test case 
         # that is being executed and it is used to log the test case name 
