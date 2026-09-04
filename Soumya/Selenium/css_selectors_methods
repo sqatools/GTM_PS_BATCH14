@@ -1,0 +1,41 @@
+CSS Selectors Methods in Selenium:
+
+1. ID Selector: This method is used to select elements based on their ID attribute.
+   e.g. #idvalue
+   -> #header
+   -> #username
+   -> #password
+   -> #loginButton
+   -> #submitButton
+   -> #pass
+
+2. Class Selector: This method is used to select elements based on their class attribute.
+   e.g. .classname
+    -> .entry-title
+    -> .wp-block-list
+    -> .button
+    -> .input-field
+    -> button.btn-login
+    -> header>h1.entry-title
+
+
+3. Attribute Selector: This method is used to select elements based on their attribute values.
+   e.g. tagname[attribute='value']
+    -> h1[id='header']
+    -> h1[class='entry-title']
+    -> input[placeholder='Enter username']
+    -> input[placeholder='Enter password']
+    -> button[type='submit']
+    -> input[type='text'][id='username']
+    -> form[action='/login']>input[id=email][name='email']
+
+4. contains or substring Selector: This method is used to select elements that contain
+                                 a specific substring in their attribute value.
+   e.g. tagname[attribute*='substring']
+    -> h1[class*='entry']
+    -> input[id*='user']
+    -> button[id*='submit']
+    -> div[class*='container']
+    -> a[href*='login']
+    -> img[src*='logo']
+    -> textarea[name*='dd']

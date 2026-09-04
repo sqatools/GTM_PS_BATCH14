@@ -1,0 +1,1236 @@
+﻿.github/copilot-instructions.md
+.github/workflows/automationci.yml
+.gitignore
+.run/Python_Dictionary.run.xml
+;
+Achin/Conditions/conditionspractice.py
+Achin/Dictionary/dictionary.py
+Achin/Functions/functionpractice.py
+Achin/List/list programs.py
+Achin/Loops/looppracticeprograms.py
+Achin/Selenium/Advance selenium code.py
+Achin/Selenium/basicselenium.py
+Achin/Selenium/seleniumlocators.py
+Achin/String/string practice programs.py
+Achin/first_file.py
+Achin/pytest_practice/Automation_Framework/Base/SeleniumBase.py
+Achin/pytest_practice/Automation_Framework/Base/__init__.py
+Achin/pytest_practice/Automation_Framework/Page_objects/Dummy_Page/__init__.py
+Achin/pytest_practice/Automation_Framework/Page_objects/Dummy_Page/dummy_page.py
+Achin/pytest_practice/Automation_Framework/Page_objects/Dummy_Page/dummy_page_data.py
+Achin/pytest_practice/Automation_Framework/Page_objects/Dummy_Page/dummy_page_locator.py
+Achin/pytest_practice/Automation_Framework/Page_objects/abc.py
+Achin/pytest_practice/Automation_Framework/__init__.py
+Achin/pytest_practice/Automation_Framework/readme.md
+Achin/pytest_practice/Automation_Framework/tests/__init__.py
+Achin/pytest_practice/Automation_Framework/tests/conftest.py
+Achin/pytest_practice/Automation_Framework/tests/dummy_test/__init__.py
+Achin/pytest_practice/Automation_Framework/tests/dummy_test/test_dummy_website.py
+Achin/pytest_practice/test_math_operations.py
+Anshika/First_file.txt
+Anshika/First_program.py
+Anshika/HomeAssignmentpython.py
+Anshika/Homework.py
+Anshika/PythonProgramming.py
+Anshika/Python_if_statement.py
+Anshika/Second_File.txt
+Anshika/python_datatype.py
+Anshika/pythondatatype1.py
+Aparna/AP_feature_branch_file.txt
+Aparna/First file.txt
+Aparna/Pythonprogramming/PythonVariables/python_variables.py
+Aparna/first_program.py
+Awadhut/1stday.txt
+Awadhut/2nday.txt
+Awadhut/first_pro.py
+Bhagesh/PythonPrograming/Python_datatype/Python_datatype.py
+Bhagesh/PythonPrograming/Pythonvariable/Python_basic_program.py
+Bhagesh/PythonPrograming/Pythonvariable/Python_variable.py
+Bhagesh/first_program.py
+Bhagesh/girst_file.txt
+Bhagesh/git1.txt
+Bineeta/Python/Datatype_Conversion.py
+Bineeta/Python/IfElseCondition.py
+Bineeta/Python/Python_First_Program.py
+Bineeta/Python/Python_Program.py
+Bineeta/first_File.txt
+Bineeta/first_File2.rtf
+Bineeta/first_program.py
+Darshana/PythonProgramming/ExceptionHandling/exception_handling.py
+Darshana/PythonProgramming/OOPS_Module/class_A.py
+Darshana/PythonProgramming/OOPS_Module/class_B.py
+Darshana/PythonProgramming/OOPS_Module/class_C.py
+Darshana/PythonProgramming/OOPS_Module/class_D.py
+Darshana/PythonProgramming/PythonCondition/Python_If_Condition_Notes_For_Beginners.pdf
+Darshana/PythonProgramming/PythonCondition/Python_If_Condition_Practice_Programs.pdf
+Darshana/PythonProgramming/PythonCondition/Python_if_condition.py
+Darshana/PythonProgramming/PythonDatatypeConversion.py
+Darshana/PythonProgramming/PythonDatatypes.py
+Darshana/PythonProgramming/PythonModules/datetime_modules.py
+Darshana/PythonProgramming/PythonModules/hello_world.py
+Darshana/PythonProgramming/PythonModules/python_os.py
+Darshana/PythonProgramming/PythonVariables.py
+Darshana/PythonProgramming/PythonVariables/Python datatype.py
+Darshana/PythonProgramming/PythonVariables/Python_variable.py
+Darshana/PythonProgramming/Python_DataType/DataTypeConversion.py
+Darshana/PythonProgramming/Python_DataType/Python_Datatypes_Fundamentals.pdf
+Darshana/PythonProgramming/Python_DataType/python_datatype.py
+Darshana/PythonProgramming/Python_FileHandling/abc.txt
+Darshana/PythonProgramming/Python_FileHandling/appendfile.txt
+Darshana/PythonProgramming/Python_FileHandling/emp_data.json
+Darshana/PythonProgramming/Python_FileHandling/newfile.txt
+Darshana/PythonProgramming/Python_FileHandling/read_data.txt
+Darshana/PythonProgramming/Python_FileHandling/read_write_excel.py
+Darshana/PythonProgramming/Python_FileHandling/read_write_json.py
+Darshana/PythonProgramming/Python_FileHandling/read_write_text.py
+Darshana/PythonProgramming/Python_FileHandling/user_data.json
+Darshana/PythonProgramming/Python_FileHandling/users_data.xlsx
+Darshana/PythonProgramming/Python_FileHandling/xyz.txt
+Darshana/PythonProgramming/Python_Functions/module1.py
+Darshana/PythonProgramming/Python_Functions/module2.py
+Darshana/PythonProgramming/Python_Functions/python_functions.py
+Darshana/PythonProgramming/Python_Functions/python_scope.py
+Darshana/PythonProgramming/Python_List/python_list.py
+Darshana/PythonProgramming/Python_Loops/While.py
+Darshana/PythonProgramming/Python_Loops/loop_practice_session.py
+Darshana/PythonProgramming/Python_Loops/python_loops.py
+Darshana/PythonProgramming/Python_OOPS/Assignments_oops.txt
+Darshana/PythonProgramming/Python_OOPS/class_methods.py
+Darshana/PythonProgramming/Python_OOPS/python_abstraction.py
+Darshana/PythonProgramming/Python_OOPS/python_datahiding.py
+Darshana/PythonProgramming/Python_OOPS/python_inheritancc2.py
+Darshana/PythonProgramming/Python_OOPS/python_inheritance.py
+Darshana/PythonProgramming/Python_OOPS/python_multilevel_inheritance.py
+Darshana/PythonProgramming/Python_OOPS/python_multiple_inheritance.py
+Darshana/PythonProgramming/Python_OOPS/python_multiple_inheritance2.py
+Darshana/PythonProgramming/Python_OOPS/python_oop_fundamentals.py
+Darshana/PythonProgramming/Python_OOPS/python_polymorphism.py
+Darshana/PythonProgramming/Python_Sets/python_sets.py
+Darshana/PythonProgramming/Python_String/Python_string_datatype.py
+Darshana/PythonProgramming/Python_String/String_Methods.py
+Darshana/PythonProgramming/Python_String/String_Programs.py
+Darshana/PythonProgramming/Python_String/hello_world.py
+Darshana/PythonProgramming/Python_Tuple/Python_tuple.py
+Darshana/PythonProgramming/Python_dictionary/data_set.py
+Darshana/PythonProgramming/Python_dictionary/dictionary_programs.py
+Darshana/PythonProgramming/Python_dictionary/python_dictionary.py
+Darshana/PythonProgramming/Python_loop_practise.py
+Darshana/PythonProgramming/Python_loops.py
+Darshana/PythonVariableProgram.py
+Darshana/Python_loop_practise.py
+Darshana/first_file.txt
+Darshana/first_program.py
+Deepesh/API_Automation/api_automation.py
+Deepesh/GitPractice/dy_feature_branch_File.txt
+Deepesh/GitPractice/dy_feature_branch_File2.txt
+Deepesh/GitPractice/first_file.txt
+Deepesh/GitPractice/first_file2.txt
+Deepesh/GitPractice/first_file3.txt
+Deepesh/GitPractice/multibrnaching.png
+Deepesh/Git_Guide/github_guide.txt
+Deepesh/Git_Guide/github_guide2.txt
+Deepesh/Git_Guide/github_guide_common_repo.txt
+Deepesh/PytestPractice/AutomationFramework/.github/workflows/ci.yml
+Deepesh/PytestPractice/AutomationFramework/__init__.py
+Deepesh/PytestPractice/AutomationFramework/api_objects/__init__.py
+Deepesh/PytestPractice/AutomationFramework/api_objects/restfull_api/__init__.py
+Deepesh/PytestPractice/AutomationFramework/api_objects/restfull_api/resfull_api_class.py
+Deepesh/PytestPractice/AutomationFramework/api_objects/restfull_api/restfull_api_data.py
+Deepesh/PytestPractice/AutomationFramework/base/__init__.py
+Deepesh/PytestPractice/AutomationFramework/base/api_base.py
+Deepesh/PytestPractice/AutomationFramework/base/selenium_base.py
+Deepesh/PytestPractice/AutomationFramework/data_file.txt
+Deepesh/PytestPractice/AutomationFramework/dummy_website_test_plan.md
+Deepesh/PytestPractice/AutomationFramework/page_objects/__init__.py
+Deepesh/PytestPractice/AutomationFramework/page_objects/dummy_page/__init__.py
+Deepesh/PytestPractice/AutomationFramework/page_objects/dummy_page/dummy_page.py
+Deepesh/PytestPractice/AutomationFramework/page_objects/dummy_page/dummy_page_data.py
+Deepesh/PytestPractice/AutomationFramework/page_objects/dummy_page/dummy_page_locator.py
+Deepesh/PytestPractice/AutomationFramework/page_objects/practice_page/__init__.py
+Deepesh/PytestPractice/AutomationFramework/page_objects/practice_page/practice_page.py
+Deepesh/PytestPractice/AutomationFramework/page_objects/practice_page/practice_page_data.py
+Deepesh/PytestPractice/AutomationFramework/page_objects/practice_page/practice_page_locators.py
+Deepesh/PytestPractice/AutomationFramework/pytest.ini
+Deepesh/PytestPractice/AutomationFramework/readme.md
+Deepesh/PytestPractice/AutomationFramework/requirements.txt
+Deepesh/PytestPractice/AutomationFramework/tests/__init__.py
+Deepesh/PytestPractice/AutomationFramework/tests/api_test/__init__.py
+Deepesh/PytestPractice/AutomationFramework/tests/api_test/test_restfull_api.py
+Deepesh/PytestPractice/AutomationFramework/tests/conftest.py
+Deepesh/PytestPractice/AutomationFramework/tests/dummy_test/__init__.py
+Deepesh/PytestPractice/AutomationFramework/tests/dummy_test/test_dummy_website.py
+Deepesh/PytestPractice/AutomationFramework/tests/practice_test/__init__.py
+Deepesh/PytestPractice/AutomationFramework/tests/practice_test/test_practice_page.py
+Deepesh/PytestPractice/SeleniumwithPytest/Selenium_Base.py
+Deepesh/PytestPractice/SeleniumwithPytest/TestLogin.py
+Deepesh/PytestPractice/SeleniumwithPytest/TestLogin_explicitwait.py
+Deepesh/PytestPractice/SeleniumwithPytest/TestLogin_request.py
+Deepesh/PytestPractice/SeleniumwithPytest/conftest.py
+Deepesh/PytestPractice/__pycache__/data_file.cpython-314.pyc
+Deepesh/PytestPractice/__pycache__/test_login_parameters.cpython-314-pytest-9.0.2.pyc
+Deepesh/PytestPractice/__pycache__/test_math_operations.cpython-314-pytest-9.0.2.pyc
+Deepesh/PytestPractice/__pycache__/test_math_operations_markers.cpython-314-pytest-9.0.2.pyc
+Deepesh/PytestPractice/__pycache__/test_math_operations_markers_xfail.cpython-314-pytest-9.0.2.pyc
+Deepesh/PytestPractice/__pycache__/test_math_operations_skip_markers.cpython-314-pytest-9.0.2.pyc
+Deepesh/PytestPractice/basics/data_file.py
+Deepesh/PytestPractice/basics/test_login_parameters.py
+Deepesh/PytestPractice/basics/test_math_operations.py
+Deepesh/PytestPractice/basics/test_math_operations_fixture.py
+Deepesh/PytestPractice/basics/test_math_operations_markers.py
+Deepesh/PytestPractice/basics/test_math_operations_markers_xfail.py
+Deepesh/PytestPractice/basics/test_math_operations_skip_markers.py
+Deepesh/PytestPractice/demo_framework/conftest.py
+Deepesh/PytestPractice/demo_framework/page_locators.py
+Deepesh/PytestPractice/demo_framework/selenium_base.py
+Deepesh/PytestPractice/demo_framework/test_login.py
+Deepesh/PytestPractice/framework_design.png
+Deepesh/PytestPractice/pom_demo_framework/conftest.py
+Deepesh/PytestPractice/pom_demo_framework/dummy_page.py
+Deepesh/PytestPractice/pom_demo_framework/dummy_page_data.py
+Deepesh/PytestPractice/pom_demo_framework/dummy_page_locator.py
+Deepesh/PytestPractice/pom_demo_framework/pom_design_diagram.png
+Deepesh/PytestPractice/pom_demo_framework/selenium_base.py
+Deepesh/PytestPractice/pom_demo_framework/test_dummy_website.py
+Deepesh/PytestPractice/pytest_doc.txt
+Deepesh/PythonProgramming/ExceptionHandling/exception_handling.py
+Deepesh/PythonProgramming/OOPS_Module/__pycache__/class_A.cpython-313.pyc
+Deepesh/PythonProgramming/OOPS_Module/__pycache__/class_B.cpython-313.pyc
+Deepesh/PythonProgramming/OOPS_Module/__pycache__/class_C.cpython-313.pyc
+Deepesh/PythonProgramming/OOPS_Module/class_A.py
+Deepesh/PythonProgramming/OOPS_Module/class_B.py
+Deepesh/PythonProgramming/OOPS_Module/class_C.py
+Deepesh/PythonProgramming/OOPS_Module/class_D.py
+Deepesh/PythonProgramming/PythonCondition/Python_If_Condition_Notes_For_Beginners.pdf
+Deepesh/PythonProgramming/PythonCondition/Python_If_Condition_Practice_Programs.pdf
+Deepesh/PythonProgramming/PythonCondition/Python_if_condition.py
+Deepesh/PythonProgramming/PythonModules/datetime_modules.py
+Deepesh/PythonProgramming/PythonModules/hello_world.py
+Deepesh/PythonProgramming/PythonModules/python_os.py
+Deepesh/PythonProgramming/PythonVariables/Python datatype.py
+Deepesh/PythonProgramming/PythonVariables/Python_variable.py
+Deepesh/PythonProgramming/Python_DataType/DataTypeConversion.py
+Deepesh/PythonProgramming/Python_DataType/Python_Datatypes_Fundamentals.pdf
+Deepesh/PythonProgramming/Python_DataType/python_datatype.py
+Deepesh/PythonProgramming/Python_FileHandling/abc.txt
+Deepesh/PythonProgramming/Python_FileHandling/appendfile.txt
+Deepesh/PythonProgramming/Python_FileHandling/emp_data.json
+Deepesh/PythonProgramming/Python_FileHandling/newfile.txt
+Deepesh/PythonProgramming/Python_FileHandling/read_data.txt
+Deepesh/PythonProgramming/Python_FileHandling/read_write_excel.py
+Deepesh/PythonProgramming/Python_FileHandling/read_write_json.py
+Deepesh/PythonProgramming/Python_FileHandling/read_write_text.py
+Deepesh/PythonProgramming/Python_FileHandling/user_data.json
+Deepesh/PythonProgramming/Python_FileHandling/users_data.xlsx
+Deepesh/PythonProgramming/Python_FileHandling/xyz.txt
+Deepesh/PythonProgramming/Python_Functions/module1.py
+Deepesh/PythonProgramming/Python_Functions/module2.py
+Deepesh/PythonProgramming/Python_Functions/python_functions.py
+Deepesh/PythonProgramming/Python_Functions/python_scope.py
+Deepesh/PythonProgramming/Python_List/python_list.py
+Deepesh/PythonProgramming/Python_Loops/While.py
+Deepesh/PythonProgramming/Python_Loops/loop_practice_session.py
+Deepesh/PythonProgramming/Python_Loops/python_loops.py
+Deepesh/PythonProgramming/Python_OOPS/Assignments_oops.txt
+Deepesh/PythonProgramming/Python_OOPS/class_methods.py
+Deepesh/PythonProgramming/Python_OOPS/demo_class1.py
+Deepesh/PythonProgramming/Python_OOPS/demo_class2.py
+Deepesh/PythonProgramming/Python_OOPS/python_abstraction.py
+Deepesh/PythonProgramming/Python_OOPS/python_datahiding.py
+Deepesh/PythonProgramming/Python_OOPS/python_inheritancc2.py
+Deepesh/PythonProgramming/Python_OOPS/python_inheritance.py
+Deepesh/PythonProgramming/Python_OOPS/python_multilevel_inheritance.py
+Deepesh/PythonProgramming/Python_OOPS/python_multiple_inheritance.py
+Deepesh/PythonProgramming/Python_OOPS/python_multiple_inheritance2.py
+Deepesh/PythonProgramming/Python_OOPS/python_oop_fundamentals.py
+Deepesh/PythonProgramming/Python_OOPS/python_polymorphism.py
+Deepesh/PythonProgramming/Python_Sets/python_sets.py
+Deepesh/PythonProgramming/Python_String/Python_string_datatype.py
+Deepesh/PythonProgramming/Python_String/String_Methods.py
+Deepesh/PythonProgramming/Python_String/String_Programs.py
+Deepesh/PythonProgramming/Python_String/__pycache__/String_Programs.cpython-314.pyc
+Deepesh/PythonProgramming/Python_String/hello_world.py
+Deepesh/PythonProgramming/Python_String/python_practice2.py
+Deepesh/PythonProgramming/Python_Tuple/Python_tuple.py
+Deepesh/PythonProgramming/Python_dictionary/data_set.py
+Deepesh/PythonProgramming/Python_dictionary/dictionary_programs.py
+Deepesh/PythonProgramming/Python_dictionary/python_dictionary.py
+Deepesh/SeleniumCode/Advance_Code/Handle_Iframe.py
+Deepesh/SeleniumCode/Advance_Code/Handle_browser_tabs.py
+Deepesh/SeleniumCode/Advance_Code/Selenium_chain_action.py
+Deepesh/SeleniumCode/Advance_Code/docs
+Deepesh/SeleniumCode/Advance_Code/handle_alerts.py
+Deepesh/SeleniumCode/Advance_Code/handle_dropdown_values.py
+Deepesh/SeleniumCode/Advance_Code/keys_board_actions.py
+Deepesh/SeleniumCode/Advance_Code/selenium_javascript_executor-demo.py
+Deepesh/SeleniumCode/Advance_Code/selenium_javascript_executor.py
+Deepesh/SeleniumCode/Basic/Selenium_Locatos_script.py
+Deepesh/SeleniumCode/Basic/back_navigation.png
+Deepesh/SeleniumCode/Basic/before_click.png
+Deepesh/SeleniumCode/Basic/first_Selenium_methods.py
+Deepesh/SeleniumCode/Basic/first_Selenium_script.py
+Deepesh/SeleniumCode/Basic/forward_navigation.png
+Deepesh/SeleniumCode/Basic/handle_multiple_checkbox.py
+Deepesh/SeleniumCode/Basic/open_hrm_login.py
+Deepesh/SeleniumCode/Basic/selenium_javascript_executor-demo.py
+Deepesh/SeleniumCode/Basic/selenium_waits.py
+Deepesh/SeleniumCode/XPath_Fundamentals.txt
+Deepesh/SeleniumCode/css_selectors_methods.txt
+Deepesh/first_program.py
+Dhanush/AND Operator.py
+Dhanush/Average.py
+Dhanush/Boolen.py
+Dhanush/Dict datatypes.py
+Dhanush/OR operator.py
+Dhanush/String 5 times.py
+Dhanush/While loop.py
+Dhanush/class1.py
+Dhanush/list datatypes.py
+Dhanush/median number.py
+Dhanush/memory occupy.py
+Dhanush/price_check.py
+Dhanush/pyrmid program.py
+Dhanush/set datatypes.py
+Dhanush/tuple datatypes.py
+Dhanush/w1.py
+Dhanush/w2.py
+Exceptionhandling.py
+Hema/Git_basics/Hema_FeatureFile.txt
+Hema/Git_basics/github_guide_common_repo.txt
+Hema/Pytest_practice/Automation_Framework/base/__init__.py
+Hema/Pytest_practice/Automation_Framework/base/selenium_base.py
+Hema/Pytest_practice/Automation_Framework/page_objects/__init__.py
+Hema/Pytest_practice/Automation_Framework/page_objects/dummy_page/dummy_page.py
+Hema/Pytest_practice/Automation_Framework/page_objects/dummy_page/dummy_page_data.py
+Hema/Pytest_practice/Automation_Framework/page_objects/dummy_page/dummy_page_locator.py
+Hema/Pytest_practice/Automation_Framework/tests/__init__.py
+Hema/Pytest_practice/Automation_Framework/tests/conftest.py
+Hema/Pytest_practice/Automation_Framework/tests/readme.md
+Hema/Pytest_practice/Automation_Framework/tests/test_dummy_website.py
+Hema/Pytest_practice/Demo_Framework/conftest.py
+Hema/Pytest_practice/Demo_Framework/page_locators.py
+Hema/Pytest_practice/Demo_Framework/pom_design_diagram.png
+Hema/Pytest_practice/Demo_Framework/selenium_base.py
+Hema/Pytest_practice/Demo_Framework/test_login.py
+Hema/Pytest_practice/__pycache__/test_math_opeartions.cpython-314-pytest-9.0.2.pyc
+Hema/Pytest_practice/assets/style.css
+Hema/Pytest_practice/pom_framework_demo/conftest.py
+Hema/Pytest_practice/pom_framework_demo/data_file.py
+Hema/Pytest_practice/pom_framework_demo/page_class.py
+Hema/Pytest_practice/pom_framework_demo/page_locator.py
+Hema/Pytest_practice/pom_framework_demo/pom_design_diagram.png
+Hema/Pytest_practice/pom_framework_demo/seleniumbase.py
+Hema/Pytest_practice/pom_framework_demo/test_dummy_website.py
+Hema/Pytest_practice/pytest_doc.txt
+Hema/Pytest_practice/report.html
+Hema/Pytest_practice/test_math_opeartions.py
+Hema/Pytest_practice/test_math_operations.py
+Hema/PythonProgramming/Assignments/Inheritance/Class_HRDepartment.py
+Hema/PythonProgramming/Assignments/Inheritance/Class_Hotel.py
+Hema/PythonProgramming/Assignments/Inheritance/Class_ITCompany.py
+Hema/PythonProgramming/Assignments/Inheritance/Class_Management.py
+Hema/PythonProgramming/Assignments/Inheritance/Class_car.py
+Hema/PythonProgramming/Assignments/Inheritance/Class_school.py
+Hema/PythonProgramming/PythonCondition/if_condition.py
+Hema/PythonProgramming/PythonPractice/Loop_programs/Nested_Loop.py
+Hema/PythonProgramming/PythonPractice/Loop_programs/for_loop.py
+Hema/PythonProgramming/Python_Dictionary/Dict_Program2.py
+Hema/PythonProgramming/Python_Dictionary/Dict_program 2.py
+Hema/PythonProgramming/Python_Dictionary/Dict_program.py
+Hema/PythonProgramming/Python_List/List_Methods.py
+Hema/PythonProgramming/Python_Loops/ContinueAndBreakStatement.py
+Hema/PythonProgramming/Python_Loops/Pattern_Program.py
+Hema/PythonProgramming/Python_Loops/WhileTrue_Loop.py
+Hema/PythonProgramming/Python_Loops/python_loops.py
+Hema/PythonProgramming/Python_OOPS/Class_methods.py
+Hema/PythonProgramming/Python_OOPS/Oops_fundamentals.py
+Hema/PythonProgramming/Python_String/Python_String_datatype.py
+Hema/PythonProgramming/Python_String/Slicing_String.py
+Hema/PythonProgramming/Python_String/String_Program1.py
+Hema/PythonProgramming/Python_String/String_formattingProgram.py
+Hema/PythonProgramming/Python_String/String_program2.py
+Hema/PythonProgramming/Python_String/demo_string 2.py
+Hema/PythonProgramming/Python_String/demo_string.py
+Hema/PythonProgramming/Python_fileHandling/ABC.txt
+Hema/PythonProgramming/Python_fileHandling/read_write_txt.py
+Hema/SeleniumCode/Basic/Selenium_Locators_Script.py
+Hema/SeleniumCode/Basic/alert_handle.py
+Hema/SeleniumCode/Basic/window_handle.py
+Hema/SeleniumCode/First_Selenium_Script.py
+Hema/SeleniumCode/OrangeHRM_Project/Login.py
+Hema/first_program.py
+Jayanthi/Feature_Branch_File.txt
+Jayanthi/First_program.py
+Jayanthi/First_test_file.txt
+Jayanthi/PythonProgramming/Practice_program/Basic_program.py
+Jayanthi/PythonProgramming/Practice_program/Python_list/demo.py
+Jayanthi/PythonProgramming/Practice_program/loop_practice.py
+Jayanthi/PythonProgramming/Python-Set/Python_Set_Method.py
+Jayanthi/PythonProgramming/PythonDatatype/Python_datatype.py
+Jayanthi/PythonProgramming/PythonVariable/Python_variable.py
+Jayanthi/PythonProgramming/Python_condition/python_if_condition.py
+Jayanthi/PythonProgramming/Python_filehandling/test.txt
+Jayanthi/PythonProgramming/Python_filehandling/test_write.txt
+Jayanthi/PythonProgramming/Python_filehandling/text_file_read_write.py
+Jayanthi/PythonProgramming/Python_list/List_programs.py
+Jayanthi/PythonProgramming/Python_list/Python_list.py
+Jayanthi/PythonProgramming/Python_tuple/tuple_method.py
+Jayanthi/PythonProgramming/Selenium_Basic/first_selenium_script.py
+Jayanthi/PythonProgramming/python_dictionary/DIctoionary program.py
+Jayanthi/PythonProgramming/python_dictionary/python_method.py
+Jayanthi/PythonProgramming/python_func/modu.py
+Jayanthi/PythonProgramming/python_func/modu1.py
+Jayanthi/PythonProgramming/python_func/python_function.py
+Jayanthi/PythonProgramming/python_func/python_scope.py
+Jayanthi/PythonProgramming/python_loops/python_loops.py
+Jayanthi/PythonProgramming/python_oops/class_method.py
+Jayanthi/PythonProgramming/python_string/String_method.py
+Jayanthi/PythonProgramming/python_string/String_program.py
+Jayanthi/PythonProgramming/python_string/python_string.py
+Jayanthi/Second_file.py
+Jayanthi/Selenium_Basic/Second_dummy_program.py
+Jayanthi/Selenium_Basic/first_selenium_script.py
+Jayanthi/Selenium_Code/Advance/Handle_browser.py
+Jayanthi/Selenium_Code/Advance/file_20260122_203251.txt
+Jayanthi/Selenium_Code/Basic/Second_dummy_program.py
+Jayanthi/Selenium_Code/Basic/first_selenium_script.py
+Jayanthi/second_test_file.txt
+Jyotisajjan/Basicprogram.py
+Jyotisajjan/First_program.py
+Jyotisajjan/Listslicing.py
+Jyotisajjan/Pythonprogram/forloop.py
+Jyotisajjan/Pythonprogram/ifcondition.py
+Jyotisajjan/Pythonprogram/listmethods.py
+Jyotisajjan/Pythonprogram/variablefirstclass.py
+Jyotisajjan/Pythonprogram/whilelloop.py
+Jyotisajjan/practice.py
+Jyotisajjan/pytestpractice/__pycache__/test_addition.cpython-314-pytest-9.0.2.pyc
+Jyotisajjan/pytestpractice/__pycache__/test_basicprogram.cpython-314-pytest-9.0.2.pyc
+Jyotisajjan/pytestpractice/test_addition.py
+Jyotisajjan/pytestpractice/test_basicprogram.py
+Jyotisajjan/pytonprogram.txt
+Jyotisajjan/secondprogram.py
+Jyotisajjan/string_methods.py
+Jyotisajjan/testsample.txt
+Jyotisajjan/testsample2.txt
+Mahesh/PythonProgramming/Practice_file.py
+Mahesh/PythonProgramming/datatypes_practive_file.py
+Mahesh/PythonProgramming/day1_practice_with_variables.py
+Mahesh/PythonProgramming/python_datatypes.py
+Mahesh/Python_git_file_1.txt
+Mahesh/Python_git_file_feauture_1.txt
+Mahesh/daily_practice_files/Data_type_conversion.py
+Mahesh/daily_practice_files/Data_types_practice.py
+Mahesh/daily_practice_files/If_conditions.py
+Mahesh/daily_practice_files/variable _practice.py
+Mahesh/first_program.py
+Mahesh/second_program_file.py
+Monalisa/First_file.txt
+Monalisa/First_program.py
+Monalisa/Mona_Feature_file.txt
+Monalisa/Python_Programming/Python_Dictionary/python_dictionary.py
+Monalisa/Python_Programming/Python_If_Condition/python_if.py
+Monalisa/Python_Programming/Python_Loop/Loop_prgm_practice.py
+Monalisa/Python_Programming/Python_Loop/Pattern_prgm.py
+Monalisa/Python_Programming/Python_Loop/for_while_brk_cont_nestedif.py
+Monalisa/Python_Programming/Python_String/Py_string_datatypes.py
+Monalisa/Python_Programming/Python_String/Py_string_prgms.py
+Monalisa/Python_Programming/Python_String/Python_str_methods.py
+Monalisa/Python_Programming/Python_String/string_hw.py
+Monalisa/Python_Programming/Python_datatypes/Python_datatypes.py
+Monalisa/Python_Programming/Python_filehandling/Python_filehandling.py
+Monalisa/Python_Programming/Python_filehandling/read_data.txt
+Monalisa/Python_Programming/Python_list/List_methods.py
+Monalisa/Python_Programming/Python_variables/Program_practice.py
+Monalisa/Python_Programming/Python_variables/Python_var1.py
+Monalisa/Second_file.txt
+Monalisa/second_file.py
+MubarakShaikh/New file.txt
+MubarakShaikh/branch2.txt
+MubarakShaikh/feauture file.txt
+MubarakShaikh/mainbranch.txt
+MubarakShaikh/project_new.txt
+MubarakShaikh/python/datatype/FUNTIONS/FUNTION.py
+MubarakShaikh/python/datatype/datatype21nov.py
+MubarakShaikh/python/datatype/variable19.py
+MubarakShaikh/python/datatype1/datatype24nov.py
+MubarakShaikh/python/loopspyton/DEC2loops.py
+MubarakShaikh/python/loopspyton/pytonloops28nov.py
+MubarakShaikh/python/loopspyton/stringspyton/stringfiles.py
+MubarakShaikh/python/loopspyton/stringspyton/stringmethodtypes.py
+MubarakShaikh/python/loopspyton/stringspyton/stringprogram/programfilestringpractice.py
+MubarakShaikh/python/loopspyton/stringspyton/stringprogram/programstring.py
+MubarakShaikh/python/loopspyton/stringspyton/stringslicingdec4.py
+MubarakShaikh/python/pythoncondition/practice_if_cond.py
+MubarakShaikh/python/pythoncondition/python_if_condition25nov.py
+MubarakShaikh/python/pythoncondition/pythonifcondtnotes.pdf
+MubarakShaikh/python/pythonvariables/python_variable.py
+MubarakShaikh/python/pytontupple/SETSPYTON/SETS.py
+MubarakShaikh/python/pytontupple/dictionary/dictclass.py
+MubarakShaikh/python/pytontupple/dictionary/dictprograms.py
+MubarakShaikh/python/pytontupple/tuplleclass.py
+MubarakShaikh/pythonfilemubfirst_prog.py
+Mudit/first_file.txt
+Mudit/second-file.txt
+Nalini/PythonPrograms/Python_Dictionary.py
+Nalini/PythonPrograms/SeleniumCode/seleniumBasicProgram.py
+Nalini/PythonPrograms/__pycache__/python_listprogams.cpython-314.pyc
+Nalini/PythonPrograms/python_Dictionary1.py
+Nalini/PythonPrograms/python_Ifcondition.py
+Nalini/PythonPrograms/python_Loops.py
+Nalini/PythonPrograms/python_Oops/program_class1.py
+Nalini/PythonPrograms/python_Oops/python_class_constuct.py
+Nalini/PythonPrograms/python_datatypeConversion.py
+Nalini/PythonPrograms/python_datatypes.py
+Nalini/PythonPrograms/python_dictionaryPrograms.py
+Nalini/PythonPrograms/python_dictonary.py
+Nalini/PythonPrograms/python_dictprogram.py
+Nalini/PythonPrograms/python_list.py
+Nalini/PythonPrograms/python_listprogams.py
+Nalini/PythonPrograms/python_loopspractice.py
+Nalini/PythonPrograms/python_nestedloops.py
+Nalini/PythonPrograms/python_simplePrograms.py
+Nalini/PythonPrograms/python_strings.py
+Nalini/PythonPrograms/python_tuple.py
+Nalini/PythonPrograms/python_typeofvariabls.py
+Nalini/PythonPrograms/python_variables.py
+Nalini/PythonPrograms/python_varibles1.py
+Nalini/PythonPrograms/pyton_stingsProrams.py
+Nalini/brachfile.txt
+Nalini/feturefile2.txt
+Nalini/fetureflie1.txt
+Nalini/first_Program.py
+Nalini/second_python_Program.py
+Nalini/test1.txt
+Nalini/test2.txt
+Nithya/Demo_code.py/Confest.py
+Nithya/Demo_code.py/test_locator.py
+Nithya/Functions/Exceptionhandling/Exceptionhandling.py
+Nithya/Functions/Practice 2.py
+Nithya/Functions/Practice Function.py
+Nithya/Practice programs/Day1.py
+Nithya/Practice programs/Dictionary practice.py
+Nithya/Practice programs/File Handling/File handling.py
+Nithya/Practice programs/File Handling/Testing file handling
+Nithya/Practice programs/Function practice.py
+Nithya/Practice programs/List method.py
+Nithya/Practice programs/Multiple_tab.py
+Nithya/Practice programs/OOPS/Inheritance.py
+Nithya/Practice programs/OOPS/Oops_class.py
+Nithya/Practice programs/Practising Loop.py
+Nithya/Practice programs/Practising if.py
+Nithya/Practice programs/Python String.py
+Nithya/Practice programs/Python Tuple,Dictionary.py
+Nithya/Practice programs/String Methods.py
+Nithya/Pytest.py/Installing_pytest.py
+Nithya/Pytest.py/assets/style.css
+Nithya/Pytest.py/conftest.py
+Nithya/Pytest.py/math_test.py
+Nithya/Pytest.py/repo.html
+Nithya/Pytest.py/report.html
+Nithya/Pytest.py/reports.1.html
+Nithya/Pytest.py/test_math_operations_skip_markers.py
+Nithya/Python Coding/Python Conditions/if_Condition_ Day 1.py
+Nithya/Python Coding/Python Datatype/Datatype.py
+Nithya/Python Coding/Python Variables/Testing_PythonVariables.py
+Nithya/Python Loops/Loops.py
+Nithya/Python Loops/While pract.py
+Nithya/Python Module/Testing_module.py
+Nithya/Selenium Basic/PNR_Status.png
+Nithya/Selenium Basic/PNR_Status.py
+Nithya/Selenium Basic/Practice_prgm.py
+Nithya/Selenium Basic/Selenium Advanced/handles.py
+Nithya/Selenium Basic/Selenium_Install.py
+Nithya/Selenium Basic/WAIT_prgm.py
+Nithya/Trials/FeatureBranch.txt
+Nithya/Trials/Firstcode.py
+Nithya/Trials/Testing_Merge.txt
+Nithya/Trials/first_testfile.txt
+Nithya/Trials/tesingafterideafile.py
+Nitin/2nd_program.py
+Nitin/First_file - Copy - Copy3.txt
+Nitin/First_file - Copy.txt
+Nitin/First_file.txt
+Nitin/Nitin_PythonVariable/Python_Variable.py
+Nitin/Nitin_PythonVariable/demo_1.py
+Nitin/PythonCondition/Python_if_condition.py
+Nitin/PythonCondition/Python_if_else_Practise_Proram.py
+Nitin/PythonCondition/Python_loop_Programs_01.py
+Nitin/PythonCondition/While_loop_ClassWork.py
+Nitin/Python_DataType/Data_type_Conversion.py
+Nitin/Python_DataType/Python_Basic_Exercises.py
+Nitin/Python_DataType/Python_data_type.py
+Nitin/Python_DataType/Python_data_type1.py
+Nitin/Python_DataType/test1.py
+Nitin/Python_Dictionary/dictionary_python_program.py
+Nitin/Python_Dictionary/python_dictionary.py
+Nitin/Python_File_Handling/Demo_read_write.py
+Nitin/Python_File_Handling/Python_Program.py
+Nitin/Python_File_Handling/Read_write_xml.py
+Nitin/Python_File_Handling/User_File.xlsx
+Nitin/Python_File_Handling/abc.txt
+Nitin/Python_File_Handling/edf.txt
+Nitin/Python_File_Handling/mnn.txt
+Nitin/Python_File_Handling/read_data.txt
+Nitin/Python_File_Handling/read_write_text.py
+Nitin/Python_File_Handling/sample.txt
+Nitin/Python_File_Handling/xyz.txt
+Nitin/Python_List/Python_list.py
+Nitin/Python_Modules/Python_module.py
+Nitin/Python_String/Python_string_datatype.py
+Nitin/Python_String/string_method.py
+Nitin/Python_function/Python_functiom_demo3.py
+Nitin/Python_function/Python_function_demo1.py
+Nitin/Python_function/Python_function_demo2.py
+Nitin/Python_function/__pycache__/Python_function_demo1.cpython-314.pyc
+Nitin/Selenium_Code/Basic/Selenium_Basic.py
+Nitin/Selenium_Code/first_Selenium_script.py
+Nitin/feature_file.txt
+Nitin/first_program.py
+Pavan/New Folder/3333.txt
+Pavan/New Folder/Firstprogram.py
+Pavan/New Folder/Hello Data.txt
+Pavan/New Folder/New Microsoft Word Document (2).docx
+Pavan/New Folder/New Microsoft Word Document (3).docx
+Pavan/New Folder/New Microsoft Word Document (4).docx
+Pavan/New Folder/New Microsoft Word Document.docx
+Pavan/New Folder/New Text Document.txt
+Pavan/New Folder/Python variables.py
+Pavan/New Folder/Test Doc 1.txt
+Pavan/New Folder/Test Doc 2.docx
+Pavan/New Folder/python_Repractice.py
+Pavan/Python Programming/6 Data TypeConversion/Data Type Conversion.py
+Pavan/Python Programming/6 Data TypeConversion/Data type conversion_Int to All Other Data types.py
+Pavan/Python Programming/Loops/Python_Loops.py
+Pavan/Python Programming/Python Conditinos/if-elif-else Condition/if_elif_else statements.py
+Pavan/Python Programming/Python Conditinos/if_condition/Python_if_Condition 2.py
+Pavan/Python Programming/Python Conditinos/if_condition/Python_if_Conditoins.py
+Pavan/Python Programming/PythonData Types/Python_Datatypes.py
+Pavan/Python Programming/PythonVaribles/Assigning Multiple Values.py
+Pavan/Python Programming/PythonVaribles/Global_Varibles.py
+Pavan/Python Programming/PythonVaribles/Output_Varibles.py
+Pavan/Python Programming/PythonVaribles/Python_Varible_Names.py
+Pavan/Python Programming/PythonVaribles/python_Varibles.py
+Pavithra/Feature_File.txt
+Pavithra/First_File.txt
+Pavithra/First_Program.py
+Pavithra/Practice data type.py
+Pavithra/Second_File.txt
+Pavithra/if condiotion.py
+Pavithra/if_condition_practice.py
+Pooja/Feature_branch_file.txt
+Pooja/Pooja_File.txt
+Pooja/Python Programming/Python_Conditions/If_Condition.py
+Pooja/Python Programming/Python_DataTypes/Practice_Programs.py
+Pooja/Python Programming/Python_DataTypes/Python_DataType.py
+Pooja/Second_PythonFile.py
+Pooja/Test.py
+Pooja/Third_File.py
+Pooja/feature2.txt
+Pooja/python_file.py
+Pooja/second_File.txt
+Preetilisa/Nested_if_condition.py
+Preetilisa/Python09.py
+Preetilisa/Python_andOR.py
+Preetilisa/Python_list_10.py
+Preetilisa/Python_new27.py
+Preetilisa/Python_variabl7.py
+Preetilisa/Python_variable.py
+Preetilisa/Pythonifcondition.py
+Preetilisa/feature_file.txt.txt
+Preetilisa/first_file_txt.txt
+Preetilisa/first_program.py
+Preetilisa/python_greater_equal.py
+Preetilisa/pythondatatype.py
+Preetilisa/pythonif_elif_else.py
+Preetilisa/pythonlist.py
+Pruthvi/FIrst_file.txt
+Pruthvi/Second_file.txt
+Pruthvi/feature_branch_file.txt
+Pruthvi/first_program.py
+README.md
+Sara/API_Testing/Notes
+Sara/API_Testing/Session1/api_get.py
+Sara/API_Testing/Session1/api_post.py
+Sara/API_Testing/Session1/output_restapi
+Sara/API_Testing/Sesson2/API_Auto_Framework/__init__.py
+Sara/API_Testing/Sesson2/API_Auto_Framework/api_objects/__init__.py
+Sara/API_Testing/Sesson2/API_Auto_Framework/api_objects/api_restful_class.py
+Sara/API_Testing/Sesson2/API_Auto_Framework/api_objects/restful_testdata.py
+Sara/API_Testing/Sesson2/API_Auto_Framework/base/__init__.py
+Sara/API_Testing/Sesson2/API_Auto_Framework/base/api_basefile.py
+Sara/API_Testing/Sesson2/API_Auto_Framework/pytest.ini
+Sara/API_Testing/Sesson2/API_Auto_Framework/test/__init__.py
+Sara/API_Testing/Sesson2/API_Auto_Framework/test/test_runapi.py
+Sara/API_Testing/Sesson2/API_singleObj_FW_Auto/__init__.py
+Sara/API_Testing/Sesson2/API_singleObj_FW_Auto/base/__init__.py
+Sara/API_Testing/Sesson2/API_singleObj_FW_Auto/base/api_basefile.py
+Sara/API_Testing/Sesson2/API_singleObj_FW_Auto/page_objects/__init__.py
+Sara/API_Testing/Sesson2/API_singleObj_FW_Auto/page_objects/api_restful_class.py
+Sara/API_Testing/Sesson2/API_singleObj_FW_Auto/page_objects/restful_testdata.py
+Sara/API_Testing/Sesson2/API_singleObj_FW_Auto/pytest.ini
+Sara/API_Testing/Sesson2/API_singleObj_FW_Auto/test/__init__.py
+Sara/API_Testing/Sesson2/API_singleObj_FW_Auto/test/test_runapi.py
+Sara/API_Testing/Sesson2/Fameworksteps
+Sara/API_Testing/Sesson2/api_create_user.py
+Sara/DemoSession1.txt
+Sara/Framework_Session/Demo_Framework/conftest.py
+Sara/Framework_Session/Demo_Framework/locators.py
+Sara/Framework_Session/Demo_Framework/selenium_base.py
+Sara/Framework_Session/Demo_Framework/test_loginpage_tc.py
+Sara/Framework_Session/Prac1_POM_framework/conftest.py
+Sara/Framework_Session/Prac1_POM_framework/locators.py
+Sara/Framework_Session/Prac1_POM_framework/selenium_base.py
+Sara/Framework_Session/Prac1_POM_framework/sqawebsite_page_auto.py
+Sara/Framework_Session/Prac1_POM_framework/test_sqawebsite_tc.py
+Sara/Framework_Session/Prac1_POM_framework/testdata.py
+Sara/Framework_Session/Prac2_POM_framework_Auto/Selenium_base/__init__.py
+Sara/Framework_Session/Prac2_POM_framework_Auto/Selenium_base/selenium_base.py
+Sara/Framework_Session/Prac2_POM_framework_Auto/page_locator_testdata/__init__.py
+Sara/Framework_Session/Prac2_POM_framework_Auto/page_locator_testdata/locators.py
+Sara/Framework_Session/Prac2_POM_framework_Auto/page_locator_testdata/sqawebsite_page_auto.py
+Sara/Framework_Session/Prac2_POM_framework_Auto/page_locator_testdata/testdata.py
+Sara/Framework_Session/Prac2_POM_framework_Auto/test/__init__.py
+Sara/Framework_Session/Prac2_POM_framework_Auto/test/conftest.py
+Sara/Framework_Session/Prac2_POM_framework_Auto/test/test_sqawebsite_tc.py
+Sara/Framework_Session/Prac3_POM_framework_Auto/Selenium_base/__init__.py
+Sara/Framework_Session/Prac3_POM_framework_Auto/Selenium_base/selenium_base.py
+Sara/Framework_Session/Prac3_POM_framework_Auto/__init__.py
+Sara/Framework_Session/Prac3_POM_framework_Auto/page_locator_testdata/locators.py
+Sara/Framework_Session/Prac3_POM_framework_Auto/page_locator_testdata/sqawebsite_page_auto.py
+Sara/Framework_Session/Prac3_POM_framework_Auto/page_locator_testdata/testdata.py
+Sara/Framework_Session/Prac3_POM_framework_Auto/pytest.ini
+Sara/Framework_Session/Prac3_POM_framework_Auto/readme.md
+Sara/Framework_Session/Prac3_POM_framework_Auto/test/__init__.py
+Sara/Framework_Session/Prac3_POM_framework_Auto/test/conftest.py
+Sara/Framework_Session/Prac3_POM_framework_Auto/test/test_sqawebsite_tc.py
+Sara/PyTest _Sessions/Fixture/conftest.py
+Sara/PyTest _Sessions/Fixture/test_1_classfixture.py
+Sara/PyTest _Sessions/Fixture/test_2_classfixture.py
+Sara/PyTest _Sessions/Notes.txt
+Sara/PyTest _Sessions/report.html
+Sara/PyTest _Sessions/test_Prac1.py
+Sara/PyTest _Sessions/test_Prac2.py
+Sara/PyTest _Sessions/test_Prac3.py
+Sara/PyTest _Sessions/test_Prac4.py
+Sara/PyTest _Sessions/test_Prac5.py
+Sara/PyTest _Sessions/test_Prac6.py
+Sara/PyTest _Sessions/test_Session1.py
+Sara/Pytthon_Programming/Part10_Functions/Class1_Basic.py
+Sara/Pytthon_Programming/Part10_Functions/Class2_MathOperations.py
+Sara/Pytthon_Programming/Part10_Functions/ProgramPractise.py
+Sara/Pytthon_Programming/Part1_DataTypes/Session1_Variable.py
+Sara/Pytthon_Programming/Part1_DataTypes/Session2_Numbers_DataType.py
+Sara/Pytthon_Programming/Part1_DataTypes/Session3_Sequential_DataType.py
+Sara/Pytthon_Programming/Part1_DataTypes/Session4_dict_set_boolean_datatype.py
+Sara/Pytthon_Programming/Part1_DataTypes/Session5_Datatype_Conversion.py
+Sara/Pytthon_Programming/Part1_DataTypes/Session6_Programming_Practise.py
+Sara/Pytthon_Programming/Part2_Python_If_Conditions/IfElse_Condition.py
+Sara/Pytthon_Programming/Part2_Python_If_Conditions/If_Else_If_Practise.py
+Sara/Pytthon_Programming/Part4_LoopCondition/Programming_Practise.py
+Sara/Pytthon_Programming/Part5_StringMethid/Class1_ConcatenationMenthod.py
+Sara/Pytthon_Programming/Part5_StringMethid/Class2_formatMethod.py
+Sara/Pytthon_Programming/Part5_StringMethid/Class3_f_Method.py
+Sara/Pytthon_Programming/Part5_StringMethid/Class4_RawMethod.py
+Sara/Pytthon_Programming/Part5_StringMethid/Class5_Slicing.py
+Sara/Pytthon_Programming/Part5_StringMethid/Class6_loop.py
+Sara/Pytthon_Programming/Part5_StringMethid/Class7_StringMethods.py
+Sara/Pytthon_Programming/Part5_StringMethid/ProgrammingPractise.py
+Sara/Pytthon_Programming/Part6_List/Class1_Basics.py
+Sara/Pytthon_Programming/Part6_List/Class2_ListMethod.py
+Sara/Pytthon_Programming/Part6_List/PrgramPractise.py
+Sara/Pytthon_Programming/Part7_Tuple/1_tuplemethod.py
+Sara/Pytthon_Programming/Part7_Tuple/ProgramPractise.py
+Sara/Pytthon_Programming/Part8_Dictionary/BasicAndMethods.py
+Sara/Pytthon_Programming/Part8_Dictionary/ProgramPractise.py
+Sara/Pytthon_Programming/Part9_Sets/BasicsMethods.py
+Sara/Pytthon_Programming/Part9_Sets/ProgramPractise.py
+Sara/Selenium/Basic/Class1.py
+Sara/democode.py
+Sara/featurebranch1_demo.txt
+Satish/PytestPractice/test_math.py
+Satish/PythonProgramming/OOPS_PRACTICE/car_class.py
+Satish/PythonProgramming/OOPS_PRACTICE/hotel_class.py
+Satish/PythonProgramming/OOPS_PRACTICE/it_company_class.py
+Satish/PythonProgramming/OOPS_PRACTICE/management_class.py
+Satish/PythonProgramming/OOPS_PRACTICE/school_class.py
+Satish/PythonProgramming/Python_Dictionary/python_dictionary.py
+Satish/PythonProgramming/Python_Dictionary/python_dictionary_program.py
+Satish/PythonProgramming/Python_File_Handling/emp_data.json
+Satish/PythonProgramming/Python_File_Handling/read_data.txt
+Satish/PythonProgramming/Python_File_Handling/read_write_Json.py
+Satish/PythonProgramming/Python_File_Handling/read_write_textfile.py
+Satish/PythonProgramming/Python_File_Handling/read_wrte_Excel.py
+Satish/PythonProgramming/Python_Functions/module1.py
+Satish/PythonProgramming/Python_Functions/module2.py
+Satish/PythonProgramming/Python_Functions/python_functions.py
+Satish/PythonProgramming/Python_Functions/variable_scope.py
+Satish/PythonProgramming/Python_List/python_list.py
+Satish/PythonProgramming/Python_Loops/pattern_with_loop.py
+Satish/PythonProgramming/Python_Loops/python_loops.py
+Satish/PythonProgramming/Python_Module/os_module.py
+Satish/PythonProgramming/Python_Sets/python_sets.py
+Satish/PythonProgramming/Python_String/python_string.py
+Satish/PythonProgramming/Python_String/string_methods.py
+Satish/PythonProgramming/datatype/datatype.py
+Satish/PythonProgramming/if_condition/if_condition.py
+Satish/PythonProgramming/variable/variable.py
+Satish/custom_exception.py
+Satish/feature_file.txt
+Satish/first_file.txt
+Satish/first_program.py
+Satish/second_file.txt
+Satish/seleniumcode/Advance/Handle_Alert.py
+Satish/seleniumcode/Advance/Handle_dropdow_values.py
+Satish/seleniumcode/Advance/file_upload.py
+Satish/seleniumcode/Advance/handling_browser_tabs.py
+Satish/seleniumcode/Advance/iframe.py
+Satish/seleniumcode/Basic/Practice selenium automation.py
+Satish/seleniumcode/Basic/Selenium_Waits.py
+Satish/seleniumcode/Basic/first_selenium_script.py
+Satish/seleniumcode/Basic/xpath.txt
+Satish/seleniumcode/selenium_methods.py
+Soniya/PYTHON_Datatype.py
+Soniya/all_datatype_practice.py
+Soniya/condition/datatype_tuple_set_dic_.py
+Soniya/condition/if_condition.py
+Soniya/datatype/list_program.py
+Soniya/datatype/str.py
+Soniya/datatype/str_onclass.py
+Soniya/datatype/string program.py
+Soniya/datatype/stringmethod.py
+Soniya/first_branch.txt
+Soniya/first_file.txt
+Soniya/first_program.py
+Soniya/forloop/example
+Soniya/forloop/for_loop_onclas.py
+Soniya/forloop/pattern.py
+Soniya/forloop/practice _for_loop.py
+Soniya/forloop/whileloop.py
+Soniya/forloop/whileonclass.py
+Soniya/practice_on_variable.py
+Soniya/variable.py
+Soumya/First_Program.py
+Soumya/Python_functions/functions.py
+Soumya/Python_functions/module1.py
+Soumya/Python_functions/module2.py
+Soumya/Python_functions/python scope.py
+Soumya/Secon_program.py
+Soumya/Selenium.py
+Soumya/Selenium/Selenium_advanced/Handle_Iframe.py
+Soumya/Selenium/Selenium_advanced/Handle_browser_tabs.py
+Soumya/Selenium/Selenium_advanced/Selenium_chain_action.py
+Soumya/Selenium/Selenium_advanced/docs
+Soumya/Selenium/Selenium_advanced/handle_alerts.py
+Soumya/Selenium/Selenium_advanced/handle_dropdown_value.py
+Soumya/Selenium/Selenium_advanced/keys_board_actions.py
+Soumya/Selenium/Selenium_advanced/selenium_javascript_executor-demo.py
+Soumya/Selenium/Selenium_advanced/selenium_javascript_executor.py
+Soumya/Selenium/Selenium_basic/Selenium_locators_script.py
+Soumya/Selenium/Selenium_basic/first_Selenium_methods.py
+Soumya/Selenium/Selenium_basic/first_Selenium_script.py
+Soumya/Selenium/Selenium_basic/handle_multiple_checkbox.py
+Soumya/Selenium/Selenium_basic/open_hrm_login.py
+Soumya/Selenium/Selenium_basic/selenium_javascript_executor-demo.py
+Soumya/Selenium/Selenium_basic/selenium_waits.py
+Soumya/Selenium/Xpath_Fundamentals
+Soumya/Selenium/css_selectors_methods
+Soumya/Soumyafeaturebranch.txt
+Soumya/Variable_program.py
+Soumya/commom1.txt
+Soumya/demo_python.py
+Soumya/dummy.txt
+Soumya/dummySoumyafeaturebranch.txt
+Soumya/exception handling/exception.py
+Soumya/exception handling/exception_handling.py
+Soumya/file handling/abc.txt
+Soumya/file handling/appendfile.txt
+Soumya/file handling/newfile.txt
+Soumya/file handling/read_data.txt
+Soumya/file handling/read_write_text.py
+Soumya/file handling/xyz.txt
+Soumya/if condition_prog_pract.py
+Soumya/loop_homeworkprogrma.py
+Soumya/practice program.py
+Soumya/pytestpractice/data_file.py
+Soumya/pytestpractice/pytest_doc
+Soumya/pytestpractice/test_login_parameters.py
+Soumya/pytestpractice/test_math_operations.py
+Soumya/pytestpractice/test_math_operations_markers.py
+Soumya/pytestpractice/test_math_operations_markers_xfail.py
+Soumya/pytestpractice/test_math_operations_skip_markers.py
+Soumya/python_loop_prac.py
+Soumya/python_program_01/Python_string_datatype.py
+Soumya/python_program_01/python datatype conversion.py
+Soumya/python_program_01/python datatypes.py
+Soumya/python_program_01/python variables.py
+Soumya/python_program_01/python_datatypes.py
+Soumya/python_program_01/python_dic_practice_program.py
+Soumya/python_program_01/python_dictionary.py
+Soumya/python_program_01/python_dictionary_prog.py
+Soumya/python_program_01/python_if_conditions.py
+Soumya/python_program_01/python_sets.py
+Soumya/python_program_01/python_tuple.py
+Soumya/python_program_01/pythonlist.py
+Soumya/python_program_01/pythonloop_pract.py
+Soumya/python_program_01/pythonloops.py
+Soumya/python_program_01/stringmethod.py
+Soumya/python_program_01/stringprogram.py
+Soumya/pythonprogramming/Datatype_conversion/datatype_conversion.py
+Soumya/pythonprogramming/Python string/String_prog.py
+Soumya/pythonprogramming/Python_datatypes/Python_datatypes01.py
+Soumya/pythonprogramming/Python_datatypes/python_basic_prog_practice.py
+Soumya/pythonprogramming/Python_datatypes/python_datatype_practice02.py
+Soumya/pythonprogramming/String_methods/string_practice.py
+Soumya/pythonprogramming/String_methods/stringmethods.py
+Soumya/pythonprogramming/basic program/prog1.py
+Soumya/pythonprogramming/import_program.py
+Soumya/pythonprogramming/program ex.py
+Soumya/pythonprogramming/python_if_condition/if_conditions.py
+Soumya/pythonprogramming/python_list.py
+Soumya/pythonprogramming/python_loop.py
+Soumya/pythonprogramming/pythonvariables/python_variables.py
+Sownya_P/MyFirstFile.txt
+Sownya_P/secondTrailFile.txt
+Sumeett/First_program.py
+Sumeett/If condition.py
+Sumeett/Loop_Practice_session.py
+Sumeett/Python_loops.py
+Sumeett/Selenium_Code/Selenium_Locators_Practice.py
+Sumeett/String_data_types.py
+Sumeett/VS_Code_Demo_File.py
+Sumeett/While_loop.py
+Sumeett/main.py
+Sumeett/practice.py
+Sumit/2nd_file.txt
+Sumit/3rd_file/3rd_file.txt
+Sumit/Sumit_feature_branch.txt
+Sumit/first_file.txt
+Sunil/One_file.txt
+Sunil/Pytestpractice/__pycache__/test_math_operations.cpython-314-pytest-9.0.2.pyc
+Sunil/Pytestpractice/pytest_doc.txt
+Sunil/Pytestpractice/test_math_operations.py
+Sunil/PythonProgramming/ExceptionHandling/exception_handling.py
+Sunil/Second_program.py
+Sunil/file_3.txt
+Sunil/first_file.txt
+Sunil/first_program.py
+Sunil/sunil_feature_branch_file.txt
+Swarna/APi-automation/api-automation.py
+Swarna/If_condion_session/If_condion.py
+Swarna/If_condion_session/divisibility_check.py
+Swarna/PytestPractice/AutomationFramework/Base/__init__.py
+Swarna/PytestPractice/AutomationFramework/Base/selenium_base.py
+Swarna/PytestPractice/AutomationFramework/Page_object/__init__.py
+Swarna/PytestPractice/AutomationFramework/Page_object/dummy_page/__init__.py
+Swarna/PytestPractice/AutomationFramework/Page_object/dummy_page/dummy_page.py
+Swarna/PytestPractice/AutomationFramework/Page_object/dummy_page/dummy_page_data.py
+Swarna/PytestPractice/AutomationFramework/Page_object/dummy_page/dummy_page_locator.py
+Swarna/PytestPractice/AutomationFramework/tests/__init__.py
+Swarna/PytestPractice/AutomationFramework/tests/conftest.py
+Swarna/PytestPractice/AutomationFramework/tests/dummy_test/__init__.py
+Swarna/PytestPractice/AutomationFramework/tests/dummy_test/test_dummy_website.py
+Swarna/PytestPractice/Basics/data_file.py
+Swarna/PytestPractice/Basics/test_login_parameters.py
+Swarna/PytestPractice/Basics/test_math_operation.py
+Swarna/PytestPractice/Basics/test_math_operations_fixture.py
+Swarna/PytestPractice/Basics/test_math_operations_markers.py
+Swarna/PytestPractice/Basics/test_math_operations_markers_xfail.py
+Swarna/PytestPractice/Basics/test_math_operations_skip_markers.py
+Swarna/PytestPractice/SeleniumwithPytest/Selenium_Base.py
+Swarna/PytestPractice/SeleniumwithPytest/TestLogin.py
+Swarna/PytestPractice/SeleniumwithPytest/TestLogin_explicitwait.py
+Swarna/PytestPractice/SeleniumwithPytest/TestLogin_request.py
+Swarna/PytestPractice/SeleniumwithPytest/conftest.py
+Swarna/PytestPractice/assets/style.css
+Swarna/PytestPractice/data_file.py
+Swarna/PytestPractice/demo_framework/conftest.py
+Swarna/PytestPractice/demo_framework/page_locators.py
+Swarna/PytestPractice/demo_framework/selenium_base.py
+Swarna/PytestPractice/demo_framework/test_login.py
+Swarna/PytestPractice/pom_demo_framework/conftest.py
+Swarna/PytestPractice/pom_demo_framework/dummy_page.py
+Swarna/PytestPractice/pom_demo_framework/dummy_page_data.py
+Swarna/PytestPractice/pom_demo_framework/dummy_page_locator.py
+Swarna/PytestPractice/pom_demo_framework/pom_design_diagram.png
+Swarna/PytestPractice/pom_demo_framework/selenium_base.py
+Swarna/PytestPractice/pom_demo_framework/test_dummy_website.py
+Swarna/PytestPractice/pytest_doc.txt
+Swarna/PytestPractice/report.html
+Swarna/PytestPractice/test_login_automation.py
+Swarna/PytestPractice/test_login_parameters.py
+Swarna/PytestPractice/test_math_operation.py
+Swarna/PytestPractice/test_math_operations_markers.py
+Swarna/PytestPractice/test_math_operations_markers_xfail.py
+Swarna/PytestPractice/test_math_operations_skip_markers.py
+Swarna/PytestPractice/test_val_class.py
+Swarna/PytestPractice/test_validation.py
+Swarna/Python_List/python_list_session1.py
+Swarna/Python_List/python_list_session2.py
+Swarna/Python_String/Python_string_datatype.py
+Swarna/Python_String/String_method.py
+Swarna/Python_String/python_practice.py
+Swarna/Python_dict/python_dict_program.py
+Swarna/Python_set/python_set_program.py
+Swarna/Python_tuple/Python_tuple.py
+Swarna/Python_tuple/tuple_example.py
+Swarna/SeleniumCode/Advance_Code/Handle_browser_tabs.py
+Swarna/SeleniumCode/Advance_Code/Handle_iframe.py
+Swarna/SeleniumCode/Advance_Code/upload_20260122_171536.txt
+Swarna/SeleniumCode/Advance_Code/upload_20260122_171759.txt
+Swarna/SeleniumCode/Basic/first_selenium_method.py
+Swarna/SeleniumCode/Basic/first_seleniumscript.py
+Swarna/SeleniumCode/Basic/handle_multiple_checkbox.py
+Swarna/SeleniumCode/Basic/open_hrm_login.py
+Swarna/SeleniumCode/Basic/orangeHRM.py
+Swarna/SeleniumCode/Basic/selenium_javascript_executer.py
+Swarna/SeleniumCode/Basic/selenium_locator.py
+Swarna/SeleniumCode/Basic/selenium_waits.py
+Swarna/SeleniumCode/Xpath_fundamentals.txt
+Swarna/SeleniumCode/css_selectors_methods.txt
+Swarna/SeleniumCode/relativepath.md
+Swarna/exception_handling/__pycache__/exception_handling.cpython-314.pyc
+Swarna/exception_handling/exception_handling.py
+Swarna/exception_handling/import_demo.py
+Swarna/first_file.txt
+Swarna/first_file_feature.txt
+Swarna/first_program.py
+Swarna/python_AI
+Swarna/python_BasicProgram.py
+Swarna/python_datatype.py
+Swarna/python_datatype_session2.py
+Swarna/python_filehandling/abc.txt
+Swarna/python_filehandling/appendfile.txt
+Swarna/python_filehandling/newfile.txt
+Swarna/python_filehandling/read_data.txt
+Swarna/python_filehandling/read_write_text.py
+Swarna/python_filehandling/xyz.txt
+Swarna/python_function/python_function_session1.py
+Swarna/python_loop condition/python_loop.py
+Swarna/python_loop condition/range_loop.py
+Swarna/python_module/python_os.py
+Swarna/python_oops/oops_test/Car.py
+Swarna/python_oops/oops_test/HRDepart.py
+Swarna/python_oops/oops_test/Hotel.py
+Swarna/python_oops/oops_test/ITCompany.py
+Swarna/python_oops/oops_test/Management.py
+Swarna/python_oops/oops_test/School.py
+Swarna/python_oops/oops_test/result.md
+Swarna/python_programming/python_variable/python_variable.py
+Swarna/python_variable.py
+Swarna/second_program.py
+Swarna/test_third.py
+Swital/API_Automation/api_automation.py
+Swital/Pytest/API_Automation/__init__.py
+Swital/Pytest/API_Automation/api_objects/__init__.py
+Swital/Pytest/API_Automation/api_objects/restful_api/__init__.py
+Swital/Pytest/API_Automation/api_objects/restful_api/restful_api_class.py
+Swital/Pytest/API_Automation/api_objects/restful_api/restful_api_data.py
+Swital/Pytest/API_Automation/api_test/__init__.py
+Swital/Pytest/API_Automation/api_test/test_restful_api.py
+Swital/Pytest/API_Automation/base/__init__.py
+Swital/Pytest/API_Automation/base/api_base.py
+Swital/Pytest/API_Automation/pytest.ini
+Swital/Pytest/Authorization_API_Automation/__init__.py
+Swital/Pytest/Authorization_API_Automation/api_objects/__init__.py
+Swital/Pytest/Authorization_API_Automation/api_objects/restful_api/__init__.py
+Swital/Pytest/Authorization_API_Automation/api_objects/restful_api/restful_api_class.py
+Swital/Pytest/Authorization_API_Automation/api_objects/restful_api/restful_api_data.py
+Swital/Pytest/Authorization_API_Automation/api_test/__init__.py
+Swital/Pytest/Authorization_API_Automation/api_test/test_restful_api.py
+Swital/Pytest/Authorization_API_Automation/base/__init__.py
+Swital/Pytest/Authorization_API_Automation/base/api_base.py
+Swital/Pytest/Authorization_API_Automation/pytest.ini
+Swital/Pytest/Automation_FolderStructure_Framework/__init__.py
+Swital/Pytest/Automation_FolderStructure_Framework/base/__init__.py
+Swital/Pytest/Automation_FolderStructure_Framework/base/selenium_base.py
+Swital/Pytest/Automation_FolderStructure_Framework/page_files/__init__.py
+Swital/Pytest/Automation_FolderStructure_Framework/page_files/dummysite_files/__init__.py
+Swital/Pytest/Automation_FolderStructure_Framework/page_files/dummysite_files/page_testdata.py
+Swital/Pytest/Automation_FolderStructure_Framework/page_files/dummysite_files/pagewise_locators.py
+Swital/Pytest/Automation_FolderStructure_Framework/page_files/dummysite_files/web_page.py
+Swital/Pytest/Automation_FolderStructure_Framework/pytest.ini
+Swital/Pytest/Automation_FolderStructure_Framework/screenshots/type_failed_165813.png
+Swital/Pytest/Automation_FolderStructure_Framework/test_files/__init__.py
+Swital/Pytest/Automation_FolderStructure_Framework/test_files/conftest.py
+Swital/Pytest/Automation_FolderStructure_Framework/test_files/test_dummysite/__init__.py
+Swital/Pytest/Automation_FolderStructure_Framework/test_files/test_dummysite/test_file_dummypage.py
+Swital/Pytest/Chaining_API_Automation/__init__.py
+Swital/Pytest/Chaining_API_Automation/api_objects/__init__.py
+Swital/Pytest/Chaining_API_Automation/api_objects/restful_api/__init__.py
+Swital/Pytest/Chaining_API_Automation/api_objects/restful_api/restful_api_class.py
+Swital/Pytest/Chaining_API_Automation/api_objects/restful_api/restful_api_data.py
+Swital/Pytest/Chaining_API_Automation/api_test/__init__.py
+Swital/Pytest/Chaining_API_Automation/api_test/test_restful_api.py
+Swital/Pytest/Chaining_API_Automation/base/__init__.py
+Swital/Pytest/Chaining_API_Automation/base/api_base.py
+Swital/Pytest/Chaining_API_Automation/pytest.ini
+Swital/Pytest/Pom_First_Framework/conftest.py
+Swital/Pytest/Pom_First_Framework/page_testdata.py
+Swital/Pytest/Pom_First_Framework/pagewise_locators.py
+Swital/Pytest/Pom_First_Framework/selenium_base.py
+Swital/Pytest/Pom_First_Framework/test_file_dummypage.py
+Swital/Pytest/Pom_First_Framework/web_page.py
+Swital/Pytest/Practice_POMFramework_Class/__init__.py
+Swital/Pytest/Practice_POMFramework_Class/base/__init__.py
+Swital/Pytest/Practice_POMFramework_Class/base/selenium_basefile.py
+Swital/Pytest/Practice_POMFramework_Class/page_classes/__init__.py
+Swital/Pytest/Practice_POMFramework_Class/page_classes/pages_locators_data_file/__init__.py
+Swital/Pytest/Practice_POMFramework_Class/page_classes/pages_locators_data_file/locators.py
+Swital/Pytest/Practice_POMFramework_Class/page_classes/pages_locators_data_file/test_datafile.py
+Swital/Pytest/Practice_POMFramework_Class/page_classes/pages_locators_data_file/webpage_file.py
+Swital/Pytest/Practice_POMFramework_Class/test_classes/__init__.py
+Swital/Pytest/Practice_POMFramework_Class/test_classes/conftest.py
+Swital/Pytest/Practice_POMFramework_Class/test_classes/testcases/__init__.py
+Swital/Pytest/Practice_POMFramework_Class/test_classes/testcases/testcase_file.py
+Swital/Pytest/Practice_POM_Framework/__init__.py
+Swital/Pytest/Practice_POM_Framework/base/__init__.py
+Swital/Pytest/Practice_POM_Framework/base/selenium_base.py
+Swital/Pytest/Practice_POM_Framework/page_classes/__init__.py
+Swital/Pytest/Practice_POM_Framework/page_classes/pages/__init__.py
+Swital/Pytest/Practice_POM_Framework/page_classes/pages/login_page.py
+Swital/Pytest/Practice_POM_Framework/page_classes/pages/page_locators.py
+Swital/Pytest/Practice_POM_Framework/page_classes/pages/test_data.py
+Swital/Pytest/Practice_POM_Framework/test_classes/__init__.py
+Swital/Pytest/Practice_POM_Framework/test_classes/conftest.py
+Swital/Pytest/Practice_POM_Framework/test_classes/testcases/__init__.py
+Swital/Pytest/Practice_POM_Framework/test_classes/testcases/test_login.py
+Swital/Pytest/Read_Excel.xlsx
+Swital/Pytest/Read_Excel_file_paramerization.py
+Swital/Pytest/SQA_LoginPage_framework/__init__.py
+Swital/Pytest/SQA_LoginPage_framework/assets/style.css
+Swital/Pytest/SQA_LoginPage_framework/base/__init__.py
+Swital/Pytest/SQA_LoginPage_framework/base/base_driver.py
+Swital/Pytest/SQA_LoginPage_framework/docs/__init__.py
+Swital/Pytest/SQA_LoginPage_framework/docs/requirement_doc.md
+Swital/Pytest/SQA_LoginPage_framework/docs/test_plan.md
+Swital/Pytest/SQA_LoginPage_framework/login/__init__.py
+Swital/Pytest/SQA_LoginPage_framework/login/login_locator.py
+Swital/Pytest/SQA_LoginPage_framework/login/login_page.py
+Swital/Pytest/SQA_LoginPage_framework/login/login_testdata.py
+Swital/Pytest/SQA_LoginPage_framework/report.html
+Swital/Pytest/SQA_LoginPage_framework/tests/__init__.py
+Swital/Pytest/SQA_LoginPage_framework/tests/conftest.py
+Swital/Pytest/SQA_LoginPage_framework/tests/test_login_edge.py
+Swital/Pytest/SQA_LoginPage_framework/tests/test_login_negative.py
+Swital/Pytest/SQA_LoginPage_framework/tests/test_login_positive.py
+Swital/Pytest/SeleniumwithPytest/SQA_PracticePage.py
+Swital/Pytest/SeleniumwithPytest/TestLogin.py
+Swital/Pytest/SeleniumwithPytest/TestLogin_request.py
+Swital/Pytest/SeleniumwithPytest/conftest.py
+Swital/Pytest/db_login_data.py
+Swital/Pytest/report.html
+Swital/Pytest/test_group_execution_marker.py
+Swital/Pytest/test_login_excelParameterization.py
+Swital/Pytest/test_login_parameterization.py
+Swital/Pytest/test_math_operations.py
+Swital/Python_BasicProg_Practise/Ai_understanding.py
+Swital/Python_BasicProg_Practise/Basic_Programs_Exercise.py
+Swital/Python_Conditons/IfCond_SQA_Practice.py
+Swital/Python_Conditons/if_cond.py
+Swital/Python_DataType/DataType.py
+Swital/Python_DataType_Conversion/Datatype_covert.py
+Swital/Python_Dictionary/Dictionary_Methods.py
+Swital/Python_Dictionary/Dictionary_Programs.py
+Swital/Python_Dictionary/SQA_Dictionary_Programs.py
+Swital/Python_ExceptionHandling/Exception_Handling.py
+Swital/Python_FileHandling/Read_Excel.xlsx
+Swital/Python_FileHandling/Read_Write_Append_Excel.py
+Swital/Python_FileHandling/Read_Write_Append_Json.py
+Swital/Python_FileHandling/Read_Write_Append_Text.py
+Swital/Python_FileHandling/abc.txt
+Swital/Python_FileHandling/appendfile.txt
+Swital/Python_FileHandling/emp_data.json
+Swital/Python_FileHandling/newfile.txt
+Swital/Python_FileHandling/read_data.txt
+Swital/Python_FileHandling/user_data.json
+Swital/Python_Function/Function_First_session.py
+Swital/Python_List/List_Method_Explanation_interview.txt
+Swital/Python_List/SQA_list_Programs.py
+Swital/Python_List/list_Slicing.py
+Swital/Python_List/list_methods.py
+Swital/Python_Loops/Star_Pattern.py
+Swital/Python_Loops/python_forloop.py
+Swital/Python_Modules/Date_Time_Module.py
+Swital/Python_Modules/OS_Module.py
+Swital/Python_OOPS_Programming/Abstraction.py
+Swital/Python_OOPS_Programming/Car_class.py
+Swital/Python_OOPS_Programming/Class_Method.py
+Swital/Python_OOPS_Programming/Class_Object_Methods_Fundamental.py
+Swital/Python_OOPS_Programming/DataHiding.py
+Swital/Python_OOPS_Programming/HRDepart_class.py
+Swital/Python_OOPS_Programming/Hotel_class.py
+Swital/Python_OOPS_Programming/ITCompany_class.py
+Swital/Python_OOPS_Programming/ManagementClass_Main.py
+Swital/Python_OOPS_Programming/Management_class_constructor.py
+Swital/Python_OOPS_Programming/Multi_Level_Inheritance.py
+Swital/Python_OOPS_Programming/Multiple_Level_Inheritance.py
+Swital/Python_OOPS_Programming/PolyMorphism.py
+Swital/Python_OOPS_Programming/School_class.py
+Swital/Python_OOPS_Programming/Single_Inheritance.py
+Swital/Python_OOPS_Programming/Static_Method.py
+Swital/Python_Set/method check.py
+Swital/Python_Set/set_method_basic.py
+Swital/Python_String/Interview _String_Program.py
+Swital/Python_String/SOA_Site_String_Programs.py
+Swital/Python_String/String.py
+Swital/Python_String/String_methods.py
+Swital/Python_String/__pycache__/SOA_Site_String_Programs.cpython-314.pyc
+Swital/Python_Tuple/Tuple_Intro_Slicing_Method_Operation.py
+Swital/Python_Variable/Variable.py
+Swital/Selenium_Programs/Advanced/ActionClass_Handle.py
+Swital/Selenium_Programs/Advanced/AirIndia_Autosuggest_Test.py
+Swital/Selenium_Programs/Advanced/Ajax&Newort.py
+Swital/Selenium_Programs/Advanced/Autosuggestion.py
+Swital/Selenium_Programs/Advanced/Calender_handling.py
+Swital/Selenium_Programs/Advanced/HandleWindow_browertab_fileupload_.py
+Swital/Selenium_Programs/Advanced/Handle_Action_DragDrop_SQA.py
+Swital/Selenium_Programs/Advanced/Handle_Action_DragDrop_iframe.py
+Swital/Selenium_Programs/Advanced/Handle_Iframe.py
+Swital/Selenium_Programs/Advanced/Handle_javascript_alert.py
+Swital/Selenium_Programs/Advanced/Handle_single_multiple_dropdown.py
+Swital/Selenium_Programs/Advanced/Hidden_Element.py
+Swital/Selenium_Programs/Advanced/Mouse_Hover.py
+Swital/Selenium_Programs/Advanced/Shadow_Dom_Element.py
+Swital/Selenium_Programs/Advanced/WebTable_CSV.py
+Swital/Selenium_Programs/Advanced/waits.py
+Swital/Selenium_Programs/Advanced/web_table_data.csv
+Swital/Selenium_Programs/Basics/CSS_Selectors_Method.txt
+Swital/Selenium_Programs/Basics/Enabled method.py
+Swital/Selenium_Programs/Basics/First_Script.py
+Swital/Selenium_Programs/Basics/Get_all_links.py
+Swital/Selenium_Programs/Basics/MultiCheckbox_Selection.py
+Swital/Selenium_Programs/Basics/Multicheckbox_Selection_SQA.py
+Swital/Selenium_Programs/Basics/Practice_Second_Script.py
+Swital/Selenium_Programs/Basics/SQA_Automation_PracticePage.py
+Swital/Selenium_Programs/Basics/SelectorHub_Download_link.py
+Swital/Selenium_Programs/Basics/Selenium_Methods.py
+Swital/Selenium_Programs/Basics/Selenuim_Locators.py
+Swital/Selenium_Programs/Basics/Xpath_Axis_SelectorHubs.py
+Swital/Selenium_Programs/Basics/Xpath_Locators_Understanding.txt
+Swital/Selenium_Programs/Basics/ecommerce_site.py
+Swital/Selenium_Programs/Basics/herokuapp.py
+Swital/Selenium_Programs/Basics/swaglabs.py
+Swital/Selenium_Programs/Basics/test.py
+Swital/assets/style.css
+Swital/first_file.txt
+Swital/report.html
+VedikaM/Common_File1.txt
+VedikaM/Common_File2.txt
+VedikaM/FeatureBranch_file.txt
+VedikaM/first program.py
+assets/style.css
+firstfile.txt
+kiran/first_file.txt
+kiran/first_file2.txt
+kiran/first_program.py
+kiran/if condition py.py
+kiran/if conditions py
+refresh.png
+savan/Basic_Programs.py
+savan/datatype.py
+savan/file1.txt
+savan/if condition progams.py
+savan/list datatype.py
+savan/py1.py
+savan/savan_feature_file.txt
+savan/variable_file.py

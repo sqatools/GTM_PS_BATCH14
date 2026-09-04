@@ -1,0 +1,108 @@
+# access to common repository.
+-> get access of repository with GitHub email.
+-> User will receive invitation on mail, and accept it.
+-> clone repository locally with the URL
+   ->  navigate to C:\AutomationProject and open git terminal
+   ->  run below command to clone the repository.   
+   -> https://github.com/sqatools/GTM_PS_BATCH14.git
+   -> Make sure repository folder should be available 
+      on local directory with name, GTM_PS_BATCH14
+
+->  Navigate to GTM_PS_BATCH14 and open it
+   
+->  Create a folder with first name e.g. Rahul (don't provide space in the name)
+
+
+-> Create a text file inside your folder and add some content to the file. small message inside the file and save it.
+
+
+-> Open a git terminal and run a command to check local folder "dir", it will show GTM_BATCH14 folder
+should be available in path.
+
+-> Navigate inside the repo folder with command "cd  GTM_PS_PATCH14"
+
+-> check the status with command "git status"
+   ->  Newly added folder will show in red color.
+
+-> run git add command to and provide folder name  "git add <foldername>"
+
+-> check status again "git status" , now folder name will show in green color.
+
+-> initiate a commit operation with command < git commit -m "commit msg" >
+
+-> before initiating the push operation, make sure the all the changes from server all up to date 
+   to local repo.
+
+-> run "git pull"  command to update code from server to local repo.
+
+-> It will open one editor that will show merge description, we have to close it will command
+   :wq and hit enter.
+
+-> It will update all the changes from server to local system.
+
+-> then push your changes to the server with below command
+   ->  git push # it will push local changes to server
+
+->  If push reject and repeat the these steps (may need to follow 2-3 times)
+    -> git pull
+    -> close editor
+    -> git push
+
+
+
+################################ Create multi branching #####################
+
+1. Go to GitHub server
+2. Create your branch with your name e.g. pavan_branch..
+3. Open git terminal in repo directory.
+4. run command 'git branch' :  it will main as active branch.
+5. switch to feature with command
+   ->  git checkout pavan_branch
+
+6. Check active branch again with command "git branch"
+   ->  it will show your feature branch as active in green color.
+
+7. Go to your dedicated folder in local repo and add as text file with name
+   e.g.  feature_file.txt
+
+8. Open git terminal again and check the status with command "git status"
+   ->  it will show new file in red color
+
+9.  Add file with command "git add <filename/file path>"
+
+10. initiate the commit with command : ->   git commit -m "msg"
+
+11. initiate the push operation with command : git push
+
+12. File is pushed to the server in dedicated branch.
+
+13. Go to the server and create a pull request
+
+14. Add reviewer in the pull request to review code
+
+15. Once got approval, user can merger the changes.
+
+16. All code changes from feature branch will available in main branch.\
+   ->  check your dedicated folder in main branch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

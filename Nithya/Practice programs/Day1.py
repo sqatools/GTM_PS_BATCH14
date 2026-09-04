@@ -132,3 +132,23 @@ r = 9.8
 t = 3
 Total_Interest= P+(P/r)*t
 print("20.Simple Interest:", Total_Interest)
+
+print("#"*50)
+'''22). Python program to calculate days between 2 dates.
+Input date : (2023, 1, 5) (2023, 1, 22)
+Output: 17 days'''
+Start, End = (2023-1-5),(2023-1-22)
+print("22. No. of days between two dates:" , int(Start-End))
+
+'''23). Python program to get the factorial of the given number.'''
+
+A=23
+print("23. Factorial is:", A%2)
+
+
+
+
+
+
+
+

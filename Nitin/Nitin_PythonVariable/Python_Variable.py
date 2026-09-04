@@ -44,3 +44,6 @@ b=20
 c=10
 print(a==c) #True
 print(a!=c) #False
+
+
+"print("_"*50)"

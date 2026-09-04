@@ -48,3 +48,21 @@ print("multiplication of value:", d)
 
 a = 2
 print("square of value:", a)
+
+a = 30
+b = 40
+print("addition of value :", a+b)
+
+String##########
+
+str10 = "Python"
+
+"""
+  0  1  2  3  4  5    +ve indexing
+  a  b  c  d  e  f
+ -6  -5 -4 -3 -2 -1   -ve indexing
+"""
+print(str10[0])
+print(str10[-6])
+print(str10[2])
+print(str10[-4])

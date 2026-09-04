@@ -1,0 +1,11 @@
+1. Selenium is UI  automation not backend automation
+2. Tag Name: least recommended coz we do get unique tag name easily. 
+3. Aboslute xpath: not recommended to use. it takes path from the root and if any new tag is added
+or exisiting field tag is updated then the entire absolute xpath of the those as well as other fields
+will be impacted and not work
+
+4. Performance base usage
+ID->NAME->CSS Selector->XPATH
+
+5. XPath can be used in many ways hence many of them use xpath but it is least priority as compared to
+other 3.

@@ -26,3 +26,15 @@ print("value of r",r) # value of r 30
 print("Address of p",id(p)) # Address of p 140716516395736
 print("Address of q",id(q)) # Address of q 140716516396056
 print("Address of r",id(r)) # Address of r 140716516396376
+print(600)
+print(700)
+print(600,end="")
+print(700)
+#(a+b)^2=a^2+b^2+2ab
+a=10
+b=20
+lhs=(a+b)**2
+rhs=a**2+b**2+2*a*b
+print("lhs",lhs)
+print("rhs",rhs)
+print(lhs==rhs) # True
